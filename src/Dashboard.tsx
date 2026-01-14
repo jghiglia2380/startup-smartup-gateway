@@ -195,10 +195,10 @@ export default function ExploreDashboard({ onBack }: DashboardProps) {
       </header>
 
       {/* VIDEO GRID */}
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 py-6 sm:py-8">
+      <main className="w-full px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
         <motion.div
           layout
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4 sm:gap-6"
         >
           <AnimatePresence mode="popLayout">
             {chapterData.map((chapter) => (
