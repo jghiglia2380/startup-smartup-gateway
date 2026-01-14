@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
   BookOpen,
@@ -21,8 +21,8 @@ const platforms = [
       'Bilingual Support (EN/ES)',
       'SEL-based Storylines',
     ],
-    color: 'bg-amber-500',
-    textColor: 'text-amber-50',
+    color: 'bg-emerald-600',
+    textColor: 'text-emerald-50',
     icon: <BookOpen size={48} />,
     // WIRED UP: Using one of your GitHub thumbnails as the "Hero" image for K-4
     image:
@@ -36,8 +36,8 @@ const platforms = [
     description:
       'Transitioning from theory to practice. Students form teams to launch mock ventures, learning the fundamentals of product management and collaboration.',
     features: ['Agile for Kids', 'Team Role-Play', 'Product Design'],
-    color: 'bg-blue-600',
-    textColor: 'text-blue-50',
+    color: 'bg-rose-500',
+    textColor: 'text-rose-50',
     icon: <Users size={48} />,
     // PLACEHOLDER: Need a "Middle School" style image here
     image:
@@ -55,8 +55,8 @@ const platforms = [
       'Advanced Financial Literacy',
       'Career Pathways',
     ],
-    color: 'bg-slate-900',
-    textColor: 'text-slate-50',
+    color: 'bg-blue-600',
+    textColor: 'text-blue-50',
     icon: <Rocket size={48} />,
     // PLACEHOLDER: Need a "High School / Career" style image here
     image:
@@ -87,9 +87,20 @@ export default function GatewayPage() {
             key={platform.id}
             layout
             onClick={() => setActiveId(platform.id)}
-            onHoverStart={() => setActiveId(platform.id)} // Hover triggers expansion
-            className={`relative h-[33vh] md:h-full cursor-pointer overflow-hidden border-b md:border-b-0 md:border-r border-white/10 transition-all duration-700 ease-in-out ${
-              isActive ? 'flex-[3]' : 'flex-[1]'
+            onKeyDown={(e) => {
+              if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                setActiveId(platform.id);
+              }
+            }}
+            tabIndex={0}
+            role="button"
+            aria-expanded={isActive}
+            aria-label={`${platform.title} - ${platform.grade}`}
+            className={`relative cursor-pointer overflow-hidden border-b md:border-b-0 md:border-r border-white/10 transition-all duration-700 ease-in-out focus:outline-none focus:ring-2 focus:ring-white/50 focus:ring-inset ${
+              isActive
+                ? 'h-[75vh] md:h-full flex-[3]'
+                : 'h-[12.5vh] md:h-full flex-[1]'
             }`}
           >
             {/* Background Image & Gradient */}
