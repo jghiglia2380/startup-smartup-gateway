@@ -231,12 +231,22 @@ export default function ExploreDashboard({ onBack }: DashboardProps) {
                     {lang === 'en' ? 'CH' : 'CAP'} {chapter.id}
                   </div>
 
-                  {/* Play Overlay on Hover */}
-                  <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors duration-300 flex items-center justify-center">
-                    <div className="w-14 h-14 bg-white/90 rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transform scale-75 group-hover:scale-100 transition-all duration-300 shadow-xl">
-                      <Play className={`w-6 h-6 ${activeTier.accent} ml-1`} fill="currentColor" />
+                  {/* Play Overlay - Always Visible for Touch/Smart Board, Enhanced on Hover for Mouse */}
+                  <button
+                    className="absolute inset-0 flex items-center justify-center bg-black/20 [@media(hover:hover)]:bg-black/0 [@media(hover:hover)]:group-hover:bg-black/30 transition-colors duration-300"
+                    aria-label={lang === 'en' ? `Play ${chapter.en}` : `Ver ${chapter.es}`}
+                  >
+                    <div className={`
+                      w-16 h-16 bg-white/90 rounded-full flex items-center justify-center shadow-2xl
+                      opacity-80 scale-100
+                      [@media(hover:hover)]:opacity-70
+                      [@media(hover:hover)]:group-hover:opacity-100
+                      [@media(hover:hover)]:group-hover:scale-110
+                      transition-all duration-300
+                    `}>
+                      <Play className={`w-7 h-7 ${activeTier.accent} ml-1`} fill="currentColor" />
                     </div>
-                  </div>
+                  </button>
                 </div>
 
                 {/* Card Body */}
