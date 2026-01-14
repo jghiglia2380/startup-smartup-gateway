@@ -1,6 +1,10 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Play, FileText, CheckCircle2, Globe, BookOpen } from 'lucide-react';
+import { Play, FileText, CheckCircle2, Globe, BookOpen, ArrowLeft } from 'lucide-react';
+
+interface DashboardProps {
+  onBack?: () => void;
+}
 
 // --- TYPE DEFINITIONS ---
 interface Chapter {
@@ -87,7 +91,7 @@ const tiers: Tier[] = [
   }
 ];
 
-export default function ExploreDashboard() {
+export default function ExploreDashboard({ onBack }: DashboardProps) {
   const [activeTier, setActiveTier] = useState<Tier>(tiers[0]);
   const [lang, setLang] = useState<'en' | 'es'>('en');
 
@@ -109,6 +113,15 @@ export default function ExploreDashboard() {
           <div className="flex justify-between items-center mb-4">
             {/* Brand - Child of Gateway */}
             <div className="flex items-center gap-3">
+              {onBack && (
+                <button
+                  onClick={onBack}
+                  className="p-2 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 hover:border-slate-600 transition-colors"
+                  aria-label="Back to Gateway"
+                >
+                  <ArrowLeft className="w-5 h-5 text-slate-300" />
+                </button>
+              )}
               <div className="p-2 bg-emerald-600 rounded-xl">
                 <BookOpen className="w-5 h-5 text-white" />
               </div>
