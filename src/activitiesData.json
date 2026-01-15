@@ -1,0 +1,3643 @@
+{
+    "activities": [
+      {
+        "chapterId": 1,
+        "activityId": "1-CH1-ACT",
+        "title": {
+          "en": "Nature Treasure Hunt & Found Object Display",
+          "es": "Nature Treasure Hunt & Found Object Display"
+        },
+        "chapterTitle": {
+          "en": "The Secret Garden",
+          "es": "El Jardín Secreto"
+        },
+        "topic": {
+          "en": "Understanding Money",
+          "es": "Entendiendo el Dinero"
+        },
+        "description": {
+          "en": "Nature Treasure Hunt & Found Object Display",
+          "es": "Nature Treasure Hunt & Found Object Display"
+        },
+        "timeVersions": {
+          "20": {
+            "label": "20 Minutes",
+            "bestFor": "Tight schedules, younger students (K-1), daily scheduling Total time: 10 min story + 10 min activity = 20 minutes",
+            "breakdown": "10 min story + 10 min activity",
+            "activityName": "Nature Treasure Hunt & Found Object Display",
+            "materials": [
+              "Outdoor space (schoolyard, park, playground area)",
+              "Scrap paper for simple labels",
+              "Pencil or crayon"
+            ],
+            "steps": [
+              {
+                "title": "Outdoor Exploration (5 min)",
+                "duration": "5 min",
+                "description": "Take students outside. Challenge: Find 3-5 interesting natural treasures (rocks, sticks, leaves). Remind them to only take what's already on the ground"
+              },
+              {
+                "title": "Quick Sharing (2 min)",
+                "duration": "2 min",
+                "description": "Gather in circle. Each student shows one favorite find: I found a smooth rock! or Look at this curly stick!"
+              },
+              {
+                "title": "Simple Sorting (2 min)",
+                "duration": "2 min",
+                "description": "Sort treasures into piles—all rocks together, all sticks together, all leaves together"
+              },
+              {
+                "title": "Label & Take Home (1 min)",
+                "duration": "1 min",
+                "description": "On scrap paper, write or draw My Nature Treasures. Place items in bag to take home"
+              }
+            ],
+            "discussionQuestions": [
+              "Where did you find your treasure?",
+              "Did you have to pay money to get these treasures?",
+              "What makes your treasure special or beautiful?"
+            ],
+            "extensionIdeas": []
+          },
+          "30": {
+            "label": "30 Minutes",
+            "bestFor": "Standard class periods, grades 1-3, weekly scheduling Total time: 10 min story + 20 min activity = 30 minutes",
+            "breakdown": "10 min story + 20 min activity",
+            "activityName": "Nature Treasure Hunt & Found Object Display",
+            "materials": [
+              "Egg cartons OR small boxes for display",
+              "Index cards or paper scraps for labels",
+              "Glue stick (shared)",
+              "Pencils, crayons, markers",
+              "Optional: magnifying glass for observation"
+            ],
+            "steps": [
+              {
+                "title": "Pre-Hunt Discussion (3 min)",
+                "duration": "3 min",
+                "description": "Review story. Ask: What treasures did Layla and friends find? Explain: We're looking for rocks, sticks, leaves, and other natural treasures. Only collect what's on the ground—leave living plants alone."
+              },
+              {
+                "title": "Nature Treasure Hunt (10 min)",
+                "duration": "10 min",
+                "description": "Students explore outdoor space with bags/baskets. Encourage finding variety: different shapes, colors, sizes. Guide observations: What textures do you notice? What colors?"
+              },
+              {
+                "title": "Sorting & Counting (4 min)",
+                "duration": "4 min",
+                "description": "Return indoors. Dump out collections. Sort by type. Count: I have ___ rocks, ___ sticks, ___ leaves"
+              },
+              {
+                "title": "Create Simple Display (5 min)",
+                "duration": "5 min",
+                "description": "Use egg carton or box to arrange treasures. Place rocks in one section, leaves in another. Create simple label: My Nature Collection by [Name]"
+              },
+              {
+                "title": "Gallery Walk (3 min)",
+                "duration": "3 min",
+                "description": "Set displays on tables. Students walk around viewing each other's collections. Share compliments"
+              }
+            ],
+            "discussionQuestions": [
+              "How are your rocks different from your neighbor's rocks?",
+              "Did anyone find two leaves that look the same? How are they different?",
+              "What's the most interesting thing you found? Why?",
+              "In the story, Mr. Mason said nature gives gifts for free. What does that mean?",
+              "What's something you might buy at a store? What's something you can find for free?"
+            ],
+            "extensionIdeas": []
+          },
+          "45": {
+            "label": "45 Minutes",
+            "bestFor": "Block schedules, grades 3-4, deeper exploration Total time: 10 min story + 35 min activity = 45 minutes",
+            "breakdown": "10 min story + 35 min activity",
+            "activityName": "Nature Treasure Hunt & Found Object Display",
+            "materials": [
+              "Magnifying glasses",
+              "Display boxes or shadow boxes (one per student/small group)",
+              "Detailed observation sheets",
+              "Colored pencils, fine-tip markers",
+              "Glue or mounting tape",
+              "Optional: nature field guide or identification cards"
+            ],
+            "steps": [
+              {
+                "title": "Preparation & Scientific Mindset (5 min)",
+                "duration": "5 min",
+                "description": "Discuss observation techniques. Review story connection: Scientists observe nature just like Layla did. Introduce vocabulary: texture, pattern, classify, observe. Show field guide if available. Set collection goals: Find 8-10 diverse items"
+              },
+              {
+                "title": "Extended Nature Exploration (12 min)",
+                "duration": "12 min",
+                "description": "Students explore with baskets and magnifying glasses. Encourage close observation: Look at the veins in the leaf. Feel the texture of the rock. Take mental notes of where items were found"
+              },
+              {
+                "title": "Scientific Sorting & Classification (8 min)",
+                "duration": "8 min",
+                "description": "- Sort by multiple criteria: type, size, color, texture\n   - Use magnifying glasses to observe details\n   - Try to identify items using field guide (oak leaf vs. maple leaf, smooth river rock vs. rough)\n   - Complete observation sheet: Name of item, where found, color, size, texture, what's special about it"
+              },
+              {
+                "title": "Detailed Drawing (5 min)",
+                "duration": "5 min",
+                "description": "Choose favorite treasure. Observe with magnifying glass. Draw scientifically with labels pointing to interesting features. Write: I found this [item] near [location]. It's special because [reason]"
+              },
+              {
+                "title": "Museum-Quality Display (8 min)",
+                "duration": "8 min",
+                "description": "- Arrange treasures in display box artistically\n   - Consider balance, color arrangement, size progression\n   - Create professional labels for each item or category\n   - Add title card: [Name]'s Nature Discovery Collection\n   - Optional: Include written descriptions of most interesting finds"
+              },
+              {
+                "title": "Presentation & Reflection (2 min)",
+                "duration": "2 min",
+                "description": "Students present one treasure to partner or small group, explaining where found and why it's valuable even though it's free"
+              }
+            ],
+            "discussionQuestions": [
+              "Why do you think some rocks are smooth and some are rough?",
+              "How do leaves from different trees compare?",
+              "What makes something valuable if it doesn't cost money?",
+              "How does finding free treasures in nature compare to buying toys or objects?",
+              "If you collected treasures like this every week, what kind of collection could you build?",
+              "What did you learn about nature's gifts from this activity?",
+              "How can we make sure nature keeps giving these gifts to everyone?"
+            ],
+            "extensionIdeas": [
+              "Research specific items (tree types, rock formation, decomposition)",
+              "Create nature journals documenting observations from multiple outings",
+              "Organize class nature museum with rotating exhibits",
+              "Press leaves and create scientific specimen collection",
+              "Write creative stories featuring found treasures as characters"
+            ]
+          }
+        },
+        "budgetTiers": {
+          "standard": {
+            "label": "Standard Classroom",
+            "costPerStudent": "$11-5",
+            "description": "Uses recycled and donated materials",
+            "items": [
+              "Recycled paper bags or envelopes for collecting (ask families to send from home)",
+              "Egg cartons for display (collected from families or cafeteria)",
+              "Scrap paper for labels (leftover from other projects)",
+              "Classroom pencils, crayons, markers (already available)",
+              "Found natural treasures (completely free)",
+              "Newspaper to protect work surfaces",
+              "Bulk paper bags:",
+              "Glue sticks:",
+              "Index cards for labels:",
+              "Display containers: Use shoeboxes, tissue boxes, or any small boxes from home",
+              "Magnification: Water drop on plastic creates simple magnifier",
+              "Labels: Tear notebook paper into strips"
+            ]
+          },
+          "lowCost": {
+            "label": "Low Cost Additions",
+            "costPerStudent": "$14-12",
+            "description": "Adds quality reusable items",
+            "items": [
+              "Small woven baskets for collecting (~",
+              "Quality magnifying glasses (~",
+              "Small display boxes or clear plastic containers (~",
+              "Nature identification cards or simple field guides (~",
+              "Quality label-making supplies: cardstock, fine-tip markers (~",
+              "More durable, professional-looking collecting tools",
+              "Better observation instruments",
+              "Reusable materials for future nature studies",
+              "More polished display options"
+            ]
+          },
+          "premium": {
+            "label": "Premium Package",
+            "costPerStudent": "$91-45",
+            "description": "Professional-grade materials",
+            "items": [
+              "Quality wicker baskets with handles and student name tags (~",
+              "Professional magnifying glasses with LED lights (~",
+              "Wooden shadow boxes or professional display cases (~",
+              "Comprehensive nature field guides (full-color, hardback) (~",
+              "Nature journal with quality paper for ongoing observation (~",
+              "Specimen collection supplies: mounting boards, labels, protective sleeves (~",
+              "Optional: Digital microscope for class use (~",
+              "Optional: Macro lens clip for tablets/phones for photography (~",
+              "Students keep all materials for continued home use",
+              "Professional-quality tools for scientific observation",
+              "Comprehensive learning resources",
+              "Portfolio-worthy display pieces",
+              "Foundation for ongoing naturalist studies"
+            ]
+          }
+        },
+        "tierDifferentiation": {
+          "1": {
+            "gradeLevel": "K-1",
+            "focus": [
+              "Focus on sensory exploration: touching, seeing, simple describing",
+              "Simple sorting: Put all rocks here, all leaves there",
+              "Count items: I have 5 treasures!",
+              "Basic vocabulary: rock, stick, leaf, find, free",
+              "Drawing instead of writing for labels",
+              "Large motor skills: collecting, dumping, arranging"
+            ]
+          },
+          "2": {
+            "gradeLevel": "1-2",
+            "focus": [
+              "More complex sorting: by color, size, texture",
+              "Begin classification: types of leaves, types of rocks",
+              "Simple observation sentences: This rock is smooth and gray",
+              "Vocabulary expansion: treasure, discover, nature, texture, pattern",
+              "Combination of drawing and simple writing",
+              "Introduction to magnifying glass use"
+            ]
+          },
+          "3": {
+            "gradeLevel": "2-3",
+            "focus": [
+              "Detailed observation and description",
+              "Use of field guides for identification",
+              "Scientific vocabulary: classify, observe, specimen, characteristics",
+              "Independent writing of observations",
+              "Creating visual representations (drawings with labels)"
+            ]
+          },
+          "4": {
+            "gradeLevel": "3-4",
+            "focus": [
+              "Detailed scientific drawing with precise labels",
+              "Written paragraphs explaining finds and their significance",
+              "Research extension: learning more about specific items found",
+              "Understanding of free resources vs. purchased goods concept",
+              "Discussion of environmental stewardship and conservation",
+              "Visual vocabulary cards with images and words (rock, stick, leaf, smooth, rough)",
+              "Bilingual labels if possible",
+              "Partner with fluent speaker for discussion",
+              "Emphasis on hands-on exploration before verbal description",
+              "Sentence frames: I found a ___. It is ___.",
+              "Reduce quantity requirements (3-5 items instead of 8-10)",
+              "Provide pre-printed labels students can match to items",
+              "Use of adaptive tools (larger magnifiers, textured labels)",
+              "Allow verbal description instead of written if motor skills challenged",
+              "Provide sensory-friendly collecting containers",
+              "Break activity into smaller chunks with movement breaks",
+              "Research specific items using field guides or online resources",
+              "Create dichotomous keys for classmates to identify treasures",
+              "Lead scientific observation lessons for younger students",
+              "Create comprehensive illustrated field guide of all items found by class",
+              "Calculate/estimate quantities: How many leaves fall from one tree in autumn?",
+              "Write persuasive essay about importance of nature conservation",
+              "--"
+            ]
+          }
+        },
+        "accommodations": {
+          "ell": {
+            "label": "English Language Learners",
+            "strategies": []
+          },
+          "learningDifferences": {
+            "label": "Students with Learning Differences",
+            "strategies": []
+          },
+          "advanced": {
+            "label": "Advanced Students",
+            "strategies": []
+          }
+        }
+      },
+      {
+        "chapterId": 2,
+        "activityId": "1-CH2-ACT",
+        "title": {
+          "en": "Seed Library: Plant, Grow, & Share",
+          "es": "Seed Library: Plant, Grow, & Share"
+        },
+        "chapterTitle": {
+          "en": "The Seed Library",
+          "es": "La Biblioteca de Semillas"
+        },
+        "topic": {
+          "en": "Earning and Spending",
+          "es": "Ganar y Gastar"
+        },
+        "description": {
+          "en": "Seed Library: Plant, Grow, & Share",
+          "es": "Seed Library: Plant, Grow, & Share"
+        },
+        "timeVersions": {
+          "20": {
+            "label": "20 Minutes",
+            "bestFor": "Tight schedules, younger students (K-1), daily scheduling Total time: 10 min story + 10 min activity = 20 minutes",
+            "breakdown": "10 min story + 10 min activity",
+            "activityName": "Seed Library: Plant, Grow, & Share",
+            "materials": [
+              "Potting soil or dirt from outside",
+              "Fast-growing seeds (radish, bean, or sunflower - 2-3 per student)",
+              "Popsicle sticks or paper for plant markers",
+              "Pencils or crayons",
+              "Water"
+            ],
+            "steps": [
+              {
+                "title": "Seed Introduction (2 min)",
+                "duration": "2 min",
+                "description": "Show different seeds. Ask: How can something this tiny become a whole plant? Connect to story: Frances showed the friends her seed jars."
+              },
+              {
+                "title": "Plant Seeds (5 min)",
+                "duration": "5 min",
+                "description": "Each student fills cup 2/3 with soil, pokes 1-2 finger holes, drops in seeds, covers gently"
+              },
+              {
+                "title": "Label & Water (2 min)",
+                "duration": "2 min",
+                "description": "Write name on cup or popsicle stick marker. Gently water"
+              },
+              {
+                "title": "Place in Growing Area (1 min)",
+                "duration": "1 min",
+                "description": "Put cups in sunny windowsill or designated spot"
+              },
+              {
+                "title": "Quick Discussion (2 min)",
+                "duration": "2 min",
+                "description": "How long until we see a plant? What does the plant need? How is this like saving money?"
+              }
+            ],
+            "discussionQuestions": [
+              "What does a seed need to grow?",
+              "Can we eat the plant tomorrow? Why not?",
+              "In the story, why did Riley have to be patient?"
+            ],
+            "extensionIdeas": []
+          },
+          "30": {
+            "label": "30 Minutes",
+            "bestFor": "Standard class periods, grades 1-3, weekly scheduling Total time: 10 min story + 20 min activity = 30 minutes",
+            "breakdown": "10 min story + 20 min activity",
+            "activityName": "Seed Library: Plant, Grow, & Share",
+            "materials": [
+              "Potting soil",
+              "Seeds (3 varieties: fast-growing like radish/bean, medium like sunflower, slower like tomato)",
+              "Seed observation journals (simple printable or notebook paper folded)",
+              "Pencils, crayons, markers",
+              "Popsicle sticks for markers",
+              "Water and small watering container"
+            ],
+            "steps": [
+              {
+                "title": "Seed Exploration (5 min)",
+                "duration": "5 min",
+                "description": "- Display 3 seed types. Pass around for students to observe\n   - Compare sizes, shapes, colors\n   - Discuss: Which do you think grows fastest? Why?\n   - Connect to story: Frances had jars and jars of different seeds."
+              },
+              {
+                "title": "Create Observation Journal (4 min)",
+                "duration": "4 min",
+                "description": "- Fold paper to create simple booklet or use printable\n   - First page: Draw the seed before planting\n   - Write: My seed is a ___. Today's date: ___\n   - Prediction: I think it will grow in ___ days"
+              },
+              {
+                "title": "Planting Process (7 min)",
+                "duration": "7 min",
+                "description": "- Each student chooses one seed type (or gets all three for comparison)\n   - Fill clear cup 2/3 with soil\n   - Plant seed near edge of cup (can see roots through side!)\n   - Press gently, don't bury too deep (rule: 2× seed depth)\n   - Label with name and seed type"
+              },
+              {
+                "title": "Water & Placement (2 min)",
+                "duration": "2 min",
+                "description": "Gently water. Place in sunny location"
+              },
+              {
+                "title": "Reflection & Future Planning (2 min)",
+                "duration": "2 min",
+                "description": "- What will we do each day to help seeds grow?\n   - How is planting seeds like saving money? (Start small, grows over time, requires patience)"
+              }
+            ],
+            "discussionQuestions": [
+              "Why can't we have a plant today? What do we have to do?",
+              "In the story, Riley wanted results right away. Why did Frances say patience is important?",
+              "How is a seed library like a real library? (Borrow, return, share)",
+              "If one seed makes a plant with 100 new seeds, how many could you have next year?"
+            ],
+            "extensionIdeas": []
+          },
+          "45": {
+            "label": "45 Minutes",
+            "bestFor": "Block schedules, grades 3-4, deeper exploration Total time: 10 min story + 35 min activity = 45 minutes",
+            "breakdown": "10 min story + 35 min activity",
+            "activityName": "Seed Library: Plant, Grow, & Share",
+            "materials": [
+              "Potting soil",
+              "Variety of seeds (4-5 types: radish, bean, sunflower, tomato, herb)",
+              "Small envelopes or folded paper for seed packets",
+              "Detailed observation journals (printed or created)",
+              "Markers, colored pencils, crayons",
+              "Popsicle sticks",
+              "Magnifying glasses (optional)",
+              "Ruler for measuring growth",
+              "Calendar for tracking",
+              "Water and watering system"
+            ],
+            "steps": [
+              {
+                "title": "Seed Science Exploration (8 min)",
+                "duration": "8 min",
+                "description": "- Display and examine 4-5 seed varieties with magnifying glasses\n   - Discuss seed anatomy: seed coat, embryo, food storage\n   - Compare: size, shape, texture, what they'll become\n   - Scientific observation: Draw each seed type, label parts\n   - Read seed packet information: days to germination, care instructions\n   - Discuss Frances's teaching: One tomato can give you seeds for 20+ plants. What does that mean for value over time?"
+              },
+              {
+                "title": "Create Seed Packets for Sharing (10 min)",
+                "duration": "10 min",
+                "description": "- Each student makes 2 seed packets (like seed library concept)\n   - Fold paper or use small envelopes\n   - Design packet front: draw what plant will look like, name of plant, planting instructions\n   - Fill with 5-10 seeds to share with classmate or take home\n   - Discuss: How does sharing seeds help everyone? (Community wealth, multiplying resources)"
+              },
+              {
+                "title": "Detailed Observation Journal Setup (7 min)",
+                "duration": "7 min",
+                "description": "- Create multi-page journal:\n     - Page 1: Seed drawing and description\n     - Page 2-6: Weekly observation pages (Date, Drawing, Height, Changes, Questions)\n     - Page 7: Prediction vs. Reality reflection\n   - First entry: Draw seed, measure it, describe it\n   - Make prediction: I predict my seed will sprout in ___ days and be full-grown in ___ weeks"
+              },
+              {
+                "title": "Scientific Planting (6 min)",
+                "duration": "6 min",
+                "description": "- Clear cup allows root observation\n   - Measure and mark soil depth on cup\n   - Plant seed at proper depth (2× seed size)\n   - Plant multiple seeds at different depths to compare growth rates\n   - Water with measured amount (document in journal)\n   - Create detailed label: name, seed type, planting date, predicted sprout date"
+              },
+              {
+                "title": "FL Connection Discussion (4 min)",
+                "duration": "4 min",
+                "description": "- Frances taught that small things saved and tended grow into greater value. How does this connect to money?\n   - Chart on board: SEED → PLANT → VEGETABLES/FLOWERS → MORE SEEDS (multiplies!)\n   - Compare to money: SMALL SAVINGS → GROWS OVER TIME → BECOMES LARGER AMOUNT\n   - Introduce vocabulary: investment, patience, delayed gratification, compound growth\n   - If you saved one dollar a week for a year, how much would you have? (Instant? No. Over time? $52!)"
+              }
+            ],
+            "discussionQuestions": [
+              "Why is starting with a tiny seed better than buying a full plant? (Cost, learning, multiplication)",
+              "Frances said waiting makes the result more valuable. Do you agree? Why?",
+              "If every student plants seeds that make 50 new seeds, how many could our whole class have?",
+              "What other things in life require patience before you see results? (Learning instrument, reading, saving money)",
+              "How does the seed library system help people who don't have money to buy plants?",
+              "What's the difference between instant gratification and delayed gratification? Which did Riley learn about?"
+            ],
+            "extensionIdeas": [
+              "Track growth over 4-6 weeks, graph height progression",
+              "Calculate total seeds produced if plant completes cycle",
+              "Research: How do farmers use saved seeds? Seed saving traditions",
+              "Create classroom seed library where students contribute and borrow",
+              "Compare cost: one seed packet vs. one full-grown plant at store",
+              "Document journey with photos, create Seed to Plant documentary"
+            ]
+          }
+        },
+        "budgetTiers": {
+          "standard": {
+            "label": "Standard Classroom",
+            "costPerStudent": "$0-5",
+            "description": "Uses recycled and donated materials",
+            "items": [
+              "Seeds collected from fruits/vegetables eaten at lunch or home (tomato, pepper, apple, pumpkin seeds dried)",
+              "Soil dug from outside or donated by families",
+              "Recycled containers: yogurt cups, milk cartons cut in half, paper cups from cafeteria",
+              "Popsicle sticks from art room or tongue depressors from nurse",
+              "Scrap paper for labels and journals",
+              "Classroom pencils, crayons, markers",
+              "Water from tap",
+              "Seed packets: Use fruits/veggies from lunch (FREE tomato, bell pepper, apple seeds)",
+              "Containers: Ask families to send clean yogurt cups, cottage cheese containers",
+              "Observation journal: Fold copy paper to create booklet",
+              "Plant markers: Write on popsicle sticks or cut cardboard strips",
+              "Watering: Use recycled spray bottle or small cup",
+              "Local garden centers often donate expired seed packets",
+              "Families can contribute seeds from their gardens",
+              "Community garden seed swaps",
+              "Friends/neighbors with gardens",
+              "Last year's classroom garden seeds"
+            ]
+          },
+          "lowCost": {
+            "label": "Low Cost Additions",
+            "costPerStudent": "$10-12",
+            "description": "Adds quality reusable items",
+            "items": [
+              "Commercial seed packets (3-5 varieties, choose fast growers): ~",
+              "Small bag potting soil (better than outdoor dirt): ~",
+              "Clear plastic cups (can see roots!): ~",
+              "Printed observation journals (quality paper): ~",
+              "Popsicle sticks and plant markers: ~",
+              "Small watering can or spray bottles: ~",
+              "Reliable germination rates (commercial seeds vs. saved)",
+              "Better growing medium (potting soil has nutrients)",
+              "Clear cups for scientific observation of roots",
+              "Structured journals for documentation",
+              "Professional-looking results"
+            ]
+          },
+          "premium": {
+            "label": "Premium Package",
+            "costPerStudent": "$106-45",
+            "description": "Professional-grade materials",
+            "items": [
+              "Premium seed varieties with guaranteed germination (~",
+              "Quality potting mix with fertilizer (~",
+              "Professional seed starting system: peat pots, trays, humidity domes (~",
+              "Magnifying glasses for seed observation (~",
+              "Full-color printed observation journals with scientific templates (~",
+              "Grow lights for consistent growth (~",
+              "Plant identification reference materials (~",
+              "Decorative materials for seed packets: stickers, stamps, colored envelopes (~",
+              "Miniature greenhouse setup (~",
+              "Optional: Digital microscope for seed examination (~",
+              "Professional-quality materials students keep",
+              "Optimal growing conditions (lights, humidity)",
+              "Scientific-grade observation tools",
+              "Portfolio-worthy documentation",
+              "Higher success rates and faster growth",
+              "Complete seed library creation kit"
+            ]
+          }
+        },
+        "tierDifferentiation": {
+          "1": {
+            "gradeLevel": "K-1",
+            "focus": [
+              "Simple planting: one seed type, basic steps",
+              "Focus on sensory exploration: touch seeds, feel soil, water plants",
+              "Visual instructions: picture cards showing planting steps",
+              "Draw observations instead of writing",
+              "Basic vocabulary: seed, plant, grow, water, sun",
+              "Immediate observation: Does it look different today?"
+            ]
+          },
+          "2": {
+            "gradeLevel": "1-2",
+            "focus": [
+              "Simple observation journal with sentence frames",
+              "Vocabulary expansion: germinate, sprout, roots, stem, leaves",
+              "Measure plants with non-standard units (cubes, paperclips)",
+              "Beginning understanding: Why does it take time?",
+              "Introduce patience concept with simple explanations"
+            ]
+          },
+          "3": {
+            "gradeLevel": "2-3",
+            "focus": [
+              "Measurement with ruler (centimeters/inches)",
+              "Multi-day journal entries tracking changes",
+              "Vocabulary: germination, photosynthesis, life cycle, delayed gratification",
+              "Compare growth rates of different seeds",
+              "Basic FL connection: Small things grow into bigger value"
+            ]
+          },
+          "4": {
+            "gradeLevel": "3-4",
+            "focus": [
+              "Detailed data collection (height, leaf count, changes over time)",
+              "Graphing growth progression",
+              "Research: plant biology, seed saving, agricultural economics",
+              "Advanced FL concepts: investment, compound growth, opportunity cost",
+              "Written reflection on patience and delayed gratification",
+              "Calculate: cost of seed vs. cost of full plant vs. value of produce",
+              "Visual step-by-step planting cards",
+              "Bilingual vocabulary: seed/semilla, plant/planta, grow/crecer",
+              "Partner with fluent speaker",
+              "Hands-on demonstration before verbal instruction",
+              "Picture-based observation journals",
+              "Larger seeds (easier to handle): beans, sunflower",
+              "Adaptive tools: easy-grip watering bottles, wider cups",
+              "Sensory-friendly soil alternatives (potting mix less messy than dirt)",
+              "Simplified journal: checkboxes instead of writing",
+              "Extra time for planting steps",
+              "Pre-measured soil and water to reduce decision-making",
+              "Plant multiple varieties, create comparison study",
+              "Research seed genetics, hybridization, heirloom vs. modern seeds",
+              "Calculate multiplication: 1 seed → X seeds in harvest, potential value",
+              "Design seed library system for school",
+              "Lead seed planting workshop for younger students",
+              "Write persuasive essay: Why seed libraries matter",
+              "--"
+            ]
+          }
+        },
+        "accommodations": {
+          "ell": {
+            "label": "English Language Learners",
+            "strategies": []
+          },
+          "learningDifferences": {
+            "label": "Students with Learning Differences",
+            "strategies": []
+          },
+          "advanced": {
+            "label": "Advanced Students",
+            "strategies": []
+          }
+        }
+      },
+      {
+        "chapterId": 3,
+        "activityId": "1-CH3-ACT",
+        "title": {
+          "en": "Trading Post: Swap & Share Fair Exchange",
+          "es": "Trading Post: Swap & Share Fair Exchange"
+        },
+        "chapterTitle": {
+          "en": "The Trading Post",
+          "es": "El Puesto de Intercambio"
+        },
+        "topic": {
+          "en": "Setting Goals",
+          "es": "Establecer Metas"
+        },
+        "description": {
+          "en": "Trading Post: Swap & Share Fair Exchange",
+          "es": "Trading Post: Swap & Share Fair Exchange"
+        },
+        "timeVersions": {
+          "20": {
+            "label": "20 Minutes",
+            "bestFor": "Tight schedules, younger students (K-1), daily scheduling Total time: 10 min story + 10 min activity = 20 minutes",
+            "breakdown": "10 min story + 10 min activity",
+            "activityName": "Trading Post: Swap & Share Fair Exchange",
+            "materials": [
+              "Tables or desks for displaying items",
+              "Scrap paper for simple trading cards",
+              "Markers or crayons"
+            ],
+            "steps": [
+              {
+                "title": "Gather & Display (3 min)",
+                "duration": "3 min",
+                "description": "Each student displays their 3-5 items on desk. Create simple label: I have: ___"
+              },
+              {
+                "title": "Browse & Choose (4 min)",
+                "duration": "4 min",
+                "description": "Students walk around looking at others' items. Think: What would I like to have?"
+              },
+              {
+                "title": "Quick Trading (4 min)",
+                "duration": "4 min",
+                "description": "Pair up students. Discuss one-for-one trades: I'll trade my extra eraser for your sticker. Both must agree"
+              },
+              {
+                "title": "Share Results (2 min)",
+                "duration": "2 min",
+                "description": "Quick circle share: I traded my ___ for ___. It's fair because ___"
+              }
+            ],
+            "discussionQuestions": [
+              "Did you have to use money to get something new?",
+              "What makes a trade fair?",
+              "How does trading help both people?"
+            ],
+            "extensionIdeas": []
+          },
+          "30": {
+            "label": "30 Minutes",
+            "bestFor": "Standard class periods, grades 1-3, weekly scheduling Total time: 10 min story + 20 min activity = 30 minutes",
+            "breakdown": "10 min story + 20 min activity",
+            "activityName": "Trading Post: Swap & Share Fair Exchange",
+            "materials": [
+              "Index cards or paper for trading cards",
+              "Markers, crayons",
+              "Table or desk space for trading post",
+              "Optional: stickers for condition rating (1-3 stars)"
+            ],
+            "steps": [
+              {
+                "title": "Create Trading Cards (6 min)",
+                "duration": "6 min",
+                "description": "- Each student makes simple card for each item\n   - Write: item name, draw picture\n   - Mark condition: ⭐ (fair), ⭐⭐ (good), ⭐⭐⭐ (like new)\n   - Assign simple value: 1 star = 1 point, 2 stars = 2 points, 3 stars = 3 points"
+              },
+              {
+                "title": "Set Up Trading Post (3 min)",
+                "duration": "3 min",
+                "description": "- Arrange items by category on tables (Books, Toys, Games, Art)\n   - Place trading card next to each item\n   - Create Fair Trade Rules sign: Both sides agree, Equal points, Good condition"
+              },
+              {
+                "title": "Trading Time (8 min)",
+                "duration": "8 min",
+                "description": "- Students browse and find items they want\n   - Check point values\n   - Offer their item(s) with equal points: My 2-point book for your 2-point toy?\n   - Negotiate and agree before swapping\n   - Teacher monitors for fairness"
+              },
+              {
+                "title": "Reflection Circle (3 min)",
+                "duration": "3 min",
+                "description": "- Sit together and share: What did you trade? Was it fair? Did anyone use money?"
+              }
+            ],
+            "discussionQuestions": [
+              "How did Ellis's system in the story help make trades fair?",
+              "What made your item valuable even though it's used?",
+              "Would you rather trade or buy new? Why?",
+              "How does trading help people who don't have money to spend?"
+            ],
+            "extensionIdeas": []
+          },
+          "45": {
+            "label": "45 Minutes",
+            "bestFor": "Block schedules, grades 3-4, deeper exploration Total time: 10 min story + 35 min activity = 45 minutes",
+            "breakdown": "10 min story + 35 min activity",
+            "activityName": "Trading Post: Swap & Share Fair Exchange",
+            "materials": [
+              "Cardstock or index cards for professional trading cards",
+              "Markers, colored pencils, stickers",
+              "Value assessment rubric (printed or poster)",
+              "Trade documentation sheet",
+              "Tables for organized display by category",
+              "Optional: play money or tokens representing trade points"
+            ],
+            "steps": [
+              {
+                "title": "Value Assessment Training (7 min)",
+                "duration": "7 min",
+                "description": "- Review rubric together:\n     - **Condition:** Like new (3 pts), Good (2 pts), Fair (1 pt)\n     - **Desirability:** High demand (+1), Medium (0), Low (-1)\n     - **Size/Complexity:** Large/complex (+1), Medium (0), Small (-1)\n   - Practice assessing 2-3 sample items as class\n   - Each student assesses their own items and assigns value (1-5 points)"
+              },
+              {
+                "title": "Create Professional Trading Cards (8 min)",
+                "duration": "8 min",
+                "description": "- For each item, create card with:\n     - Item name and detailed description\n     - Condition rating with justification\n     - Total trade value (1-5 points)\n     - Owner's name\n   - Make cards visually appealing (colors, borders, drawings)"
+              },
+              {
+                "title": "Organize Trading Post (5 min)",
+                "duration": "5 min",
+                "description": "- Set up tables by category (Books, Toys, Games, Art Supplies, Other)\n   - Display items with cards\n   - Create Trading Post Rules poster:\n     - Both parties must agree\n     - Trade values should be within 1 point of equal\n     - Multiple small items can trade for one large item\n     - No take-backs after agreement"
+              },
+              {
+                "title": "Trading & Negotiation (10 min)",
+                "duration": "10 min",
+                "description": "- Students browse with their total trade value budget\n   - When interested in item: check value, offer equal-value trade\n   - Practice negotiation: My 4-point game for your 3-point book and 1-point toy?\n   - Document each trade on sheet: WHO + WHAT + VALUES"
+              },
+              {
+                "title": "Data Analysis & Reflection (5 min)",
+                "duration": "5 min",
+                "description": "- Quick tally: How many trades? Total value exchanged (no money!)?\n   - Most popular category?\n   - Individual reflection: What did I learn about value? How did trading without money feel?"
+              }
+            ],
+            "discussionQuestions": [
+              "Was it harder to agree on value with used items or would it be easier with new items? Why?",
+              "What happened when lots of people wanted the same item? (supply and demand)",
+              "How did you feel when negotiating? What strategies worked?",
+              "In the story, some kids only wanted to take. How did Ellis solve that?",
+              "Could a whole community work on trading instead of money? What would be challenges?",
+              "When is bartering better than buying? When is buying better?"
+            ],
+            "extensionIdeas": [
+              "Research historical barter systems (Silk Road, colonial America)",
+              "Design a digital trading app: What features would make trading easy?",
+              "Host trading event with another class or families",
+              "Create trade advertisements to market items"
+            ]
+          }
+        },
+        "budgetTiers": {
+          "standard": {
+            "label": "Standard Classroom",
+            "costPerStudent": "$8-5",
+            "description": "Uses recycled and donated materials",
+            "items": [
+              "Items from home students no longer use (toys, books, games, art supplies) - completely free",
+              "Scrap paper or recycled cardstock for trading cards",
+              "Classroom markers, crayons, pencils (already available)",
+              "Existing classroom tables/desks for display",
+              "Notebook paper for documentation",
+              "Index cards for sturdier trading cards:",
+              "Star stickers for condition rating:",
+              "A few small organizational boxes from dollar store:",
+              "Trading cards: Cut notebook paper into quarters",
+              "Condition rating: Draw stars instead of stickers",
+              "Category signs: Hand-written on paper",
+              "Value tokens: Use buttons, paper clips, or drawn points"
+            ]
+          },
+          "lowCost": {
+            "label": "Low Cost Additions",
+            "costPerStudent": "$16-12",
+            "description": "Adds quality reusable items",
+            "items": [
+              "Quality cardstock for trading cards (~",
+              "Plastic bins or boxes for category organization (~",
+              "Laminating sheets or clear contact paper for durable cards (~",
+              "Trading economy materials: play money or poker chips for points (~",
+              "Clipboards for trade documentation (~",
+              "Label maker or pre-printed labels (~",
+              "More durable, professional-looking trading cards",
+              "Better organization system with labeled bins",
+              "Reusable point tokens for easier value tracking",
+              "Structured documentation for learning assessment"
+            ]
+          },
+          "premium": {
+            "label": "Premium Package",
+            "costPerStudent": "$71-45",
+            "description": "Professional-grade materials",
+            "items": [
+              "Professional display materials: folding tables, tablecloths, display stands (~",
+              "High-quality trading card supplies: thick cardstock, laminator, premium markers (~",
+              "Complete trading economy kit: custom tokens/points, wallets/pouches, professional-looking currency (~",
+              "Documentation system: tablets for photos, printed trade receipts, tracking journals (~",
+              "Trading post signage: professional banner, category signs, rules posters (~",
+              "Optional: Books about bartering and economic systems for research (~",
+              "Optional: Guest speaker honorarium (local economist or business owner) (~",
+              "Professional-quality materials students keep",
+              "Comprehensive economic simulation",
+              "Documentation for portfolios",
+              "Community event with invitations and refreshments",
+              "Expert connection to real-world economics"
+            ]
+          }
+        },
+        "tierDifferentiation": {
+          "1": {
+            "gradeLevel": "K-1",
+            "focus": [
+              "Simple one-for-one trades: My toy for your book",
+              "Visual matching: both items same size or same star rating",
+              "Adult mediation for all trades",
+              "Focus on both people happy concept of fairness",
+              "Draw items instead of writing descriptions"
+            ]
+          },
+          "2": {
+            "gradeLevel": "1-2",
+            "focus": [
+              "Simple point system: 1-3 points based on stars",
+              "Can trade 2 small items for 1 bigger item",
+              "Beginning negotiation with teacher support",
+              "Sentence frames: Will you trade your ___ for my ___?",
+              "Writing simple item descriptions"
+            ]
+          },
+          "3": {
+            "gradeLevel": "2-3",
+            "focus": [
+              "Complex trades: 3-4 small items for 1-2 larger items",
+              "Independent negotiation with peer support",
+              "Written justification of item values",
+              "Understanding supply and demand basics"
+            ]
+          },
+          "4": {
+            "gradeLevel": "3-4",
+            "focus": [
+              "Multi-item negotiations with strategy",
+              "Data analysis of trading patterns",
+              "Written reflection on economic concepts",
+              "Research on historical and modern barter systems",
+              "Understanding opportunity cost: If I trade this, I give up getting something else",
+              "Visual trading cards with pictures as primary communication",
+              "Bilingual vocabulary: trade/intercambio, fair/justo, value/valor",
+              "Sentence frames for negotiation",
+              "Partner with fluent speaker",
+              "Focus on gesture and demonstration for agreement",
+              "Simplified value system: small/medium/large instead of points",
+              "Picture-based condition rating (happy face = good, sad face = poor)",
+              "Trade buddy to help with negotiations",
+              "Pre-selected fair trade matches prepared in advance",
+              "Extra time for decision-making",
+              "Option to observe before participating",
+              "Research and present on historical barter systems (Silk Road, Native American trade networks)",
+              "Design improved trading system with written proposal",
+              "Calculate complex multi-item trades involving 4-5 items",
+              "Lead trading post for younger students, teaching fair exchange",
+              "Create market analysis: which items were in highest demand and why?",
+              "--"
+            ]
+          }
+        },
+        "accommodations": {
+          "ell": {
+            "label": "English Language Learners",
+            "strategies": []
+          },
+          "learningDifferences": {
+            "label": "Students with Learning Differences",
+            "strategies": []
+          },
+          "advanced": {
+            "label": "Advanced Students",
+            "strategies": []
+          }
+        }
+      },
+      {
+        "chapterId": 4,
+        "activityId": "1-CH4-ACT",
+        "title": {
+          "en": "Creek Explorer Challenge & Nature Journal",
+          "es": "Creek Explorer Challenge & Nature Journal"
+        },
+        "chapterTitle": {
+          "en": "The Creek Explorers",
+          "es": "Los Exploradores del Arroyo"
+        },
+        "topic": {
+          "en": "Making Choices",
+          "es": "Tomar Decisiones"
+        },
+        "description": {
+          "en": "Creek Explorer Challenge & Nature Journal",
+          "es": "Creek Explorer Challenge & Nature Journal"
+        },
+        "timeVersions": {
+          "20": {
+            "label": "20 Minutes",
+            "bestFor": "Tight schedules, younger students (K-1), daily scheduling, indoor exploration alternative Total time: 10 min story + 10 min activity = 20 minutes",
+            "breakdown": "10 min story + 10 min activity",
+            "activityName": "Creek Explorer Challenge & Nature Journal",
+            "materials": [
+              "Collection of nature items (smooth stones, sticks, leaves, pinecones)",
+              "Paper for simple journal pages (folded in half = instant journal)",
+              "Crayons or markers",
+              "Optional: magnifying glass for close observation"
+            ],
+            "steps": [
+              {
+                "title": "Map Introduction (2 min)",
+                "duration": "2 min",
+                "description": "Show simple neighborhood map or drawing. Where might we find creeks near us? What would a map show?"
+              },
+              {
+                "title": "Nature Item Observation (4 min)",
+                "duration": "4 min",
+                "description": "Display creek treasures pre-collected (stones, interesting sticks). Students touch, observe textures, notice smooth vs. rough"
+              },
+              {
+                "title": "Quick Drawing Activity (3 min)",
+                "duration": "3 min",
+                "description": "Draw one favorite nature item in journal. Add simple label if able (smooth stone, bumpy stick)"
+              },
+              {
+                "title": "Sharing Circle (1 min)",
+                "duration": "1 min",
+                "description": "Each student shows drawing and says one thing they noticed"
+              }
+            ],
+            "discussionQuestions": [
+              "What do you notice about these creek stones? How do they feel?",
+              "Why do you think stones in a creek become smooth?",
+              "What would you want to find if we could explore a real creek?"
+            ],
+            "extensionIdeas": []
+          },
+          "30": {
+            "label": "30 Minutes",
+            "bestFor": "Standard class periods, grades 1-3, weekly scheduling Total time: 10 min story + 20 min activity = 30 minutes",
+            "breakdown": "10 min story + 20 min activity",
+            "activityName": "Creek Explorer Challenge & Nature Journal",
+            "materials": [
+              "Pencils and colored pencils",
+              "Small collection bags or containers (one per student or pair)",
+              "Simple map of exploration area (hand-drawn is fine)",
+              "Optional: basic magnifying glasses, field guide reference cards showing common items"
+            ],
+            "steps": [
+              {
+                "title": "Explorer Prep (3 min)",
+                "duration": "3 min",
+                "description": "Review outdoor safety rules (stay with buddy, stay in boundaries, no touching unknown plants). Distribute journals and collection bags. Assign buddy pairs"
+              },
+              {
+                "title": "Outdoor Exploration (10 min)",
+                "duration": "10 min",
+                "description": "- Walk to nearest outdoor area (schoolyard corner, nearby park, nature trail)\n   - Follow simple map showing route and observation stops\n   - Collect safe items: leaves, acorns, smooth stones, interesting sticks, seedpods\n   - Practice noticing: textures (rough/smooth), colors, patterns, sounds of nature"
+              },
+              {
+                "title": "Collection Review (3 min)",
+                "duration": "3 min",
+                "description": "Gather in circle outdoors or back in classroom. Each pair shares one favorite discovery and why they chose it"
+              },
+              {
+                "title": "Journal Documentation (3 min)",
+                "duration": "3 min",
+                "description": "Draw or trace 2-3 collected items in journal. Add labels or simple descriptions (I found a smooth gray stone)"
+              },
+              {
+                "title": "Reflection (1 min)",
+                "duration": "1 min",
+                "description": "What surprised you about exploring today? What would you like to find next time?"
+              }
+            ],
+            "discussionQuestions": [
+              "What tools do explorers need besides maps? (eyes to observe, ears to listen, curiosity!)",
+              "How did working with a buddy help you explore?",
+              "What can you learn from looking closely at one small thing?"
+            ],
+            "extensionIdeas": []
+          },
+          "45": {
+            "label": "45 Minutes",
+            "bestFor": "Block schedules, grades 3-4, deeper exploration Total time: 10 min story + 35 min activity = 45 minutes",
+            "breakdown": "10 min story + 35 min activity",
+            "activityName": "Creek Explorer Challenge & Nature Journal",
+            "materials": [
+              "Colored pencils, fine-tip markers",
+              "Collection bags with labels for different categories",
+              "Quality magnifying glasses (one per 2-3 students)",
+              "Field identification cards (leaves, rocks, insects if safe)",
+              "Optional: camera or tablets for photo documentation",
+              "Measuring tape or ruler",
+              "Clipboard or hard surface for outdoor writing"
+            ],
+            "steps": [
+              {
+                "title": "Scientific Method Prep (4 min)",
+                "duration": "4 min",
+                "description": "- Introduce how scientists observe and document in field\n   - Demonstrate journal entry: date, location, weather, detailed sketch with labels, written observations, questions\n   - Review safety protocols and explorer ethics (leave no trace, observe don't harm, respect all living things)"
+              },
+              {
+                "title": "Extended Outdoor Exploration (15 min)",
+                "duration": "15 min",
+                "description": "- Explore outdoor area with specific observation missions:\n     * Find 3 different leaf shapes and identify characteristics\n     * Locate items with different textures (smooth stone like story, rough bark, soft moss)\n     * Observe signs of water flow or imagine how water would move through area\n     * Notice signs of wildlife (tracks, nests, nibbled plants, holes in ground)\n   - Collect specimens responsibly (nothing living, only abundant items)\n   - Take measurements (circumference of tree trunk, length of found stick, dimensions of largest stone)"
+              },
+              {
+                "title": "Scientific Documentation (8 min)",
+                "duration": "8 min",
+                "description": "- Create detailed multi-part journal entries:\n     * Header: Date, time, location, weather conditions, temperature if available\n     * Detailed sketches with arrows and labels pointing to specific features\n     * Written observations (texture, size comparisons, color descriptions, where item was found)\n     * Measurement data recorded in table format\n     * Personal questions for further research (Why is this bark peeling? How old is this tree?)"
+              },
+              {
+                "title": "Identification & Research (4 min)",
+                "duration": "4 min",
+                "description": "- Use simple field guides to attempt identification\n   - Add scientific or common names to journal if identified\n   - Group similar items (all rocks together, all leaves together)"
+              },
+              {
+                "title": "Team Sharing & Synthesis (3 min)",
+                "duration": "3 min",
+                "description": "- Small groups (3-4 students) share most interesting discovery\n   - Discuss: What patterns did you notice? What connections did you see between items?"
+              },
+              {
+                "title": "Future Investigation Planning (1 min)",
+                "duration": "1 min",
+                "description": "Students write one question they want to explore more deeply next time"
+              }
+            ],
+            "discussionQuestions": [
+              "What patterns did you notice in the natural items we observed?",
+              "How do scientists document their discoveries differently than artists might?",
+              "Why is it important to observe habitats without disturbing them?",
+              "What does a healthy ecosystem need? What evidence did you see of this?",
+              "How did teamwork help us explore more safely and see more things?",
+              "What's the difference between just walking outside and truly exploring like a scientist?"
+            ],
+            "extensionIdeas": [
+              "Research one collected specimen in depth (where it came from, how it formed, what organisms interact with it)",
+              "Write adventure narrative based on today's exploration, incorporating real observations",
+              "Design comprehensive Explorer's Field Guide with entries for each type of item found",
+              "Plan to revisit same site each month to track seasonal changes over school year"
+            ]
+          }
+        },
+        "budgetTiers": {
+          "standard": {
+            "label": "Standard Classroom",
+            "costPerStudent": "$0-5",
+            "description": "Uses recycled and donated materials",
+            "items": [
+              "Folded paper journals (8.5x11 paper folded into quarters and stapled = 8-page booklet)",
+              "Recycled containers for collections (washed yogurt cups, small boxes, paper bags, envelopes)",
+              "Classroom pencils, crayons, markers already available",
+              "Printed or hand-drawn simple maps (use online map screenshot or draw by hand)",
+              "Nature items already available in outdoor spaces (nothing needs to be purchased)",
+              "Magnifying glasses borrowed from school science supplies if available",
+              "Journal covers from cereal box cardboard decorated by students",
+              "Scrap paper bound with yarn, ribbon, or paper fasteners",
+              "Collection bags from reused plastic zipper bags or paper lunch bags",
+              "Map drawn on large butcher paper by teacher or students together",
+              "Compass made from magnet and needle floating in water (demonstrate only)"
+            ]
+          },
+          "lowCost": {
+            "label": "Low Cost Additions",
+            "costPerStudent": "$12-12",
+            "description": "Adds quality reusable items",
+            "items": [
+              "Composition notebooks or spiral-bound journals",
+              "Basic plastic magnifying glasses",
+              "Small canvas or mesh collection bags with drawstrings",
+              "Laminated field identification cards for common local species",
+              "Clipboards for outdoor writing surface",
+              "Colored pencil set",
+              "Durable journals students can reuse for multiple outdoor explorations all year",
+              "Actual magnification tools enabling detailed observation",
+              "Professional explorer equipment feel",
+              "Materials that withstand weather and outdoor use",
+              "Can be used across multiple chapters involving nature"
+            ]
+          },
+          "premium": {
+            "label": "Premium Package",
+            "costPerStudent": "$41-45",
+            "description": "Professional-grade materials",
+            "items": [
+              "Professional field journals with waterproof pages",
+              "Quality magnifying glasses with LED light (3x-5x magnification)",
+              "Complete field exploration kits per student",
+              "Digital tablets or cameras for photo documentation",
+              "Nature identification apps subscription or books",
+              "Explorer vest or official badge/lanyard",
+              "Binoculars for distance viewing",
+              "Specimen collection and preservation materials",
+              "Professional-grade exploration tools that create authentic scientist experience",
+              "Students feel like real field researchers",
+              "Durable tools they can take home and use independently",
+              "Equipment that enables deeper, more detailed observation",
+              "Creates lasting appreciation for scientific field work"
+            ]
+          }
+        },
+        "tierDifferentiation": {
+          "1": {
+            "gradeLevel": "K-1",
+            "focus": [
+              "Use simple vocabulary (soft, rough, big, small, smooth, bumpy)",
+              "Drawing-based journaling with minimal writing requirements",
+              "Teacher or buddy helps with labeling",
+              "Buddy system with clear check-ins every 5 minutes",
+              "Shorter exploration time (10-15 min) with frequent gathering points",
+              "Celebrate every discovery enthusiastically"
+            ]
+          },
+          "2": {
+            "gradeLevel": "1-2",
+            "focus": [
+              "Simple written labels and short sentences",
+              "Practice comparing and contrasting (How are these two leaves different?)",
+              "Beginning measurement using non-standard units (longer/shorter than my hand)",
+              "Extended outdoor exploration time (15-20 min)",
+              "Small group exploration with adult nearby"
+            ]
+          },
+          "3": {
+            "gradeLevel": "2-3",
+            "focus": [
+              "Use of simple measurement tools (ruler, measuring tape)",
+              "Classification activities (sorting by multiple characteristics)",
+              "Introduction to scientific drawing conventions (labels with arrows)",
+              "More independent exploration with designated check-in points",
+              "Beginning research using simple field guides"
+            ]
+          },
+          "4": {
+            "gradeLevel": "3-4",
+            "focus": [
+              "Systematic use of field guides and identification resources",
+              "Hypothesis formation (I think this rock is smooth because water flowed over it for many years...)",
+              "Understanding ecosystem connections (How do plants and water and animals interact here?)",
+              "Written reflection on scientific method and exploration process",
+              "Independent exploration with self-monitoring",
+              "Visual vocabulary cards with pictures + words (smooth stone image + smooth + translation if available)",
+              "Sentence frames: I found _____. It feels _____. It is _____ color.",
+              "Partner with fluent English speaker who can model language",
+              "Emphasize drawing over writing initially - drawings are universal",
+              "Pre-teach key vocabulary before going outdoors (stone, stick, leaf, smooth, rough, nature, explore)",
+              "Multilingual field guides if available for your region",
+              "Clear, simple instructions with visual supports (picture schedule of exploration steps)",
+              "Defined exploration boundaries marked clearly with cones, flags, or natural landmarks",
+              "Wheelchair-accessible routes pre-scouted",
+              "Sensory-friendly options (can observe without touching if textures are overwhelming)",
+              "Option to observe from stationary base camp location if mobility is challenge",
+              "Audio recording option instead of written documentation",
+              "Fidget items allowed during sitting portions",
+              "Visual timer for transitions",
+              "Lead small exploration groups, teaching observation techniques to peers",
+              "Create detailed habitat maps showing relationships between features",
+              "Research specific species or geological formations found in depth",
+              "Design scientific experiment based on observations",
+              "Teach observation and documentation techniques to younger students",
+              "Create comprehensive field guide with detailed entries for specific location",
+              "Compare exploration site to different habitat type (forest vs. creek vs. meadow)",
+              "--"
+            ]
+          }
+        },
+        "accommodations": {
+          "ell": {
+            "label": "English Language Learners",
+            "strategies": []
+          },
+          "learningDifferences": {
+            "label": "Students with Learning Differences",
+            "strategies": []
+          },
+          "advanced": {
+            "label": "Advanced Students",
+            "strategies": []
+          }
+        }
+      },
+      {
+        "chapterId": 5,
+        "activityId": "1-CH5-ACT",
+        "title": {
+          "en": "Free Art Stand & Skill Sharing",
+          "es": "Free Art Stand & Skill Sharing"
+        },
+        "chapterTitle": {
+          "en": "Riley's Art Stand",
+          "es": "El Puesto de Arte de Riley"
+        },
+        "topic": {
+          "en": "Saving Strategies",
+          "es": "Estrategias de Ahorro"
+        },
+        "description": {
+          "en": "Free Art Stand & Skill Sharing",
+          "es": "Free Art Stand & Skill Sharing"
+        },
+        "timeVersions": {
+          "20": {
+            "label": "20 Minutes",
+            "bestFor": "Tight schedules, younger students (K-1), daily scheduling Total time: 10 min story + 10 min activity = 20 minutes",
+            "breakdown": "10 min story + 10 min activity",
+            "activityName": "Free Art Stand & Skill Sharing",
+            "materials": [
+              "Crayons, markers, or colored pencils",
+              "Optional: natural materials for decoration (leaves, flowers)",
+              "Tape for displaying"
+            ],
+            "steps": [
+              {
+                "title": "Confidence Talk (2 min)",
+                "duration": "2 min",
+                "description": "Like Riley, we all have talents to share. What do you like to create? Brief affirmation discussion"
+              },
+              {
+                "title": "Art Creation (5 min)",
+                "duration": "5 min",
+                "description": "Each student creates one simple artwork (nature drawing, pattern, free expression)"
+              },
+              {
+                "title": "Sharing Circle (2 min)",
+                "duration": "2 min",
+                "description": "Students hold up art, say one thing they like about it, hear one positive comment from peer"
+              },
+              {
+                "title": "Gift Option (1 min)",
+                "duration": "1 min",
+                "description": "Choose to give art to classmate or take home as gift for family member"
+              }
+            ],
+            "discussionQuestions": [
+              "What did you create? What makes it special?",
+              "How does it feel to share your art?",
+              "Is your art valuable even if you give it away for free?"
+            ],
+            "extensionIdeas": []
+          },
+          "30": {
+            "label": "30 Minutes",
+            "bestFor": "Standard class periods, grades 1-3, weekly scheduling Total time: 10 min story + 20 min activity = 30 minutes",
+            "breakdown": "10 min story + 20 min activity",
+            "activityName": "Free Art Stand & Skill Sharing",
+            "materials": [
+              "Drawing supplies (crayons, markers, colored pencils)",
+              "Optional: watercolors, chalk, pastels, natural materials",
+              "Small table or desk area for stand",
+              "Materials for Free Art sign (cardboard, markers)",
+              "Folder or envelope for finished pieces"
+            ],
+            "steps": [
+              {
+                "title": "Riley's Journey Discussion (3 min)",
+                "duration": "3 min",
+                "description": "Review Riley's fear and growth. What skills could you share? What might stop you?"
+              },
+              {
+                "title": "Art Production (8 min)",
+                "duration": "8 min",
+                "description": "Each student creates 2-3 small artworks (cards, bookmarks, drawings)"
+              },
+              {
+                "title": "Stand Setup (3 min)",
+                "duration": "3 min",
+                "description": "Arrange classroom space as art stand. Create Free Art - Take One! signs together"
+              },
+              {
+                "title": "Teaching Practice (4 min)",
+                "duration": "4 min",
+                "description": "Pair up. Each student teaches partner one technique or favorite art approach"
+              },
+              {
+                "title": "Gallery Walk (2 min)",
+                "duration": "2 min",
+                "description": "Browse classroom stands, select one classmate artwork to appreciate or take (if doing exchange)"
+              }
+            ],
+            "discussionQuestions": [
+              "What was it like to teach someone your technique?",
+              "How did you feel when someone appreciated your work?",
+              "Why did Riley choose to give her art for free? Would it be okay to sell it instead?",
+              "What did you receive today that wasn't bought with money?"
+            ],
+            "extensionIdeas": []
+          },
+          "45": {
+            "label": "45 Minutes",
+            "bestFor": "Block schedules, grades 3-4, deeper exploration Total time: 10 min story + 35 min activity = 45 minutes",
+            "breakdown": "10 min story + 35 min activity",
+            "activityName": "Free Art Stand & Skill Sharing",
+            "materials": [
+              "Multiple art mediums (markers, crayons, colored pencils, watercolors, pastels, chalk)",
+              "Natural materials (leaves, flowers, twigs, seeds)",
+              "Glue, tape, scissors",
+              "Table for stand display",
+              "Poster board for professional signage",
+              "Small cards for Artist Statements",
+              "Optional: simple frames or display boards",
+              "Camera or tablets for documentation"
+            ],
+            "steps": [
+              {
+                "title": "Deep Value Discussion (5 min)",
+                "duration": "5 min",
+                "description": "What gifts have you received that weren't bought? What talents do you have that others might enjoy learning? How does value exist beyond price?"
+              },
+              {
+                "title": "Skill Inventory (3 min)",
+                "duration": "3 min",
+                "description": "Students identify their artistic strengths (drawing, color use, patterns, nature art, teaching ability)"
+              },
+              {
+                "title": "Art Production (12 min)",
+                "duration": "12 min",
+                "description": "- Create 3-5 pieces to share\n   - Include variety (some to give away, some to teach from)\n   - Write brief artist statement for at least one piece (Gr 2-4)"
+              },
+              {
+                "title": "Professional Stand Design (5 min)",
+                "duration": "5 min",
+                "description": "- Create attractive signage\n   - Organize artwork display thoughtfully\n   - Prepare demonstration/teaching area"
+              },
+              {
+                "title": "Teaching Rotations (6 min)",
+                "duration": "6 min",
+                "description": "- Students rotate teaching their technique to 2-3 classmates\n   - Practice explaining process clearly\n   - Receive questions and give feedback"
+              },
+              {
+                "title": "Community Sharing (3 min)",
+                "duration": "3 min",
+                "description": "- Invite another class, school staff, or families to visit stands\n   - Give away art and teach techniques\n   - Document with photos"
+              },
+              {
+                "title": "Reflection (2 min)",
+                "duration": "2 min",
+                "description": "Written or verbal reflection on experience"
+              }
+            ],
+            "discussionQuestions": [
+              "What's the difference between selling your art and giving it away? Are both okay?",
+              "How did people respond when you shared your talents?",
+              "What skills did you learn from others today that didn't cost money?",
+              "Why do you think the community gave Riley gifts even though she didn't ask for payment?",
+              "How can sharing what you're good at make your neighborhood better?",
+              "What other skills besides art could people share in a 'free stand'?"
+            ],
+            "extensionIdeas": [
+              "Set up real art stand at school entrance or community location",
+              "Create skill sharing board where students offer to teach various talents",
+              "Document journey in art journal",
+              "Plan Free Fridays where different students share different skills weekly",
+              "Write thank-you notes to those who appreciated art"
+            ]
+          }
+        },
+        "budgetTiers": {
+          "standard": {
+            "label": "Standard Classroom",
+            "costPerStudent": "$0-5",
+            "description": "Uses recycled and donated materials",
+            "items": [
+              "Scrap paper, backs of used paper, paper bags flattened",
+              "Classroom crayons, markers, colored pencils (already owned)",
+              "Natural materials collected outdoors (leaves, flowers, twigs, seeds, petals)",
+              "Recyclable materials (cardboard, egg cartons, boxes for frames/displays)",
+              "DIY paste (flour + water mixture)",
+              "Old magazines for collage",
+              "Hand-written signs on recycled cardboard",
+              "Natural paint (crushed berries, dirt mixed with water, grass stains)",
+              "Brushes from twigs, pine needles, or feathers",
+              "Sidewalk chalk for outdoor art",
+              "String and clothespins for display line",
+              "Cereal box cardboard for frames"
+            ]
+          },
+          "lowCost": {
+            "label": "Low Cost Additions",
+            "costPerStudent": "$12-12",
+            "description": "Adds quality reusable items",
+            "items": [
+              "Mixed media paper pad (30 sheets)",
+              "Quality markers or colored pencil set",
+              "Small watercolor paint set",
+              "Pre-cut cardstock for cards/bookmarks",
+              "Simple easel or display frame",
+              "Printed Free Art signage template",
+              "Better quality paper for more vibrant results",
+              "Wider variety of mediums for exploration",
+              "Display materials students can keep and reuse",
+              "Professional-looking templates"
+            ]
+          },
+          "premium": {
+            "label": "Premium Package",
+            "costPerStudent": "$39-45",
+            "description": "Professional-grade materials",
+            "items": [
+              "Professional mixed media art pad (50+ sheets)",
+              "Complete art supply set (markers, colored pencils, pastels)",
+              "Quality watercolor set with brushes",
+              "Canvas boards pack of 3-4 (4x6)",
+              "Tabletop display easel or art portfolio case",
+              "Professional artist statement cards",
+              "Young Artist badge or apron",
+              "Beginner art technique book",
+              "Professional-quality materials students keep",
+              "Portfolio for ongoing artistic development",
+              "Tools that enable advanced techniques",
+              "Resources supporting long-term skill growth"
+            ]
+          }
+        },
+        "tierDifferentiation": {
+          "1": {
+            "gradeLevel": "K-1",
+            "focus": [
+              "Use large, easy-to-handle materials",
+              "Emphasize creative process over finished product",
+              "Simple verbal sharing (I made this for you!)",
+              "Teacher-led confidence building"
+            ]
+          },
+          "2": {
+            "gradeLevel": "1-2",
+            "focus": [
+              "Create multiple pieces with developing techniques",
+              "Practice explaining art to peers in simple terms",
+              "Begin teaching basic techniques to partners",
+              "Write one sentence about artwork",
+              "Structured partner sharing activities"
+            ]
+          },
+          "3": {
+            "gradeLevel": "2-3",
+            "focus": [
+              "Teach specific techniques to small groups",
+              "Write simple artist statements (2-3 sentences)",
+              "Organize own display with minimal guidance",
+              "Verbally reflect on sharing experience"
+            ]
+          },
+          "4": {
+            "gradeLevel": "3-4",
+            "focus": [
+              "Create comprehensive teaching demonstrations",
+              "Write detailed artist statements and reflections",
+              "Design professional stand presentation",
+              "Explore deeper concepts of value, economics, community contribution",
+              "Visual demonstration of techniques (minimal language required)",
+              "Partner with fluent speaker for teaching practice",
+              "Art vocabulary cards with images and labels",
+              "Artistic expression transcends language barriers",
+              "Sentence frames for artist statements: I made this because ___",
+              "Adaptive art tools (larger grips, specialized scissors, adaptive brushes)",
+              "Alternative mediums (tactile materials, digital art, sensory-friendly options)",
+              "Modeling and demonstration rather than verbal-only instruction",
+              "Choice in participation level (create only, or create and teach)",
+              "Templates or guides for students who benefit from structure",
+              "Research famous artists who shared work freely or created community art",
+              "Explore different cultural art traditions and techniques",
+              "Create instructional videos or illustrated step-by-step guides",
+              "Mentor younger students in art techniques",
+              "Design larger community art project or installation",
+              "--"
+            ]
+          }
+        },
+        "accommodations": {
+          "ell": {
+            "label": "English Language Learners",
+            "strategies": []
+          },
+          "learningDifferences": {
+            "label": "Students with Learning Differences",
+            "strategies": []
+          },
+          "advanced": {
+            "label": "Advanced Students",
+            "strategies": []
+          }
+        }
+      },
+      {
+        "chapterId": 6,
+        "activityId": "1-CH6-ACT",
+        "title": {
+          "en": "Coin Hunt Challenge & Savings Jar",
+          "es": "Coin Hunt Challenge & Savings Jar"
+        },
+        "chapterTitle": {
+          "en": "The Penny Hunt",
+          "es": "La Búsqueda de Centavos"
+        },
+        "topic": {
+          "en": "Counting Coins",
+          "es": "Contando Monedas"
+        },
+        "description": {
+          "en": "Coin Hunt Challenge & Savings Jar",
+          "es": "Coin Hunt Challenge & Savings Jar"
+        },
+        "timeVersions": {
+          "20": {
+            "label": "20 Minutes",
+            "bestFor": "Tight schedules, younger students (K-1), daily scheduling Total time: 10 min story + 10 min activity = 20 minutes",
+            "breakdown": "10 min story + 10 min activity",
+            "activityName": "Coin Hunt Challenge & Savings Jar",
+            "materials": [
+              "Small container (recycled jar, cup, or envelope)",
+              "Paper for recording totals",
+              "Pencil or crayon"
+            ],
+            "steps": [
+              {
+                "title": "Coin Introduction (2 min)",
+                "duration": "2 min",
+                "description": "Show penny, nickel, dime, quarter. Name each, identify values"
+              },
+              {
+                "title": "Sorting Activity (4 min)",
+                "duration": "4 min",
+                "description": "Each student gets mixed coins (real or printed). Sort by type into piles"
+              },
+              {
+                "title": "Counting Practice (3 min)",
+                "duration": "3 min",
+                "description": "Count each pile. How many pennies? How many dimes?"
+              },
+              {
+                "title": "Record Total (1 min)",
+                "duration": "1 min",
+                "description": "Write or draw totals. I have ___ coins!"
+              }
+            ],
+            "discussionQuestions": [
+              "Which coin is worth the most?",
+              "If you found one coin every day, how many would you have in a week?",
+              "What could you buy with many pennies?"
+            ],
+            "extensionIdeas": []
+          },
+          "30": {
+            "label": "30 Minutes",
+            "bestFor": "Standard class periods, grades 1-3, weekly scheduling Total time: 10 min story + 20 min activity = 30 minutes",
+            "breakdown": "10 min story + 20 min activity",
+            "activityName": "Coin Hunt Challenge & Savings Jar",
+            "materials": [
+              "Clear jar or container for each student/group",
+              "Coin tracking sheet (printable provided)",
+              "Pencils, crayons",
+              "Optional: play money for additional practice"
+            ],
+            "steps": [
+              {
+                "title": "Intro & Coin Review (3 min)",
+                "duration": "3 min",
+                "description": "Review coin values. Demonstrate counting mixed coins"
+              },
+              {
+                "title": "Found Coins Distribution (2 min)",
+                "duration": "2 min",
+                "description": "Give each student/group a small collection of mixed coins (representing what they found)"
+              },
+              {
+                "title": "Sorting by Type (4 min)",
+                "duration": "4 min",
+                "description": "Sort coins into penny, nickel, dime, quarter piles"
+              },
+              {
+                "title": "Counting & Recording (6 min)",
+                "duration": "6 min",
+                "description": "Count each pile, record on tracking sheet. Calculate total value"
+              },
+              {
+                "title": "Savings Jar Creation (3 min)",
+                "duration": "3 min",
+                "description": "Place coins in jar. Decorate jar with label: [Name]'s Savings or Our Class Treasure"
+              },
+              {
+                "title": "Goal Discussion (2 min)",
+                "duration": "2 min",
+                "description": "If we kept finding coins, what could we save for? Brainstorm ideas"
+              }
+            ],
+            "discussionQuestions": [
+              "How many pennies equal one dime?",
+              "What's easier to count: all pennies or mixed coins? Why?",
+              "What's something small you could save for?",
+              "Would you rather have 10 pennies or 1 dime? Why?"
+            ],
+            "extensionIdeas": []
+          },
+          "45": {
+            "label": "45 Minutes",
+            "bestFor": "Block schedules, grades 3-4, deeper exploration Total time: 10 min story + 35 min activity = 45 minutes",
+            "breakdown": "10 min story + 35 min activity",
+            "activityName": "Coin Hunt Challenge & Savings Jar",
+            "materials": [
+              "Clear jars (one per student or small group)",
+              "Detailed tracking sheets with columns (Date, Coin Type, Value, Running Total)",
+              "Graph paper for visual representation",
+              "Markers, colored pencils",
+              "Price tags for small classroom items",
+              "Calculator (for older students)"
+            ],
+            "steps": [
+              {
+                "title": "Advanced Coin Intro (4 min)",
+                "duration": "4 min",
+                "description": "Review values, teach skip-counting (5s for nickels, 10s for dimes, 25s for quarters)"
+              },
+              {
+                "title": "Initial Found Coins Collection (3 min)",
+                "duration": "3 min",
+                "description": "Distribute starting coins (e.g., $2.37 in mixed denominations)"
+              },
+              {
+                "title": "Comprehensive Sorting & Counting (8 min)",
+                "duration": "8 min",
+                "description": "- Sort by type\n   - Count using skip-counting strategies\n   - Record on detailed tracking sheet\n   - Calculate total value"
+              },
+              {
+                "title": "Visual Representation (6 min)",
+                "duration": "6 min",
+                "description": "- Create bar graph showing quantity of each coin type\n   - OR pie chart showing percentage of total value from each coin type"
+              },
+              {
+                "title": "Economics Exploration (8 min)",
+                "duration": "8 min",
+                "description": "- Display price tags on classroom items (eraser=$0.25, pencil=$0.50, book=$2.00)\n   - Students calculate: What could I buy with my found coins?\n   - How many more pennies would I need to afford the book?"
+              },
+              {
+                "title": "Group Decision Simulation (4 min)",
+                "duration": "4 min",
+                "description": "- Pool class coins together\n   - Calculate total\n   - Discuss and vote: Save for something big together? Split evenly? Donate?"
+              },
+              {
+                "title": "Reflection & Planning (2 min)",
+                "duration": "2 min",
+                "description": "Each student writes one sentence about their coin-saving plan"
+              }
+            ],
+            "discussionQuestions": [
+              "Why do different coins have different values?",
+              "Is it better to find one quarter or four pennies? Why?",
+              "What's a realistic saving goal if you found coins every week?",
+              "What are the trade-offs between spending now and saving for later?",
+              "How did your group make a fair decision about the money?"
+            ],
+            "extensionIdeas": [
+              "Track actual found coins for a month, graph progress",
+              "Research what items cost historically vs. today",
+              "Write story problems: If Layla finds 3 pennies and Riley finds 2 dimes...",
+              "Create a classroom economy where students earn/spend coins"
+            ]
+          }
+        },
+        "budgetTiers": {
+          "standard": {
+            "label": "Standard Classroom",
+            "costPerStudent": "$1-5",
+            "description": "Uses recycled and donated materials",
+            "items": [
+              "Printable coin templates (PDF provided - print on cardstock if available, regular paper works)",
+              "Recycled containers (ask families to send clean jars, cups, or small boxes)",
+              "Basic tracking sheet (PDF provided)",
+              "Scrap paper for labels and decoration",
+              "Classroom pencils, crayons, markers",
+              "Borrow from classroom petty cash or ask families to contribute",
+              "Each student needs roughly",
+              "Coins can be collected and reused for future classes",
+              "Bottle caps labeled with coin values",
+              "Construction paper coin cutouts",
+              "Pebbles/buttons marked with values using permanent marker"
+            ]
+          },
+          "lowCost": {
+            "label": "Low Cost Additions",
+            "costPerStudent": "$23-12",
+            "description": "Adds quality reusable items",
+            "items": [
+              "Small clear plastic jars with lids (purchase bulk set: ~",
+              "Real coin sets (purchase classroom coin set for manipulation:",
+              "Printed tracking sheets on quality paper",
+              "Pre-made labels and stickers for jar decoration",
+              "Laminated coin reference cards",
+              "Professional-looking jars students can keep",
+              "Durable materials for repeated use",
+              "Better visual aids for learning"
+            ]
+          },
+          "premium": {
+            "label": "Premium Package",
+            "costPerStudent": "$32-45",
+            "description": "Professional-grade materials",
+            "items": [
+              "High-quality clear acrylic coin banks with dividers",
+              "Complete real coin sets per student to keep (not borrowed)",
+              "Deluxe tracking journals with pre-printed pages",
+              "Coin value flashcards and games",
+              "Small safe or lockbox for Found Treasure simulation",
+              "Coin identification magnifying glasses",
+              "Digital coin sorting trays",
+              "Students keep all materials",
+              "Professional coin education tools",
+              "Engaging hands-on manipulatives",
+              "Comprehensive financial literacy toolkit"
+            ]
+          }
+        },
+        "tierDifferentiation": {
+          "1": {
+            "gradeLevel": "K-1",
+            "focus": [
+              "Use real coins or large printed versions",
+              "Count by 1s primarily",
+              "Practice one-to-one correspondence",
+              "Simple recording (tally marks or drawings)"
+            ]
+          },
+          "2": {
+            "gradeLevel": "1-2",
+            "focus": [
+              "Mixed coin counting with assistance",
+              "Begin using addition to calculate totals",
+              "More detailed tracking sheets",
+              "Compare values (more/less than)"
+            ]
+          },
+          "3": {
+            "gradeLevel": "2-3",
+            "focus": [
+              "Calculate totals without assistance",
+              "Create graphs or visual representations",
+              "Introduce decimal notation ($2.37)",
+              "Problem-solving with money scenarios"
+            ]
+          },
+          "4": {
+            "gradeLevel": "3-4",
+            "focus": [
+              "Budgeting scenarios (You have $4.73, item costs $3.25...)",
+              "Percentage calculations (What percent of our total is pennies?)",
+              "Research real-world prices and saving goals",
+              "Written reflection on financial decision-making",
+              "Visual coin cards with images and values",
+              "Bilingual vocabulary cards (penny/centavo, etc.)",
+              "Partner with fluent speaker for counting practice",
+              "Use manipulatives extensively before paper-based work",
+              "Larger coin cutouts for easier handling",
+              "Simplified tracking sheets with pictures",
+              "Use of calculator for totaling if motor skills are challenge",
+              "Break activity into smaller chunks with movement breaks",
+              "Provide coin value reference card to keep visible",
+              "Create story problems for classmates to solve",
+              "Research historical coin values and inflation",
+              "Design their own tracking system or app concept",
+              "Lead small group instruction on skip-counting strategies",
+              "Calculate interest (if saved in bank, earned 10% more)",
+              "--"
+            ]
+          }
+        },
+        "accommodations": {
+          "ell": {
+            "label": "English Language Learners",
+            "strategies": []
+          },
+          "learningDifferences": {
+            "label": "Students with Learning Differences",
+            "strategies": []
+          },
+          "advanced": {
+            "label": "Advanced Students",
+            "strategies": []
+          }
+        }
+      },
+      {
+        "chapterId": 7,
+        "activityId": "1-CH7-ACT",
+        "title": {
+          "en": "Build a Fort Challenge & Blueprint Design",
+          "es": "Build a Fort Challenge & Blueprint Design"
+        },
+        "chapterTitle": {
+          "en": "The Secret Fort",
+          "es": "El Fuerte Secreto"
+        },
+        "topic": {
+          "en": "Planning Ahead",
+          "es": "Planificar con Anticipación"
+        },
+        "description": {
+          "en": "Build a Fort Challenge & Blueprint Design",
+          "es": "Build a Fort Challenge & Blueprint Design"
+        },
+        "timeVersions": {
+          "20": {
+            "label": "20 Minutes",
+            "bestFor": "Tight schedules, younger students (K-1), daily scheduling Total time: 10 min story + 10 min activity = 20 minutes",
+            "breakdown": "10 min story + 10 min activity",
+            "activityName": "Build a Fort Challenge & Blueprint Design",
+            "materials": [
+              "Cardboard pieces or construction paper",
+              "Popsicle sticks OR recycled straws",
+              "Tape or glue",
+              "Pencil or crayon"
+            ],
+            "steps": [
+              {
+                "title": "Brainstorm (2 min)",
+                "duration": "2 min",
+                "description": "What makes a good fort? What do you need? (roof, walls, door)"
+              },
+              {
+                "title": "Quick Sketch (3 min)",
+                "duration": "3 min",
+                "description": "Each student draws simple fort plan on paper"
+              },
+              {
+                "title": "Mini Build (4 min)",
+                "duration": "4 min",
+                "description": "Using small materials, build tiny tabletop fort model"
+              },
+              {
+                "title": "Share & Celebrate (1 min)",
+                "duration": "1 min",
+                "description": "Show classmates, say one thing you like about your fort"
+              }
+            ],
+            "discussionQuestions": [
+              "What was hardest about building your fort?",
+              "How did you make it stay up?",
+              "If you built a real fort, what would you use?"
+            ],
+            "extensionIdeas": []
+          },
+          "30": {
+            "label": "30 Minutes",
+            "bestFor": "Standard class periods, grades 1-3, weekly scheduling Total time: 10 min story + 20 min activity = 30 minutes",
+            "breakdown": "10 min story + 20 min activity",
+            "activityName": "Build a Fort Challenge & Blueprint Design",
+            "materials": [
+              "Blankets or sheets (old ones from home)",
+              "Tape, string, or clothespins",
+              "Blueprint template (printable provided)",
+              "Pencils, crayons, markers",
+              "Optional: pillows, cushions"
+            ],
+            "steps": [
+              {
+                "title": "Team Formation & Planning (4 min)",
+                "duration": "4 min",
+                "description": "Groups of 3-4. Discuss: What will our fort look like? What's our plan?"
+              },
+              {
+                "title": "Blueprint Creation (5 min)",
+                "duration": "5 min",
+                "description": "Each group draws fort blueprint showing walls, roof, entrance, special features"
+              },
+              {
+                "title": "Material Gathering (2 min)",
+                "duration": "2 min",
+                "description": "Collect assigned materials from classroom supply station"
+              },
+              {
+                "title": "Building Time (7 min)",
+                "duration": "7 min",
+                "description": "Work together to build fort following blueprint"
+              },
+              {
+                "title": "Problem-Solving Check-In (1 min)",
+                "duration": "1 min",
+                "description": "What's not working? How can we fix it?"
+              },
+              {
+                "title": "Gallery Walk & Celebration (1 min)",
+                "duration": "1 min",
+                "description": "Visit other groups' forts, appreciate different designs"
+              }
+            ],
+            "discussionQuestions": [
+              "Did your fort turn out like your blueprint? What changed?",
+              "How did you solve problems when something didn't work?",
+              "What would you do differently next time?"
+            ],
+            "extensionIdeas": []
+          },
+          "45": {
+            "label": "45 Minutes",
+            "bestFor": "Block schedules, grades 3-4, deeper exploration Total time: 10 min story + 35 min activity = 45 minutes",
+            "breakdown": "10 min story + 35 min activity",
+            "activityName": "Build a Fort Challenge & Blueprint Design",
+            "materials": [
+              "Blankets, sheets, tarps",
+              "Duct tape, masking tape, string, rope",
+              "Chairs or tables (for support structures)",
+              "Detailed blueprint paper (grid format)",
+              "Rulers, pencils, markers, colored pencils",
+              "Engineering Challenge Cards (optional: stability test, weight test, ventilation test)",
+              "Camera/tablet for documentation"
+            ],
+            "steps": [
+              {
+                "title": "Engineering Introduction (3 min)",
+                "duration": "3 min",
+                "description": "Discuss real architects and engineers. Show images of different fort/shelter types"
+              },
+              {
+                "title": "Team Formation & Role Assignment (3 min)",
+                "duration": "3 min",
+                "description": "- Groups of 4-5\n   - Roles: Lead Architect (draws plans), Materials Manager (gathers supplies), Construction Lead (builds), Quality Checker (tests stability), Reporter (documents process)"
+              },
+              {
+                "title": "Detailed Blueprint Phase (8 min)",
+                "duration": "8 min",
+                "description": "- Draw scaled blueprint with measurements\n   - Label all features (walls, roof, door, windows)\n   - List materials needed\n   - Predict challenges"
+              },
+              {
+                "title": "Material Gathering & Prep (3 min)",
+                "duration": "3 min",
+                "description": "Materials Manager gathers supplies while team reviews plan"
+              },
+              {
+                "title": "Construction Phase (12 min)",
+                "duration": "12 min",
+                "description": "- Build fort following blueprint\n   - Test stability as you go\n   - Make adjustments when needed"
+              },
+              {
+                "title": "Engineering Tests (4 min)",
+                "duration": "4 min",
+                "description": "- Stability Test: Can fort stand without holding it?\n   - Capacity Test: How many people fit inside comfortably?\n   - Ventilation Test: Can you breathe well inside? (safety!)"
+              },
+              {
+                "title": "Documentation & Reflection (2 min)",
+                "duration": "2 min",
+                "description": "- Take photo of finished fort\n   - Each student writes: The hardest part was... We solved it by..."
+              }
+            ],
+            "discussionQuestions": [
+              "How did having specific roles help your team?",
+              "What was your biggest challenge and how did you overcome it?",
+              "If you could build a real outdoor fort, what materials would you choose? Why?",
+              "How is building together different from building alone?"
+            ],
+            "extensionIdeas": [
+              "Multi-day project: Refine and improve fort over several sessions",
+              "Outdoor version: Build real fort in schoolyard using branches, tarps",
+              "STEM connection: Research different types of shelters around the world",
+              "Write instruction manual for future fort builders"
+            ]
+          }
+        },
+        "budgetTiers": {
+          "standard": {
+            "label": "Standard Classroom",
+            "costPerStudent": "$0-5",
+            "description": "Uses recycled and donated materials",
+            "items": [
+              "Cardboard boxes from home/stores (ask families to collect, or visit grocery/appliance stores for donations)",
+              "Old blankets, sheets, pillowcases from home (send note requesting donations)",
+              "Classroom chairs or tables (already available)",
+              "Tape from classroom supplies",
+              "String or yarn from classroom supplies",
+              "Scrap paper or back of used paper for blueprints",
+              "Classroom pencils, crayons, markers",
+              "Use newspaper or bulletin board paper instead of blueprints",
+              "Clothespins or binder clips instead of tape (reusable!)",
+              "Books or blocks as weights to hold structures"
+            ]
+          },
+          "lowCost": {
+            "label": "Low Cost Additions",
+            "costPerStudent": "$64-12",
+            "description": "Adds quality reusable items",
+            "items": [
+              "Pack of large cardboard bricks or building blocks",
+              "Rolls of masking tape and duct tape",
+              "Pre-printed blueprint templates on quality paper",
+              "PVC pipe pieces and connectors for stronger structures",
+              "Fabric remnants from craft store",
+              "Basic toolkit: kid-safe scissors, rulers, measuring tape",
+              "Sturdier building materials for more complex forts",
+              "Professional blueprint templates",
+              "Ability to build larger, more stable structures"
+            ]
+          },
+          "premium": {
+            "label": "Premium Package",
+            "costPerStudent": "$135-45",
+            "description": "Professional-grade materials",
+            "items": [
+              "Commercial fort-building kits (e.g., Crazy Forts, Fort Magic)",
+              "High-quality building planks and connectors",
+              "Professional fabric panels with windows/doors",
+              "Engineering/architecture books and visual guides",
+              "Digital blueprint tools (tablet app or software)",
+              "Deluxe toolkit with real measuring tools, levels, safety goggles",
+              "Large outdoor tarp for outdoor fort building",
+              "Professional-quality building materials",
+              "Durable tools that last years",
+              "Ability to build complex, impressive structures",
+              "Stronger STEM connection with real engineering concepts"
+            ]
+          }
+        },
+        "tierDifferentiation": {
+          "1": {
+            "gradeLevel": "K-1",
+            "focus": [
+              "Adult assistance with taping and balance",
+              "Focus on sensory experience (hiding inside fort, feeling cozy)",
+              "Use larger materials that are easier to manipulate",
+              "Celebrate effort and participation over perfection"
+            ]
+          },
+          "2": {
+            "gradeLevel": "1-2",
+            "focus": [
+              "Basic blueprints with simple shapes and labels",
+              "Peer collaboration with minimal adult intervention",
+              "Introduction to measurement (how many blocks long?)",
+              "Begin discussing why some designs work better"
+            ]
+          },
+          "3": {
+            "gradeLevel": "2-3",
+            "focus": [
+              "Multiple design iterations (plan, build, revise)",
+              "Testing protocols (stability, capacity)",
+              "Compare different fort designs and analyze effectiveness",
+              "Written reflections on problem-solving process"
+            ]
+          },
+          "4": {
+            "gradeLevel": "3-4",
+            "focus": [
+              "Engineering vocabulary (stability, load-bearing, structure)",
+              "Research different architectural styles",
+              "Calculate materials needed before building",
+              "Design challenges (build tallest/strongest/most creative fort)",
+              "Document entire engineering process with photos and notes",
+              "Visual blueprint templates with picture labels",
+              "Demonstrate building techniques before verbal instructions",
+              "Partner with fluent speaker in building group",
+              "Use gestures and modeling extensively",
+              "Bilingual vocabulary cards (wall/pared, roof/techo, etc.)",
+              "Assign role that matches strengths (visual learners = designers, kinesthetic = builders)",
+              "Break building into very small steps with check-ins",
+              "Allow use of pre-made connectors instead of tape if fine motor skills challenge",
+              "Provide extra time or spread activity over multiple days",
+              "Celebrate non-traditional fort designs (horizontal instead of vertical, etc.)",
+              "Design multiple forts and compare effectiveness",
+              "Create instruction manual with diagrams for others to follow",
+              "Research historical shelters or modern architecture",
+              "Lead a small group, teaching others building techniques",
+              "Add constraints: Build using only 10 pieces or Build tallest fort possible",
+              "--"
+            ]
+          }
+        },
+        "accommodations": {
+          "ell": {
+            "label": "English Language Learners",
+            "strategies": []
+          },
+          "learningDifferences": {
+            "label": "Students with Learning Differences",
+            "strategies": []
+          },
+          "advanced": {
+            "label": "Advanced Students",
+            "strategies": []
+          }
+        }
+      },
+      {
+        "chapterId": 8,
+        "activityId": "1-CH8-ACT",
+        "title": {
+          "en": "From Garden to Table: Simple Cooking & Cost Comparison",
+          "es": "From Garden to Table: Simple Cooking & Cost Comparison"
+        },
+        "chapterTitle": {
+          "en": "Frances's Recipe Box",
+          "es": "La Caja de Recetas de Frances"
+        },
+        "topic": {
+          "en": "Following Instructions",
+          "es": "Seguir Instrucciones"
+        },
+        "description": {
+          "en": "From Garden to Table: Simple Cooking & Cost Comparison",
+          "es": "From Garden to Table: Simple Cooking & Cost Comparison"
+        },
+        "timeVersions": {
+          "20": {
+            "label": "20 Minutes",
+            "bestFor": "Tight schedules, younger students (K-1), daily scheduling, no-cook option Total time: 10 min story + 10 min activity = 20 minutes",
+            "breakdown": "10 min story + 10 min activity",
+            "activityName": "From Garden to Table: Simple Cooking & Cost Comparison",
+            "materials": [
+              "Hummus or ranch dip (store-bought or homemade)",
+              "Crackers or pretzels",
+              "Small plates or bowls",
+              "Napkins",
+              "Price tags from vegetables (for discussion)"
+            ],
+            "steps": [
+              {
+                "title": "Price Discussion (2 min)",
+                "duration": "2 min",
+                "description": "Show price tags. How much did these carrots cost? How many servings can we make?"
+              },
+              {
+                "title": "Assembly (5 min)",
+                "duration": "5 min",
+                "description": "Each student arranges vegetables and dip on plate, adds crackers"
+              },
+              {
+                "title": "Cost Comparison (2 min)",
+                "duration": "2 min",
+                "description": "If we bought snack packs at store, they cost $2 each. We made these for about 50¢ each!"
+              },
+              {
+                "title": "Enjoy & Reflect (1 min)",
+                "duration": "1 min",
+                "description": "Eat together, discuss: Which costs less? Which is healthier?"
+              }
+            ],
+            "discussionQuestions": [
+              "How much money did we save by making our own snacks?",
+              "What vegetables did we use?",
+              "Would you rather buy a snack or make one? Why?"
+            ],
+            "extensionIdeas": []
+          },
+          "30": {
+            "label": "30 Minutes",
+            "bestFor": "Standard class periods, grades 1-3, weekly scheduling Total time: 10 min story + 20 min activity = 30 minutes",
+            "breakdown": "10 min story + 20 min activity",
+            "activityName": "From Garden to Table: Simple Cooking & Cost Comparison",
+            "materials": [
+              "Measuring cups (1 cup, 1/2 cup, 1/4 cup)",
+              "Small bags or containers for each student",
+              "Ingredients (bulk purchases):",
+              "- Cheerios or generic cereal (2 cups)",
+              "- Raisins (1 cup)",
+              "- Pretzels (1 cup)",
+              "- Chocolate chips (1/2 cup) - optional",
+              "Price labels from each ingredient",
+              "Paper and pencils for cost calculations"
+            ],
+            "steps": [
+              {
+                "title": "Recipe & Cost Introduction (4 min)",
+                "duration": "4 min",
+                "description": "- Show recipe: 2 cups cereal + 1 cup raisins + 1 cup pretzels + 1/2 cup chocolate chips = 4.5 cups total\n   - Display costs: Cereal $3 (makes 10 cups), Raisins $4 (makes 4 cups), Pretzels $2 (makes 6 cups)\n   - Today we'll figure out how much our homemade trail mix costs!"
+              },
+              {
+                "title": "Mixing (6 min)",
+                "duration": "6 min",
+                "description": "- Students take turns measuring and adding ingredients to large bowl\n   - Practice measuring: This is 1 cup. This is 1/2 cup.\n   - Mix gently together"
+              },
+              {
+                "title": "Portioning (4 min)",
+                "duration": "4 min",
+                "description": "- Divide trail mix into individual portions (about 1/2 cup each)\n   - Students fill their take-home bags"
+              },
+              {
+                "title": "Cost Comparison (4 min)",
+                "duration": "4 min",
+                "description": "- Calculate together: We spent $9 on ingredients and made 9 servings. That's $1 per serving.\n   - Compare: Store-bought trail mix costs $3-4 per serving!\n   - We saved $2-3 per person by making it ourselves."
+              },
+              {
+                "title": "Enjoy & Reflect (2 min)",
+                "duration": "2 min",
+                "description": "Taste trail mix, discuss savings and taste"
+              }
+            ],
+            "discussionQuestions": [
+              "How much did each ingredient cost?",
+              "How many servings did we make?",
+              "How much money did we save compared to buying trail mix at the store?",
+              "What else could we make from scratch to save money?"
+            ],
+            "extensionIdeas": []
+          },
+          "45": {
+            "label": "45 Minutes",
+            "bestFor": "Block schedules, grades 3-4, deeper exploration, includes baking Total time: 10 min story + 35 min activity = 45 minutes",
+            "breakdown": "10 min story + 35 min activity",
+            "activityName": "From Garden to Table: Simple Cooking & Cost Comparison",
+            "materials": [
+              "Muffin liners",
+              "Mixing bowls (large and medium)",
+              "Measuring cups and spoons",
+              "Whisk or fork",
+              "Spoon for scooping batter",
+              "Oven (adult supervision required)",
+              "Ingredients for basic muffins:",
+              "- 2 cups flour",
+              "- 1/2 cup sugar",
+              "- 2 tsp baking powder",
+              "- 1/2 tsp salt",
+              "- 1 cup milk",
+              "- 1 egg",
+              "- 1/4 cup oil",
+              "- Optional: 1 cup blueberries or chocolate chips",
+              "Cost breakdown worksheet (printable)",
+              "Calculator"
+            ],
+            "steps": [
+              {
+                "title": "Cost Analysis Pre-Activity (6 min)",
+                "duration": "6 min",
+                "description": "- Display all ingredients with actual prices\n   - Today we're baking 12 muffins. Let's figure out the total cost!\n   - Students help add up ingredient costs: Total = $2.42 for 12 muffins\n   - Calculate per-muffin cost: $2.42 ÷ 12 = $0.20 per muffin\n   - Compare to store: Bakery muffin costs $2-3 each!\n   - We're saving $1.80-2.80 per muffin!"
+              },
+              {
+                "title": "Recipe Review & Safety (3 min)",
+                "duration": "3 min",
+                "description": "- Read recipe aloud together\n   - Review kitchen safety: wash hands, careful with hot oven, no tasting raw batter with egg\n   - Assign roles: measurers, mixers, scoopers"
+              },
+              {
+                "title": "Mixing Dry Ingredients (4 min)",
+                "duration": "4 min",
+                "description": "- Measure flour, sugar, baking powder, salt into large bowl\n   - Whisk together"
+              },
+              {
+                "title": "Mixing Wet Ingredients (4 min)",
+                "duration": "4 min",
+                "description": "- Measure milk, crack egg, add oil into medium bowl\n   - Whisk together until combined"
+              },
+              {
+                "title": "Combining & Optional Add-Ins (4 min)",
+                "duration": "4 min",
+                "description": "- Pour wet ingredients into dry ingredients\n   - Stir gently until just combined (don't overmix!)\n   - Fold in blueberries or chocolate chips if using"
+              },
+              {
+                "title": "Filling Muffin Tin (3 min)",
+                "duration": "3 min",
+                "description": "- Place liners in muffin tin\n   - Scoop batter evenly into 12 cups (about 3/4 full)"
+              },
+              {
+                "title": "Baking (15 min - can overlap with discussion)",
+                "duration": "2 min",
+                "description": "- Adult places tin in preheated oven at 375°F\n   - Bake 15-18 minutes\n   - Meanwhile, complete cost analysis worksheet"
+              },
+              {
+                "title": "Cost Analysis Worksheet (during baking, 10 min)",
+                "duration": "2 min",
+                "description": "- Students complete detailed breakdown:\n     - List each ingredient and cost\n     - Add up total cost\n     - Divide by number of muffins\n     - Compare to store prices\n     - Calculate total savings if making weekly"
+              },
+              {
+                "title": "Cooling, Tasting & Reflection (6 min)",
+                "duration": "6 min",
+                "description": "- Remove muffins, let cool 5 minutes\n   - Taste test!\n   - Discuss: How do they taste? Was it hard? Would you make these at home?"
+              }
+            ],
+            "discussionQuestions": [
+              "What was the total cost of ingredients?",
+              "How much did each muffin cost us to make?",
+              "How does that compare to buying muffins at a bakery or store?",
+              "If you made muffins once a week for a year, how much money would you save?",
+              "What other foods could we make from scratch instead of buying?",
+              "What skills did Frances teach the friends that we used today?"
+            ],
+            "extensionIdeas": [
+              "Students copy recipe to take home",
+              "Create cost comparison poster showing homemade vs. store-bought foods",
+              "Research other recipes and calculate costs",
+              "Interview family member about a recipe they make from scratch"
+            ]
+          }
+        },
+        "budgetTiers": {
+          "standard": {
+            "label": "Standard Classroom",
+            "costPerStudent": "$21-5",
+            "description": "Uses recycled and donated materials",
+            "items": [
+              "No-cook option (vegetable snacks, trail mix)",
+              "Bulk ingredient purchases shared across class",
+              "Use classroom bowls, measuring cups (borrow if needed)",
+              "Printable cost comparison worksheets (FREE PDF)",
+              "Recycled containers or bags for take-home portions",
+              "Ingredients from donations or teacher purchase",
+              "Cereal:",
+              "Raisins:",
+              "Pretzels:",
+              "Optional chocolate chips:",
+              "**Total:"
+            ]
+          },
+          "lowCost": {
+            "label": "Low Cost Additions",
+            "costPerStudent": "$28.68-12",
+            "description": "Adds quality reusable items",
+            "items": [
+              "Basic baking supplies (muffin tin, mixing bowls, measuring tools) -",
+              "Printed recipe cards on quality paper",
+              "Small reusable containers for take-home portions",
+              "Cost comparison workbook pages",
+              "Ingredients for simple baking project (muffins, cookies, bread)",
+              "Flour:",
+              "Sugar:",
+              "Baking powder:",
+              "Salt:",
+              "Milk:",
+              "Eggs (2):",
+              "Oil:",
+              "Blueberries or chocolate chips:",
+              "**Total:",
+              "Students keep recipe cards",
+              "Better quality ingredients",
+              "Each student gets full muffin or larger portion"
+            ]
+          },
+          "premium": {
+            "label": "Premium Package",
+            "costPerStudent": "$27-45",
+            "description": "Professional-grade materials",
+            "items": [
+              "Complete kid-friendly cooking toolkit per student",
+              "- Child-safe knife",
+              "- Measuring cup set",
+              "- Measuring spoon set",
+              "- Small whisk",
+              "- Silicone spatula",
+              "Personalized recipe journal or binder",
+              "High-quality ingredients including organic options",
+              "Professional cost analysis templates and worksheets",
+              "Take-home ingredient kit so students can recreate recipe at home",
+              "Digital resources (cooking videos, online cost calculators)",
+              "Students keep cooking tools to use at home",
+              "Multiple recipes tried and documented",
+              "Photography equipment to document cooking process",
+              "Family cooking night invitation with ingredient kits provided"
+            ]
+          }
+        },
+        "tierDifferentiation": {
+          "1": {
+            "gradeLevel": "K-1",
+            "focus": [
+              "Simple one-step tasks (pouring, stirring, counting)",
+              "Adult assistance with measuring and mixing",
+              "Basic cost concept: Costs less to make than buy",
+              "Visual recipe cards with pictures"
+            ]
+          },
+          "2": {
+            "gradeLevel": "1-2",
+            "focus": [
+              "Measure with adult supervision and support",
+              "Follow 3-4 step instructions",
+              "Count servings and understand this feeds everyone",
+              "Simple cost comparison: $1 to make vs. $3 to buy",
+              "Begin using written recipes with some pictures"
+            ]
+          },
+          "3": {
+            "gradeLevel": "2-3",
+            "focus": [
+              "Follow multi-step written recipe",
+              "Calculate basic costs with support",
+              "Understand fractions in measuring (1/2 cup, 1/4 teaspoon)",
+              "Written reflection on cost savings"
+            ]
+          },
+          "4": {
+            "gradeLevel": "3-4",
+            "focus": [
+              "Calculate detailed cost breakdowns",
+              "Use division to find per-serving costs",
+              "Compare multiple price scenarios",
+              "Write complete recipe with cost analysis",
+              "Research and propose other cost-saving recipes",
+              "Visual recipe cards with pictures for each step",
+              "Bilingual ingredient labels",
+              "Demonstrate each step before students do it",
+              "Use gestures and physical modeling",
+              "Pair with fluent speaker",
+              "Break recipe into very small steps with check-ins",
+              "Provide pre-measured ingredients if fine motor skills are challenge",
+              "Use adaptive measuring tools (large handles, pour spouts)",
+              "Allow taste-testing at multiple points (if safe)",
+              "Provide visual timer for baking/waiting times",
+              "Calculate cost per ounce/gram, not just per serving",
+              "Research bulk vs. regular prices and calculate additional savings",
+              "Create cost comparison chart for 5-10 common foods",
+              "Design their own recipe and estimate costs",
+              "Lead small group instruction for cooking steps",
+              "**Critical:** Survey families about allergies BEFORE activity",
+              "Provide allergy-free alternatives (dairy-free milk, egg substitutes, gluten-free flour)",
+              "Label all ingredients clearly",
+              "Have alternative activity for students with multiple allergies (cost comparison worksheet, measuring practice with non-food items)",
+              "Consider nut-free, dairy-free, gluten-free recipes that work for everyone",
+              "--"
+            ]
+          }
+        },
+        "accommodations": {
+          "ell": {
+            "label": "English Language Learners",
+            "strategies": []
+          },
+          "learningDifferences": {
+            "label": "Students with Learning Differences",
+            "strategies": []
+          },
+          "advanced": {
+            "label": "Advanced Students",
+            "strategies": []
+          }
+        }
+      },
+      {
+        "chapterId": 9,
+        "activityId": "1-CH9-ACT",
+        "title": {
+          "en": "Fix-It Workshop: Repair, Restore, Reuse",
+          "es": "Fix-It Workshop: Repair, Restore, Reuse"
+        },
+        "chapterTitle": {
+          "en": "The Repair Shop",
+          "es": "El Taller de Reparaciones"
+        },
+        "topic": {
+          "en": "Problem Solving",
+          "es": "Resolver Problemas"
+        },
+        "description": {
+          "en": "Fix-It Workshop: Repair, Restore, Reuse",
+          "es": "Fix-It Workshop: Repair, Restore, Reuse"
+        },
+        "timeVersions": {
+          "20": {
+            "label": "20 Minutes",
+            "bestFor": "Tight schedules, younger students (K-1), daily scheduling Total time: 10 min story + 10 min activity = 20 minutes",
+            "breakdown": "10 min story + 10 min activity",
+            "activityName": "Fix-It Workshop: Repair, Restore, Reuse",
+            "materials": [
+              "Clear tape or scotch tape",
+              "Scissors",
+              "Optional: damaged books from classroom library"
+            ],
+            "steps": [
+              {
+                "title": "Problem Introduction (2 min)",
+                "duration": "2 min",
+                "description": "Show torn paper/book. Is this ruined? Can we fix it?"
+              },
+              {
+                "title": "Demonstration (3 min)",
+                "duration": "3 min",
+                "description": "Teacher demonstrates taping torn edge carefully on both sides"
+              },
+              {
+                "title": "Practice (4 min)",
+                "duration": "4 min",
+                "description": "Each student receives torn paper, practices taping repair"
+              },
+              {
+                "title": "Test & Reflect (1 min)",
+                "duration": "1 min",
+                "description": "Does page turn? Can you read it? Is it good enough?"
+              }
+            ],
+            "discussionQuestions": [
+              "How did Benny feel when his train broke?",
+              "What did Mr. Mason teach them to do?",
+              "Can we use this book again now that it's repaired?"
+            ],
+            "extensionIdeas": []
+          },
+          "30": {
+            "label": "30 Minutes",
+            "bestFor": "Standard class periods, grades 1-3, weekly scheduling Total time: 10 min story + 20 min activity = 30 minutes",
+            "breakdown": "10 min story + 20 min activity",
+            "activityName": "Fix-It Workshop: Repair, Restore, Reuse",
+            "materials": [
+              "Clear tape, masking tape",
+              "White glue or glue sticks",
+              "Broken crayons (can be melted/taped together)",
+              "Toys with loose parts",
+              "Markers for labeling",
+              "Before/After documentation sheets"
+            ],
+            "steps": [
+              {
+                "title": "Story Connection (3 min)",
+                "duration": "3 min",
+                "description": "Discuss Benny's broken train, Mr. Mason's solution"
+              },
+              {
+                "title": "Repair Stations Setup (2 min)",
+                "duration": "2 min",
+                "description": "- Station 1: Paper/book repair (tape)\n   - Station 2: Crayon repair (tape two halves together)\n   - Station 3: Toy repair (glue, rubber bands)"
+              },
+              {
+                "title": "Demonstration (4 min)",
+                "duration": "4 min",
+                "description": "Show one repair technique at each station"
+              },
+              {
+                "title": "Hands-On Repair (8 min)",
+                "duration": "8 min",
+                "description": "Students rotate through stations, repair 2-3 items"
+              },
+              {
+                "title": "Cost Comparison (2 min)",
+                "duration": "2 min",
+                "description": "New book costs $8. Tape costs 10¢. We saved $7.90!"
+              },
+              {
+                "title": "Celebration (1 min)",
+                "duration": "1 min",
+                "description": "Show repaired items, celebrate success"
+              }
+            ],
+            "discussionQuestions": [
+              "What was broken? How did you fix it?",
+              "How much would it cost to buy new vs. repair?",
+              "How do you feel about the item now that you fixed it?",
+              "What else at home could you repair?"
+            ],
+            "extensionIdeas": []
+          },
+          "45": {
+            "label": "45 Minutes",
+            "bestFor": "Block schedules, grades 3-4, deeper exploration Total time: 10 min story + 35 min activity = 45 minutes",
+            "breakdown": "10 min story + 35 min activity",
+            "activityName": "Fix-It Workshop: Repair, Restore, Reuse",
+            "materials": [
+              "Comprehensive repair kit:",
+              "- Clear tape, duct tape, masking tape",
+              "- White glue, super glue (adult supervision)",
+              "- Needle and thread, buttons",
+              "- Small screwdriver set",
+              "- Rubber bands, paper clips, string",
+              "Repair Assessment worksheet (printable)",
+              "Cost comparison calculator sheets",
+              "Camera/tablet for documentation"
+            ],
+            "steps": [
+              {
+                "title": "Opening Discussion (4 min)",
+                "duration": "4 min",
+                "description": "- Review Benny's story\n   - How many of you have thrown away something broken that could have been fixed?\n   - Introduce today's goal: repair items, calculate savings"
+              },
+              {
+                "title": "Item Assessment (6 min)",
+                "duration": "6 min",
+                "description": "- Each student examines their broken item\n   - Complete Repair Assessment worksheet:\n     - What's broken?\n     - What materials needed?\n     - Estimated repair time\n     - Cost to replace vs. cost to repair"
+              },
+              {
+                "title": "Repair Planning (4 min)",
+                "duration": "4 min",
+                "description": "- Match item to appropriate repair technique\n   - Gather needed materials\n   - Review safety (glue, needles, scissors)"
+              },
+              {
+                "title": "Hands-On Repair Time (15 min)",
+                "duration": "15 min",
+                "description": "- Students work on repairs with teacher/volunteer support\n   - Take before and after photos\n   - Test repaired items"
+              },
+              {
+                "title": "Cost Analysis Activity (4 min)",
+                "duration": "4 min",
+                "description": "- Calculate replacement cost (look up online or estimate)\n   - Calculate repair cost (materials used)\n   - Determine savings per item\n   - Add up class total savings"
+              },
+              {
+                "title": "Reflection & Sharing (2 min)",
+                "duration": "2 min",
+                "description": "- Students share: I repaired [item]. It would have cost $[X] to replace. I saved $[Y]!\n   - Discuss feelings: frustration → problem-solving → accomplishment"
+              }
+            ],
+            "discussionQuestions": [
+              "What was the hardest part of repairing?",
+              "Did your item turn out perfect, or 'good enough'? Is that okay?",
+              "How much money did our class save total by repairing instead of replacing?",
+              "If you repaired one item per month, how much would you save in a year?",
+              "How does repairing help the environment?",
+              "What did you learn about yourself as a 'fixer'?"
+            ],
+            "extensionIdeas": [
+              "Start classroom Repair Cafe where students help each other fix things",
+              "Research Right to Repair movement",
+              "Calculate environmental impact (items diverted from landfill)"
+            ]
+          }
+        },
+        "budgetTiers": {
+          "standard": {
+            "label": "Standard Classroom",
+            "costPerStudent": "$20-5",
+            "description": "Uses recycled and donated materials",
+            "items": [
+              "Basic repair supplies from home (tape, glue, needle/thread from teacher's supplies)",
+              "Students bring broken items from home (free)",
+              "Scrap materials for creative repairs (cardboard, string, rubber bands)",
+              "Printable worksheets (FREE PDF)",
+              "Use classroom scissors, markers",
+              "Roll of clear tape:",
+              "Glue sticks (6-pack):",
+              "Basic sewing kit (needles, thread, buttons):",
+              "**Total:"
+            ]
+          },
+          "lowCost": {
+            "label": "Low Cost Additions",
+            "costPerStudent": "$30.5-12",
+            "description": "Adds quality reusable items",
+            "items": [
+              "Basic repair toolkit for classroom",
+              "- Multiple types of tape (clear, duct, masking, double-sided)",
+              "- Various glues (white, glue sticks, wood glue)",
+              "- Small screwdriver set with multiple heads",
+              "- Scissors (multiple pairs)",
+              "- Sewing supplies (thread in multiple colors, various needles, buttons)",
+              "Printed repair guides on quality paper",
+              "I'm a Fixer! badge or sticker",
+              "Individual repair journals",
+              "Small storage container for students to keep repair supplies",
+              "Better quality repair materials that work more effectively",
+              "Students have access to wider range of repair options",
+              "Professional-looking documentation and guides",
+              "Students can take repair journal home"
+            ]
+          },
+          "premium": {
+            "label": "Premium Package",
+            "costPerStudent": "$28-45",
+            "description": "Professional-grade materials",
+            "items": [
+              "Individual student repair toolkit to keep",
+              "- Personal multi-tool or small tool set",
+              "- Comprehensive tape and glue collection",
+              "- Sewing kit with case",
+              "- Small carrying case for all tools",
+              "Professional repair manual/guide book",
+              "Junior Repair Technician certification kit",
+              "Advanced repair materials",
+              "- Fabric patches and iron-on repairs",
+              "- Wood filler and sandpaper",
+              "- Small clamps and vises",
+              "- Magnifying glass for detail work",
+              "Digital component: access to repair video library",
+              "Field trip to local repair shop or makerspace (variable cost)",
+              "Students keep complete toolkit to use at home",
+              "Access to professional repair resources",
+              "Certification program with skill badges",
+              "Connection to local repair community",
+              "Family repair night event"
+            ]
+          }
+        },
+        "tierDifferentiation": {
+          "1": {
+            "gradeLevel": "K-1",
+            "focus": [
+              "Heavy adult assistance throughout",
+              "Focus on process, not perfection",
+              "Celebrate effort: You helped fix it!",
+              "Visual step-by-step cards with pictures"
+            ]
+          },
+          "2": {
+            "gradeLevel": "1-2",
+            "focus": [
+              "Basic cost concept: Tape costs less than new book",
+              "Can follow 3-4 step repair instructions",
+              "Begin understanding cause and effect (dropped = broke)",
+              "Simple before/after documentation"
+            ]
+          },
+          "3": {
+            "gradeLevel": "2-3",
+            "focus": [
+              "Calculate simple costs and savings",
+              "Follow multi-step written instructions",
+              "Understand prevention: How could we keep this from breaking again?",
+              "Written reflection on repair process"
+            ]
+          },
+          "4": {
+            "gradeLevel": "3-4",
+            "focus": [
+              "Detailed cost analysis with actual prices",
+              "Research repair techniques independently",
+              "Design preventive maintenance plans",
+              "Write repair guides for others",
+              "Understand broader concepts (Right to Repair, planned obsolescence basics)",
+              "Visual repair guides with picture steps",
+              "Bilingual tool and material labels",
+              "Demonstrate every step before students attempt",
+              "Partner with fluent speaker",
+              "Use hands-on learning (less verbal instruction)",
+              "Choose repair tasks matching fine motor abilities",
+              "Break repairs into very small steps",
+              "Provide adaptive tools (larger grip scissors, easy-squeeze glue)",
+              "Extended time for repairs",
+              "Celebrate partial success: You got it started!",
+              "Option for group repair (multiple students work together)",
+              "Complex repairs requiring multiple steps/materials",
+              "Research repair techniques online or in books",
+              "Lead repair stations, teaching others",
+              "Calculate long-term savings and environmental impact",
+              "Design and test creative repair solutions",
+              "Start classroom Repair Cafe as service project",
+              "--"
+            ]
+          }
+        },
+        "accommodations": {
+          "ell": {
+            "label": "English Language Learners",
+            "strategies": []
+          },
+          "learningDifferences": {
+            "label": "Students with Learning Differences",
+            "strategies": []
+          },
+          "advanced": {
+            "label": "Advanced Students",
+            "strategies": []
+          }
+        }
+      },
+      {
+        "chapterId": 10,
+        "activityId": "1-CH10-ACT",
+        "title": {
+          "en": "My Library Card & Book Care Challenge",
+          "es": "My Library Card & Book Care Challenge"
+        },
+        "chapterTitle": {
+          "en": "The Library Adventure",
+          "es": "La Aventura en la Biblioteca"
+        },
+        "topic": {
+          "en": "Borrowing & Responsibility",
+          "es": "Préstamos y Responsabilidad"
+        },
+        "description": {
+          "en": "My Library Card & Book Care Challenge",
+          "es": "My Library Card & Book Care Challenge"
+        },
+        "timeVersions": {
+          "20": {
+            "label": "20 Minutes",
+            "bestFor": "Tight schedules, younger students (K-1), daily scheduling Total time: 10 min story + 10 min activity = 20 minutes",
+            "breakdown": "10 min story + 10 min activity",
+            "activityName": "My Library Card & Book Care Challenge",
+            "materials": [
+              "Markers, crayons, or colored pencils",
+              "Pencils",
+              "Pre-made template (optional)"
+            ],
+            "steps": [
+              {
+                "title": "Library Discussion (2 min)",
+                "duration": "2 min",
+                "description": "What is a library? Who has been to one? What can you do there?"
+              },
+              {
+                "title": "Card Design (5 min)",
+                "duration": "5 min",
+                "description": "Each student creates a pretend library card with their name, card number (teacher provides), simple decoration"
+              },
+              {
+                "title": "Book Care Intro (2 min)",
+                "duration": "2 min",
+                "description": "Show proper way to hold book, turn pages gently, use bookmarks (not folding!)"
+              },
+              {
+                "title": "Sharing (1 min)",
+                "duration": "1 min",
+                "description": "Students show their cards, practice saying I'd like to check out this book, please"
+              }
+            ],
+            "discussionQuestions": [
+              "What can you do at a library besides borrow books?",
+              "Why is it important to take care of library books?",
+              "What kind of book would you like to find at the library?"
+            ],
+            "extensionIdeas": []
+          },
+          "30": {
+            "label": "30 Minutes",
+            "bestFor": "Standard class periods, grades 1-3, weekly scheduling Total time: 10 min story + 20 min activity = 30 minutes",
+            "breakdown": "10 min story + 20 min activity",
+            "activityName": "My Library Card & Book Care Challenge",
+            "materials": [
+              "Markers, crayons, colored pencils",
+              "Rulers for drawing borders",
+              "Classroom books for checkout practice",
+              "Date stamp OR stickers for due date",
+              "Small containers or bags for taking books home"
+            ],
+            "steps": [
+              {
+                "title": "Library Introduction (3 min)",
+                "duration": "3 min",
+                "description": "Discuss what libraries offer (books, movies, computers, games, programs, story time—all FREE!)"
+              },
+              {
+                "title": "Card Design (8 min)",
+                "duration": "8 min",
+                "description": "Students create library cards including: name, library card number, simple personal design/decoration. Optional: laminate with clear tape"
+              },
+              {
+                "title": "Book Care Workshop (4 min)",
+                "duration": "4 min",
+                "description": "Demonstrate proper handling—two hands, gentle pages, bookmarks not folding, keeping books away from food/water"
+              },
+              {
+                "title": "Checkout Practice (4 min)",
+                "duration": "4 min",
+                "description": "Set up simple checkout desk. Students select classroom book, approach desk, present library card, librarian stamps due date, student says thank you"
+              },
+              {
+                "title": "Reflection (1 min)",
+                "duration": "1 min",
+                "description": "How does the library save families money? What will you look for at your real library?"
+              }
+            ],
+            "discussionQuestions": [
+              "What happens if library books get damaged or lost?",
+              "How can we take care of books so everyone can enjoy them?",
+              "What free programs might your library offer? (story time, crafts, computer use)"
+            ],
+            "extensionIdeas": []
+          },
+          "45": {
+            "label": "45 Minutes",
+            "bestFor": "Block schedules, grades 3-4, deeper exploration Total time: 10 min story + 35 min activity = 45 minutes",
+            "breakdown": "10 min story + 35 min activity",
+            "activityName": "My Library Card & Book Care Challenge",
+            "materials": [
+              "Laminating sheets or clear contact paper",
+              "Hole punch + yarn for lanyards (optional)",
+              "Diverse classroom books organized by category",
+              "Book care checklist handout",
+              "Checkout cards or tracking sheets",
+              "Date stamp or calendar for due dates",
+              "Librarian badge for rotating student role"
+            ],
+            "steps": [
+              {
+                "title": "Library Economics Discussion (4 min)",
+                "duration": "4 min",
+                "description": "- Create cost comparison on board: Buying 3 books = $15-25 vs. Library card = $0, Borrowing 3 books = $0\n   - Discuss how libraries are funded (community taxes so everyone has equal access)\n   - What libraries offer besides books: programs, computers, meeting rooms, free events"
+              },
+              {
+                "title": "Professional Card Creation (10 min)",
+                "duration": "10 min",
+                "description": "- Students design cards with all elements: full name, card number, date issued, personal design\n   - Laminate or cover with contact paper\n   - Optional: punch hole and add lanyard"
+              },
+              {
+                "title": "Library System Stations (15 min) - Rotate through 3 stations (5 min each)",
+                "duration": "15 min",
+                "description": "- **Station 1 - Book Care:** Practice proper handling, identifying book damage, using bookmarks, carrying books safely\n   - **Station 2 - Browsing & Selection:** Learn how books are organized (fiction/nonfiction, easy/chapter books), practice selecting books by interest\n   - **Station 3 - Checkout & Return:** Practice full process—browse, select, approach desk, present card, receive book with due date, return process"
+              },
+              {
+                "title": "Full Simulation (4 min)",
+                "duration": "4 min",
+                "description": "Students use new library cards to check out actual classroom books, following complete procedure"
+              },
+              {
+                "title": "Library Exploration Planning (2 min)",
+                "duration": "2 min",
+                "description": "Each student identifies one thing they'd look for at their real library (specific book topic, program type, etc.)"
+              }
+            ],
+            "discussionQuestions": [
+              "Why do you think communities decided to create public libraries?",
+              "What are your responsibilities as a library card holder?",
+              "Besides saving money, what other benefits do libraries provide? (learning, community gathering, internet access, etc.)",
+              "How would you teach a younger child to care for library books?"
+            ],
+            "extensionIdeas": [
+              "Virtual tour of local library website",
+              "Create book care reminder bookmarks for classmates",
+              "Write thank-you letters to school or local librarian",
+              "Track class library visits over a month",
+              "Research library history or Carnegie libraries"
+            ]
+          }
+        },
+        "budgetTiers": {
+          "standard": {
+            "label": "Standard Classroom",
+            "costPerStudent": "$0-5",
+            "description": "Uses recycled and donated materials",
+            "items": [
+              "White cardstock or heavy paper (cut to 3.5 x 2 card size)",
+              "Classroom markers, crayons, colored pencils",
+              "Ruler for drawing borders",
+              "Classroom books for checkout practice",
+              "Scrap paper for due date cards",
+              "Hand-drawn stamps or stickers (from classroom supply)",
+              "Use recycled cereal boxes for cardstock",
+              "Create templates for students to trace",
+              "Students decorate with what's available",
+              "Use existing classroom book organization system",
+              "Make lamination with clear packing tape"
+            ]
+          },
+          "lowCost": {
+            "label": "Low Cost Additions",
+            "costPerStudent": "$34-12",
+            "description": "Adds quality reusable items",
+            "items": [
+              "Colored cardstock pack",
+              "Laminating sheets or pouches",
+              "Pre-printed library card templates",
+              "Date stamp and ink pad",
+              "Book care checklist handouts (printed)",
+              "Yarn or ribbon for lanyards",
+              "Librarian badge templates",
+              "Professional-looking cards students can keep",
+              "Durable laminated materials",
+              "Realistic checkout experience with actual stamps",
+              "Quality printed resources"
+            ]
+          },
+          "premium": {
+            "label": "Premium Package",
+            "costPerStudent": "$111-45",
+            "description": "Professional-grade materials",
+            "items": [
+              "Pre-made blank library cards (plastic, printable)",
+              "Professional laminator + pouches",
+              "Clear badge holders with lanyards",
+              "Book care poster set (educational posters)",
+              "Classroom library organization kit (labels, pockets)",
+              "Bookmarks for each student",
+              "Book repair kit (clear tape, glue, supplies)",
+              "Barcode scanner simulation (toy or app)",
+              "Professional library simulation",
+              "Students keep high-quality library cards",
+              "Classroom library becomes ongoing resource",
+              "Comprehensive book care education tools"
+            ]
+          }
+        },
+        "tierDifferentiation": {
+          "1": {
+            "gradeLevel": "K-1",
+            "focus": [
+              "Focus on physical book care (gentle hands, no food/water)",
+              "Picture-based book care rules",
+              "Practice basic checkout dialogue with prompts",
+              "Identify what a library is"
+            ]
+          },
+          "2": {
+            "gradeLevel": "1-2",
+            "focus": [
+              "Understand borrowing time limits (due dates)",
+              "Practice complete checkout sentence: I'd like to check out this book, please",
+              "Begin to understand cost savings concept",
+              "Learn basic library organization (fiction/nonfiction)"
+            ]
+          },
+          "3": {
+            "gradeLevel": "2-3",
+            "focus": [
+              "Calculate simple savings (5 books × $6 = $30 saved)",
+              "Understand library as community resource funded by taxes",
+              "Practice browsing and selecting books by interest/topic",
+              "Learn about additional library services (computers, programs)"
+            ]
+          },
+          "4": {
+            "gradeLevel": "3-4",
+            "focus": [
+              "Calculate yearly family savings from library use",
+              "Understand public goods and equal access concepts",
+              "Research local library services and create presentation",
+              "Discuss equity issues (not everyone can afford to buy books)",
+              "Write persuasive piece about library value",
+              "Bilingual library vocabulary cards (library/biblioteca, book/libro, borrow/pedir prestado)",
+              "Visual step-by-step checkout procedure",
+              "Partner with fluent speaker for roleplay",
+              "Allow verbal responses instead of written for some assessments",
+              "Use pictures to show book care rules",
+              "Pre-cut card templates to exact size",
+              "Hand-over-hand support for writing name",
+              "Simplified checkout process (fewer steps)",
+              "Picture schedule for activity flow",
+              "Extended time for card decoration",
+              "Large-print book care checklist with pictures",
+              "Research history of public libraries (Andrew Carnegie, etc.)",
+              "Calculate complex savings scenarios (weekly, monthly, yearly)",
+              "Design ideal library program within budget constraints",
+              "Create new student library orientation presentation",
+              "Write book reviews or recommendations for class library",
+              "Lead station instruction for younger students",
+              "--"
+            ]
+          }
+        },
+        "accommodations": {
+          "ell": {
+            "label": "English Language Learners",
+            "strategies": []
+          },
+          "learningDifferences": {
+            "label": "Students with Learning Differences",
+            "strategies": []
+          },
+          "advanced": {
+            "label": "Advanced Students",
+            "strategies": []
+          }
+        }
+      },
+      {
+        "chapterId": 11,
+        "activityId": "1-CH11-ACT",
+        "title": {
+          "en": "Harvest, Share, & Community Gratitude Circle",
+          "es": "Harvest, Share, & Community Gratitude Circle"
+        },
+        "chapterTitle": {
+          "en": "The Giving Garden",
+          "es": "El Jardín de la Generosidad"
+        },
+        "topic": {
+          "en": "Giving & Sharing",
+          "es": "Dar y Compartir"
+        },
+        "description": {
+          "en": "Harvest, Share, & Community Gratitude Circle",
+          "es": "Harvest, Share, & Community Gratitude Circle"
+        },
+        "timeVersions": {
+          "20": {
+            "label": "20 Minutes",
+            "bestFor": "Tight schedules, younger students (K-1), daily scheduling Total time: 10 min story + 10 min activity = 20 minutes",
+            "breakdown": "10 min story + 10 min activity",
+            "activityName": "Harvest, Share, & Community Gratitude Circle",
+            "materials": [
+              "Small containers or paper plates",
+              "Paper and crayons for simple share tags"
+            ],
+            "steps": [
+              {
+                "title": "Growth Reflection (2 min)",
+                "duration": "2 min",
+                "description": "Remember when friends planted seeds in Chapter 2? Now they've grown! What do plants need to grow?"
+              },
+              {
+                "title": "Abundance Simulation (4 min)",
+                "duration": "4 min",
+                "description": "Give each student/group 10-15 paper vegetables. You only need 5 for your family. What should you do with the extra?"
+              },
+              {
+                "title": "Sharing Decision (3 min)",
+                "duration": "3 min",
+                "description": "Students decide how many to keep vs. share. Place share vegetables in community basket"
+              },
+              {
+                "title": "Quick Gratitude (1 min)",
+                "duration": "1 min",
+                "description": "How do you think neighbors feel when they receive vegetables?"
+              }
+            ],
+            "discussionQuestions": [
+              "Is it better to share extra or keep it all? Why?",
+              "How does sharing make you feel?"
+            ],
+            "extensionIdeas": []
+          },
+          "30": {
+            "label": "30 Minutes",
+            "bestFor": "Standard class periods, grades 1-3, weekly scheduling Total time: 10 min story + 20 min activity = 30 minutes",
+            "breakdown": "10 min story + 20 min activity",
+            "activityName": "Harvest, Share, & Community Gratitude Circle",
+            "materials": [
+              "Small baskets, bags, or created paper baskets",
+              "Craft supplies for decorating baskets (markers, stickers, ribbon)",
+              "Thank you for growing cards (template provided)",
+              "Chart paper for tracking"
+            ],
+            "steps": [
+              {
+                "title": "Investment Review (3 min)",
+                "duration": "3 min",
+                "description": "Discuss Chapter 2 planting. What did it cost? Seeds=$0.50, time=30 min. What did it produce? Calculate value"
+              },
+              {
+                "title": "Harvest Counting (5 min)",
+                "duration": "5 min",
+                "description": "Students receive mixed paper vegetables (tomatoes, carrots, lettuce). Count and sort by type"
+              },
+              {
+                "title": "Needs vs. Surplus (4 min)",
+                "duration": "4 min",
+                "description": "Your family needs 6 vegetables. You harvested 15. How many extra do you have? Record on chart"
+              },
+              {
+                "title": "Basket Creation (5 min)",
+                "duration": "5 min",
+                "description": "Students decorate small sharing baskets and fill with extra vegetables"
+              },
+              {
+                "title": "Gratitude Cards (2 min)",
+                "duration": "2 min",
+                "description": "Write or draw simple thank-you/sharing message: From our garden to you!"
+              },
+              {
+                "title": "Reflection (1 min)",
+                "duration": "1 min",
+                "description": "What happened when we shared? How might neighbors respond?"
+              }
+            ],
+            "discussionQuestions": [
+              "If you planted 3 seeds and each grew 8 tomatoes, how many total tomatoes?",
+              "Why did Layla suggest sharing instead of selling the vegetables?",
+              "What did neighbors share back in the story? Why?",
+              "How does sharing create community wealth instead of just one person's wealth?"
+            ],
+            "extensionIdeas": []
+          },
+          "45": {
+            "label": "45 Minutes",
+            "bestFor": "Block schedules, grades 3-4, deeper exploration Total time: 10 min story + 35 min activity = 45 minutes",
+            "breakdown": "10 min story + 35 min activity",
+            "activityName": "Harvest, Share, & Community Gratitude Circle",
+            "materials": [
+              "Baskets or bags for sharing",
+              "Decorating supplies (ribbon, markers, stickers, natural materials)",
+              "Investment tracking worksheets",
+              "Neighbor response cards (prepared by teacher)",
+              "Chart paper for economics discussion",
+              "Calculator (optional for older students)"
+            ],
+            "steps": [
+              {
+                "title": "Investment Economics Discussion (5 min)",
+                "duration": "5 min",
+                "description": "- Review Chapter 2: Friends planted seeds. What did that cost in money? In time?\n   - Calculate return: Seeds cost $0.50, produced $12 worth of vegetables. What's the return on investment?\n   - Discuss: Why is this better than just buying vegetables each week?"
+              },
+              {
+                "title": "Abundance Recognition (6 min)",
+                "duration": "6 min",
+                "description": "- Students receive harvest (15-20 mixed vegetables each/per group)\n   - Count total harvest\n   - Identify family needs (6-8 vegetables)\n   - Calculate surplus: Total - Needs = Share amount\n   - Record on tracking worksheet"
+              },
+              {
+                "title": "Sharing Decision Workshop (8 min)",
+                "duration": "8 min",
+                "description": "- Discuss options: Keep all? Share some? Share all extra?\n   - Pros/cons of each choice\n   - Decision: How many to share, with whom?\n   - Create sharing baskets with decorative elements\n   - Write personalized cards: Grown with care, shared with love - from [name]'s garden"
+              },
+              {
+                "title": "Community Reciprocity Simulation (8 min)",
+                "duration": "8 min",
+                "description": "- Students deliver baskets to designated classroom areas (representing neighbors)\n   - Teacher provides neighbor response cards showing what was shared back (eggs, baked goods, flowers, thank-you notes)\n   - Students receive responses\n   - Discuss: You gave vegetables, but received other things. How does this create community wealth?"
+              },
+              {
+                "title": "Long-Term Growth Reflection (6 min)",
+                "duration": "6 min",
+                "description": "- Timeline activity: Seeds (Ch. 2, 3 months ago) → Growth (weeks of waiting) → Harvest (today) → Sharing (creating connections)\n   - Calculate: If you save seeds from this harvest for next year, how much could you grow?\n   - Discuss abundance cycle: Share → Receive → Gratitude → Want to share more"
+              },
+              {
+                "title": "Gratitude Circle (2 min)",
+                "duration": "2 min",
+                "description": "Each student shares one thing they're grateful for about growth or sharing"
+              }
+            ],
+            "discussionQuestions": [
+              "What's the difference between abundance mentality ('enough for everyone') and scarcity mentality ('not enough, must hoard')?",
+              "In the story, when friends shared vegetables, neighbors shared other things. How does this create more wealth than money alone?",
+              "Why might sharing extra be smarter than trying to sell everything?",
+              "How does waiting 3 months for a harvest teach delayed gratification?"
+            ],
+            "extensionIdeas": [
+              "Track actual classroom/school garden from seed to harvest",
+              "Research food banks and community sharing programs",
+              "Calculate savings: homegrown vegetables vs. store-bought over a year",
+              "Create abundance mindset vs. scarcity mindset comparison chart",
+              "Write persuasive letter about community gardens"
+            ]
+          }
+        },
+        "budgetTiers": {
+          "standard": {
+            "label": "Standard Classroom",
+            "costPerStudent": "$0-5",
+            "description": "Uses recycled and donated materials",
+            "items": [
+              "Colored construction paper for making paper vegetables",
+              "Scissors, glue, crayons (classroom supplies)",
+              "Recycled containers for baskets (shoeboxes, small cardboard boxes, paper bags)",
+              "Scrap paper for cards and labels",
+              "Natural decorations (leaves, twigs if available)",
+              "Draw vegetables instead of cutting shapes",
+              "Use magazine pictures of vegetables glued to cardstock",
+              "Create simple envelope-style baskets from folded paper",
+              "Hand-draw decorations instead of printed materials",
+              "Use actual small harvest if school/class garden exists (totally free!)"
+            ]
+          },
+          "lowCost": {
+            "label": "Low Cost Additions",
+            "costPerStudent": "$22-12",
+            "description": "Adds quality reusable items",
+            "items": [
+              "Pre-cut felt vegetables (multiple types)",
+              "Small woven or wicker baskets",
+              "Printed card templates with garden designs",
+              "Decorative ribbon and raffia",
+              "Stickers and stamps with garden themes",
+              "Chart paper and markers for group tracking",
+              "Professional-looking baskets students can keep or gift",
+              "Durable felt vegetables for ongoing play/learning",
+              "Quality printed materials",
+              "More realistic harvest simulation"
+            ]
+          },
+          "premium": {
+            "label": "Premium Package",
+            "costPerStudent": "$53-45",
+            "description": "Professional-grade materials",
+            "items": [
+              "Complete realistic vegetable set (plastic/felt, variety of types)",
+              "Quality gift baskets with handles",
+              "Pre-printed garden cards with envelopes",
+              "Decorating kit (ribbons, natural twine, decorative elements)",
+              "Investment tracking journals with garden theme",
+              "Garden economics poster set for classroom",
+              "Seeds for actual planting if garden available",
+              "Ultra-realistic harvest simulation",
+              "Students keep all materials for home use",
+              "Potential for actual garden-to-table experience",
+              "Professional educational materials",
+              "Complete investment-to-harvest learning cycle"
+            ]
+          }
+        },
+        "tierDifferentiation": {
+          "1": {
+            "gradeLevel": "K-1",
+            "focus": [
+              "Binary choice: keep or share",
+              "Focus on feelings about giving",
+              "Picture-based cards",
+              "Simple concept: When you plant, things grow"
+            ]
+          },
+          "2": {
+            "gradeLevel": "1-2",
+            "focus": [
+              "Sorting vegetables by type",
+              "Understanding extra concept",
+              "Writing simple thank-you messages",
+              "Beginning investment idea: Seeds cost little, grew into more"
+            ]
+          },
+          "3": {
+            "gradeLevel": "2-3",
+            "focus": [
+              "Calculate specific return on investment",
+              "Understand reciprocity (give and receive)",
+              "Create detailed gratitude messages",
+              "Connect actions from 3 months ago to results today"
+            ]
+          },
+          "4": {
+            "gradeLevel": "3-4",
+            "focus": [
+              "Compare abundance vs. scarcity mindsets analytically",
+              "Research community sharing programs",
+              "Write persuasive arguments for community gardens",
+              "Understand compound growth (save seeds = more next year)",
+              "Bilingual garden vocabulary cards (plant/planta, share/compartir, harvest/cosecha)",
+              "Visual step-by-step process (plant → grow → harvest → share)",
+              "Partner with fluent speaker for discussions",
+              "Use actual objects/pictures extensively",
+              "Sentence frames: I planted ___. It grew ___. I will share ___.",
+              "Pre-cut vegetable shapes",
+              "Hand-over-hand support for basket creation",
+              "Simplified tracking (pictures instead of numbers)",
+              "Extended time for all activities",
+              "Use of manipulatives before abstract concepts",
+              "Visual schedule showing activity flow",
+              "Calculate complex scenarios (multiple harvests, seed saving, year-over-year growth)",
+              "Research historical examples of community sharing (Victory Gardens, food cooperatives)",
+              "Design community garden program with budget",
+              "Create business plan: selling vs. sharing economics",
+              "Explore philosophical concepts of wealth beyond money",
+              "--"
+            ]
+          }
+        },
+        "accommodations": {
+          "ell": {
+            "label": "English Language Learners",
+            "strategies": []
+          },
+          "learningDifferences": {
+            "label": "Students with Learning Differences",
+            "strategies": []
+          },
+          "advanced": {
+            "label": "Advanced Students",
+            "strategies": []
+          }
+        }
+      },
+      {
+        "chapterId": 12,
+        "activityId": "1-CH12-ACT",
+        "title": {
+          "en": "My Season 1 Treasure Exhibition & Reflection Celebration",
+          "es": "My Season 1 Treasure Exhibition & Reflection Celebration"
+        },
+        "chapterTitle": {
+          "en": "Celebrating Success",
+          "es": "La Exhibición del Tesoro"
+        },
+        "topic": {
+          "en": "Celebrating Success",
+          "es": "Celebrando el Éxito"
+        },
+        "description": {
+          "en": "My Season 1 Treasure Exhibition & Reflection Celebration",
+          "es": "My Season 1 Treasure Exhibition & Reflection Celebration"
+        },
+        "timeVersions": {
+          "20": {
+            "label": "20 Minutes",
+            "bestFor": "Tight schedules, younger students (K-1), daily scheduling Total time: 10 min story + 10 min activity = 20 minutes",
+            "breakdown": "10 min story + 10 min activity",
+            "activityName": "My Season 1 Treasure Exhibition & Reflection Celebration",
+            "materials": [
+              "Chart paper or whiteboard",
+              "Markers",
+              "Optional: student work from previous chapters"
+            ],
+            "steps": [
+              {
+                "title": "Chapter Review (3 min)",
+                "duration": "3 min",
+                "description": "Teacher quickly names all 12 chapters. Which was your favorite? Why?"
+              },
+              {
+                "title": "Treasure Identification (4 min)",
+                "duration": "4 min",
+                "description": "Students share one treasure they found/made/learned this season"
+              },
+              {
+                "title": "Drawing (2 min)",
+                "duration": "2 min",
+                "description": "Each student draws favorite treasure on small paper"
+              },
+              {
+                "title": "Celebration (1 min)",
+                "duration": "1 min",
+                "description": "We found so many treasures without spending money! We are treasure hunters!"
+              }
+            ],
+            "discussionQuestions": [
+              "What treasure did you find, make, or learn about?",
+              "Which chapter was your favorite?",
+              "What will you remember most?"
+            ],
+            "extensionIdeas": []
+          },
+          "30": {
+            "label": "30 Minutes",
+            "bestFor": "Standard class periods, grades 1-3, weekly scheduling Total time: 10 min story + 20 min activity = 30 minutes",
+            "breakdown": "10 min story + 20 min activity",
+            "activityName": "My Season 1 Treasure Exhibition & Reflection Celebration",
+            "materials": [
+              "Markers, crayons, colored pencils",
+              "Samples of student work from Season 1 chapters (if available)",
+              "Glue sticks or tape",
+              "Small labels or sticky notes"
+            ],
+            "steps": [
+              {
+                "title": "Season Review (4 min)",
+                "duration": "4 min",
+                "description": "Review all 12 chapters with visual prompts. Students identify what they learned in each"
+              },
+              {
+                "title": "Treasure Selection (4 min)",
+                "duration": "4 min",
+                "description": "Each student selects 3-5 treasures (learnings, creations, memories) to showcase"
+              },
+              {
+                "title": "Poster Creation (9 min)",
+                "duration": "9 min",
+                "description": "- Divide poster into sections (Ch. 1: Nature, Ch. 2: Seeds, Ch. 3: Trading, etc.)\n   - Students draw/write/attach work representing their treasures\n   - Label each treasure with chapter number and title"
+              },
+              {
+                "title": "Gallery Walk (2 min)",
+                "duration": "2 min",
+                "description": "Students display posters, walk around to see classmates' treasures"
+              },
+              {
+                "title": "Reflection (1 min)",
+                "duration": "1 min",
+                "description": "What did we learn about finding treasures without buying them?"
+              }
+            ],
+            "discussionQuestions": [
+              "How did we save money this season? (repairing, growing food, borrowing from library, trading)",
+              "What treasure are you most proud of?",
+              "What will you keep doing after this season ends?"
+            ],
+            "extensionIdeas": []
+          },
+          "45": {
+            "label": "45 Minutes",
+            "bestFor": "Block schedules, grades 3-4, deeper exploration, culminating celebration Total time: 10 min story + 35 min activity = 45 minutes",
+            "breakdown": "10 min story + 35 min activity",
+            "activityName": "My Season 1 Treasure Exhibition & Reflection Celebration",
+            "materials": [
+              "Student work from all Season 1 chapters",
+              "Poster board, construction paper, cardstock",
+              "Markers, colored pencils, decorative supplies",
+              "Labels and chapter signs (Ch. 1 - Secret Garden, Ch. 2 - Seed Library, etc.)",
+              "Treasure Exhibition banner or sign",
+              "Optional: actual items (repaired objects, nature collections, art, plants)",
+              "Reflection worksheet (printable)",
+              "Certificates of completion (printable)"
+            ],
+            "steps": [
+              {
+                "title": "Opening Reflection (5 min)",
+                "duration": "5 min",
+                "description": "- Review Season 1 journey: all 12 chapters and themes\n   - Discussion: What does 'treasure' mean? Is it only things you buy?\n   - Introduce exhibition goal: Showcase our treasures to celebrate learning"
+              },
+              {
+                "title": "Exhibition Categories Setup (3 min)",
+                "duration": "3 min",
+                "description": "- Assign exhibition booths or sections:\n     - **Found Treasures:** Ch. 1 nature collections, Ch. 4 creek discoveries\n     - **Grown Treasures:** Ch. 2 seeds, Ch. 11 harvest, Ch. 8 food from garden\n     - **Made Treasures:** Ch. 5 Riley's art, Ch. 7 fort blueprints\n     - **Fixed Treasures:** Ch. 9 repaired items\n     - **Shared Treasures:** Ch. 3 trading post, Ch. 11 community baskets\n     - **Free Treasures:** Ch. 6 penny hunt savings, Ch. 10 library cards"
+              },
+              {
+                "title": "Organizing Displays (10 min)",
+                "duration": "10 min",
+                "description": "- Small groups work on one category booth\n   - Arrange student work, label with chapter titles\n   - Create simple signs explaining what was learned\n   - Add visual appeal (borders, decorations)"
+              },
+              {
+                "title": "Individual Reflection Worksheet (7 min)",
+                "duration": "7 min",
+                "description": "- Students complete My Season 1 Treasures reflection:\n     - Favorite chapter and why\n     - One thing I found, made, grew, fixed, or shared\n     - One FL lesson I'll remember\n     - Money saved this season (estimate from activities)\n     - One treasure I'll continue finding/making"
+              },
+              {
+                "title": "Exhibition Presentations (8 min)",
+                "duration": "8 min",
+                "description": "- Small groups present their booth (1 min each)\n   - Explain what students learned and created in those chapters\n   - Share specific examples of treasures"
+              },
+              {
+                "title": "Celebration & Certificates (2 min)",
+                "duration": "2 min",
+                "description": "- Teacher presents certificates: Treasure Hunter - Season 1 Complete!\n   - Class celebration: We found amazing treasures without spending lots of money!\n   - Preview Season 2 (if applicable)"
+              }
+            ],
+            "discussionQuestions": [
+              "What treasure from Season 1 surprised you the most?",
+              "How much money did we save total across all chapters by finding, making, repairing, and borrowing instead of buying?",
+              "What skills did you learn that will help you find treasures in the future?",
+              "How is a 'treasure hunter' different from a 'shopper'?",
+              "What treasure will you look for next?"
+            ],
+            "extensionIdeas": [
+              "Create digital photo exhibition to share with families",
+              "Write letters to next year's students about treasure hunting",
+              "Plan first Season 2 treasure hunt"
+            ]
+          }
+        },
+        "budgetTiers": {
+          "standard": {
+            "label": "Standard Classroom",
+            "costPerStudent": "$2-5",
+            "description": "Uses recycled and donated materials",
+            "items": [
+              "Student work already created throughout Season 1 (zero additional cost)",
+              "Scrap paper or back of used paper for reflection activities",
+              "Classroom markers, crayons, pencils (already available)",
+              "Free printable certificates (PDF template)",
+              "Recycled cardboard or paper for signs",
+              "Classroom display space (bulletin boards, tables)",
+              "Poster board from classroom supplies",
+              "Sticky notes for labels",
+              "Decorative materials from scrap bin (ribbon, colored paper scraps)"
+            ]
+          },
+          "lowCost": {
+            "label": "Low Cost Additions",
+            "costPerStudent": "$28-12",
+            "description": "Adds quality reusable items",
+            "items": [
+              "Quality poster board for each student",
+              "Professional certificates printed on quality paper",
+              "Decorative supplies for exhibition (stickers, borders, colored markers)",
+              "Individual reflection journals or booklets",
+              "Display stands or easels (classroom set, reusable)",
+              "Treasure Hunter badges or stickers",
+              "Professional-looking exhibition displays",
+              "Students keep reflection journals",
+              "Badges or certificates students can display at home",
+              "More organized and visually appealing presentation"
+            ]
+          },
+          "premium": {
+            "label": "Premium Package",
+            "costPerStudent": "$82-45",
+            "description": "Professional-grade materials",
+            "items": [
+              "Professional display boards or tri-fold presentation boards",
+              "Bound reflection journal or scrapbook for Season 1",
+              "Framed certificates",
+              "Professional exhibition supplies (display stands, tablecloths, signage)",
+              "Photography/documentation",
+              "Celebration supplies (decorations, light refreshments for family event)",
+              "Season 2 preview materials or treasure hunt starter kit",
+              "Museum-quality exhibition with professional displays",
+              "Family celebration event with refreshments",
+              "Bound keepsake scrapbooks students keep forever",
+              "Framed certificates suitable for display",
+              "Photo documentation of entire Season 1 journey",
+              "Season 2 treasure hunt kit to continue learning at home"
+            ]
+          }
+        },
+        "tierDifferentiation": {
+          "1": {
+            "gradeLevel": "K-1",
+            "focus": [
+              "Verbal sharing instead of written reflection",
+              "Simple sorting of work into categories (nature, art, food)",
+              "Heavy adult support in organizing display",
+              "Celebrate participation: You found treasures!"
+            ]
+          },
+          "2": {
+            "gradeLevel": "1-2",
+            "focus": [
+              "Basic organizational skills (grouping similar items)",
+              "Can present verbally with prompts",
+              "Begin understanding season-long arc",
+              "Recognize money saved in simple terms"
+            ]
+          },
+          "3": {
+            "gradeLevel": "2-3",
+            "focus": [
+              "Detailed reflections for multiple chapters",
+              "Organize exhibition independently with peers",
+              "Present booth with explanations",
+              "Calculate approximate money saved",
+              "Written goals for future treasure hunting"
+            ]
+          },
+          "4": {
+            "gradeLevel": "3-4",
+            "focus": [
+              "Lead exhibition booth, teaching others",
+              "Calculate detailed savings across all chapters",
+              "Analyze themes and patterns across Season 1",
+              "Write persuasive piece: Why Treasure Hunting is Better Than Shopping",
+              "Set specific goals for Season 2",
+              "Visual exhibition focus (less writing, more showing)",
+              "Bilingual labels if possible",
+              "Partner with fluent speaker for presentation",
+              "Use gestures and objects to communicate",
+              "Celebrate non-verbal treasures (art, repairs, collections)",
+              "Choose reflection format matching strengths (drawing, verbal, minimal writing)",
+              "Provide pre-made sentence starters for reflection",
+              "Allow group presentations instead of solo",
+              "Extended time for organizing and presenting",
+              "Celebrate any form of participation",
+              "Comprehensive Season 1 analysis with themes and connections",
+              "Calculate total financial savings with detailed breakdown",
+              "Research and present on related topics (minimalism, sustainability, Right to Repair)",
+              "Design Season 2 treasure hunt activities",
+              "Create multimedia presentation (video, slideshow, website)",
+              "--"
+            ]
+          }
+        },
+        "accommodations": {
+          "ell": {
+            "label": "English Language Learners",
+            "strategies": []
+          },
+          "learningDifferences": {
+            "label": "Students with Learning Differences",
+            "strategies": []
+          },
+          "advanced": {
+            "label": "Advanced Students",
+            "strategies": []
+          }
+        }
+      }
+    ]
+  }

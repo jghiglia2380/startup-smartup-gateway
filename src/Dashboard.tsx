@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Play, FileText, CheckCircle2, Globe, BookOpen, ArrowLeft } from 'lucide-react';
+import { Play, FileText, Scissors, Globe, BookOpen, ArrowLeft, ChevronDown } from 'lucide-react';
+import ActivityDetail from './ActivityDetail';
 
 interface DashboardProps {
   onBack?: () => void;
@@ -25,9 +26,39 @@ interface Tier {
   description: string;
 }
 
+interface Season {
+  id: number;
+  en: string;
+  es: string;
+}
+
 // --- DATA CONFIGURATION ---
 
-// The 12 Chapters with Bilingual Topics (titles are in thumbnails)
+// Seasons
+const seasons: Season[] = [
+  { id: 1, en: "Adventures in Discovery", es: "Aventuras en Descubrimiento" },
+  { id: 2, en: "Journey to Wonder", es: "Viaje a la Maravilla" },
+  { id: 3, en: "Makers and Creators", es: "Creadores e Inventores" },
+  { id: 4, en: "Community and Legacy", es: "Comunidad y Legado" }
+];
+
+// Video durations by chapter and tier [tier1, tier2, tier3, tier4]
+const videoDurations: { [key: number]: string[] } = {
+  1: ["8:33", "8:34", "8:45", "9:40"],
+  2: ["8:49", "9:58", "9:01", "9:53"],
+  3: ["10:22", "9:18", "10:27", "11:29"],
+  4: ["10:15", "8:41", "9:17", "10:54"],
+  5: ["8:58", "9:29", "9:15", "10:30"],
+  6: ["8:31", "8:50", "9:27", "9:42"],
+  7: ["9:16", "9:27", "9:45", "10:11"],
+  8: ["8:51", "9:08", "8:27", "9:02"],
+  9: ["10:16", "9:34", "8:26", "8:42"],
+  10: ["9:03", "8:34", "9:28", "9:00"],
+  11: ["10:43", "8:43", "7:07", "8:55"],
+  12: ["9:27", "9:43", "7:04", "8:53"]
+};
+
+// The 12 Chapters with Bilingual Topics
 const chapterData: Chapter[] = [
   { id: 1, en: "Understanding Money", es: "Entendiendo el Dinero" },
   { id: 2, en: "Earning and Spending", es: "Ganar y Gastar" },
@@ -93,7 +124,10 @@ const tiers: Tier[] = [
 
 export default function ExploreDashboard({ onBack }: DashboardProps) {
   const [activeTier, setActiveTier] = useState<Tier>(tiers[0]);
+  const [activeSeason, setActiveSeason] = useState<Season>(seasons[0]);
+  const [seasonDropdownOpen, setSeasonDropdownOpen] = useState(false);
   const [lang, setLang] = useState<'en' | 'es'>('en');
+  const [activeActivity, setActiveActivity] = useState<number | null>(null);
 
   // Smart image URL generator
   const getThumbnailUrl = (chapterId: number): string => {
@@ -102,21 +136,45 @@ export default function ExploreDashboard({ onBack }: DashboardProps) {
     return `https://raw.githubusercontent.com/jghiglia2380/project-explore-thumbnails/main/${folder}/Tier%20${activeTier.id}/Ch-${paddedChapter}-t${activeTier.id}.jpeg`;
   };
 
+  // Get duration for current chapter and tier
+  const getDuration = (chapterId: number): string => {
+    return videoDurations[chapterId]?.[activeTier.id - 1] || "—";
+  };
+
+  // If viewing an activity, show ActivityDetail instead
+  if (activeActivity !== null) {
+    return (
+      <ActivityDetail
+        chapterId={activeActivity}
+        tierId={activeTier.id}
+        lang={lang}
+        onBack={() => setActiveActivity(null)}
+      />
+    );
+  }
+
   return (
     <div className={`min-h-screen bg-gradient-to-br ${activeTier.gradient} font-sans text-slate-900 transition-colors duration-500`}>
 
-      {/* HEADER - Matches Gateway Brand Style */}
-      <header className="sticky top-0 z-30 bg-slate-950/95 backdrop-blur-md border-b border-white/10 shadow-lg">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 py-4">
+      {/* HEADER - With Creek Background */}
+      <header 
+        className="sticky top-0 z-30 backdrop-blur-md border-b border-white/10 shadow-lg"
+        style={{
+          backgroundImage: 'linear-gradient(rgba(15, 23, 42, 0.3), rgba(15, 23, 42, 0.6)), url("/startup-smartup-gateway/Creek.jpeg")',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center'
+        }}
+      >
+        <div className="max-w-full mx-auto px-4 sm:px-8 py-4">
 
-          {/* Top Row: Brand + Language Toggle */}
+          {/* Top Row: Brand + Season Dropdown + Language Toggle */}
           <div className="flex justify-between items-center mb-4">
-            {/* Brand - Child of Gateway */}
+            {/* Brand + Season Selector */}
             <div className="flex items-center gap-3">
               {onBack && (
                 <button
                   onClick={onBack}
-                  className="p-2 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 hover:border-slate-600 transition-colors"
+                  className="p-2 rounded-xl bg-slate-800/50 hover:bg-slate-700/50 border border-slate-700 hover:border-slate-600 transition-colors"
                   aria-label="Back to Gateway"
                 >
                   <ArrowLeft className="w-5 h-5 text-slate-300" />
@@ -126,19 +184,55 @@ export default function ExploreDashboard({ onBack }: DashboardProps) {
                 <BookOpen className="w-5 h-5 text-white" />
               </div>
               <div>
-                <p className="text-[10px] uppercase tracking-[0.2em] text-slate-400 font-medium">
+                <p className="text-[10px] uppercase tracking-[0.2em] text-slate-300 font-medium">
                   Startup Smartup
                 </p>
                 <h1 className="text-lg sm:text-xl font-black tracking-tight text-white uppercase">
                   Project <span className={activeTier.accent}>Explore</span>
                 </h1>
               </div>
+
+              {/* Season Dropdown */}
+              <div className="relative ml-4">
+                <button
+                  onClick={() => setSeasonDropdownOpen(!seasonDropdownOpen)}
+                  className="flex items-center gap-2 px-3 py-2 bg-slate-800/50 rounded-lg border border-slate-700 hover:border-slate-600 transition-colors text-sm text-white"
+                >
+                  <span className="hidden sm:inline text-slate-400">Season 1:</span>
+                  <span className="font-semibold">{activeSeason[lang]}</span>
+                  <ChevronDown size={16} className={`transition-transform ${seasonDropdownOpen ? 'rotate-180' : ''}`} />
+                </button>
+                
+                {seasonDropdownOpen && (
+                  <div className="absolute top-full left-0 mt-2 w-64 bg-slate-900 border border-slate-700 rounded-xl shadow-xl overflow-hidden z-50">
+                    {seasons.map((season) => (
+                      <button
+                        key={season.id}
+                        onClick={() => {
+                          setActiveSeason(season);
+                          setSeasonDropdownOpen(false);
+                        }}
+                        disabled={season.id !== 1}
+                        className={`w-full px-4 py-3 text-left text-sm transition-colors ${
+                          season.id === activeSeason.id 
+                            ? 'bg-emerald-600 text-white' 
+                            : season.id === 1 
+                              ? 'text-white hover:bg-slate-800' 
+                              : 'text-slate-500 cursor-not-allowed'
+                        }`}
+                      >
+                        <span className="font-semibold">Season {season.id}:</span> {season[lang]}
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </div>
             </div>
 
             {/* Language Toggle */}
             <button
               onClick={() => setLang(lang === 'en' ? 'es' : 'en')}
-              className="flex items-center gap-1 font-bold text-xs bg-slate-800 p-1 rounded-lg border border-slate-700 hover:border-slate-600 transition-colors"
+              className="flex items-center gap-1 font-bold text-xs bg-slate-800/50 p-1 rounded-lg border border-slate-700 hover:border-slate-600 transition-colors"
               aria-label={lang === 'en' ? 'Switch to Spanish' : 'Cambiar a Inglés'}
             >
               <span className={`px-3 py-1.5 rounded transition-all ${lang === 'en' ? 'bg-white text-slate-900 shadow-sm' : 'text-slate-400'}`}>
@@ -195,10 +289,10 @@ export default function ExploreDashboard({ onBack }: DashboardProps) {
       </header>
 
       {/* VIDEO GRID */}
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 py-6 sm:py-8">
+      <main className="max-w-full mx-auto px-4 sm:px-8 py-4">
         <motion.div
           layout
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6"
+          className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"
         >
           <AnimatePresence mode="popLayout">
             {chapterData.map((chapter) => (
@@ -209,7 +303,7 @@ export default function ExploreDashboard({ onBack }: DashboardProps) {
                 animate={{ opacity: 1, scale: 1, y: 0 }}
                 exit={{ opacity: 0, scale: 0.95, y: -10 }}
                 transition={{ duration: 0.25, ease: "easeOut" }}
-                className="group relative bg-white rounded-3xl shadow-md hover:shadow-2xl transition-all duration-300 border border-slate-200/80 overflow-hidden"
+                className="group relative bg-white rounded-2xl shadow-md hover:shadow-2xl transition-all duration-300 border border-slate-200/80 overflow-hidden"
               >
                 {/* Thumbnail Area */}
                 <div className="aspect-video bg-slate-100 relative overflow-hidden">
@@ -227,54 +321,56 @@ export default function ExploreDashboard({ onBack }: DashboardProps) {
                   />
 
                   {/* Chapter Badge */}
-                  <div className={`absolute top-3 left-3 ${activeTier.themeDark} text-white text-xs font-black px-2.5 py-1 rounded-lg shadow-md`}>
+                  <div className={`absolute top-2 left-2 ${activeTier.themeDark} text-white text-xs font-black px-2 py-1 rounded-lg shadow-md`}>
                     {lang === 'en' ? 'CH' : 'CAP'} {chapter.id}
                   </div>
 
-                  {/* Play Overlay - Always Visible for Touch/Smart Board, Enhanced on Hover for Mouse */}
+                  {/* Duration Badge */}
+                  <div className="absolute bottom-2 right-2 bg-black/70 text-white text-xs font-semibold px-2 py-1 rounded-md">
+                    {getDuration(chapter.id)}
+                  </div>
+
+                  {/* Play Overlay */}
                   <button
                     className="absolute inset-0 flex items-center justify-center bg-black/20 [@media(hover:hover)]:bg-black/0 [@media(hover:hover)]:group-hover:bg-black/30 transition-colors duration-300"
                     aria-label={lang === 'en' ? `Play ${chapter.en}` : `Ver ${chapter.es}`}
                   >
                     <div className={`
-                      w-16 h-16 bg-white/90 rounded-full flex items-center justify-center shadow-2xl
+                      w-14 h-14 bg-white/90 rounded-full flex items-center justify-center shadow-2xl
                       opacity-80 scale-100
                       [@media(hover:hover)]:opacity-70
                       [@media(hover:hover)]:group-hover:opacity-100
                       [@media(hover:hover)]:group-hover:scale-110
                       transition-all duration-300
                     `}>
-                      <Play className={`w-7 h-7 ${activeTier.accent} ml-1`} fill="currentColor" />
+                      <Play className={`w-6 h-6 ${activeTier.accent} ml-1`} fill="currentColor" />
                     </div>
                   </button>
                 </div>
 
                 {/* Card Body */}
-                <div className="p-4 sm:p-5">
-                  <h3 className="font-bold text-base sm:text-lg leading-tight mb-3 text-slate-800 line-clamp-2 min-h-[2.5rem] sm:min-h-[3rem]">
+                <div className="p-3">
+                  <h3 className="font-bold text-sm leading-tight mb-2 text-slate-800 line-clamp-1">
                     {chapter[lang]}
                   </h3>
 
                   {/* Action Buttons */}
                   <div className="flex gap-2">
                     <button
-                      className={`flex-1 flex items-center justify-center gap-2 min-h-[48px] py-3 rounded-xl text-white font-bold text-sm shadow-md transition-all ${activeTier.button}`}
+                      className={`flex-1 flex items-center justify-center gap-1 py-2 rounded-lg text-white font-bold text-xs shadow-md transition-all ${activeTier.button}`}
                       aria-label={lang === 'en' ? `Play ${chapter.en}` : `Ver ${chapter.es}`}
                     >
-                      <Play size={16} fill="currentColor" />
+                      <Play size={14} fill="currentColor" />
                       {lang === 'en' ? 'Play' : 'Ver'}
+                    
+                      <FileText size={16} />
                     </button>
                     <button
-                      className="min-h-[48px] min-w-[48px] flex items-center justify-center border-2 border-slate-200 rounded-xl hover:bg-slate-50 hover:border-slate-300 text-slate-400 hover:text-blue-600 transition-all"
-                      aria-label={lang === 'en' ? 'View worksheet' : 'Ver hoja de trabajo'}
+                      onClick={() => setActiveActivity(chapter.id)}
+                      className="p-2 flex items-center justify-center border-2 border-slate-200 rounded-lg hover:bg-slate-50 hover:border-slate-300 text-slate-400 hover:text-purple-600 transition-all"
+                      aria-label={lang === 'en' ? 'View activity' : 'Ver actividad'}
                     >
-                      <FileText size={18} />
-                    </button>
-                    <button
-                      className="min-h-[48px] min-w-[48px] flex items-center justify-center border-2 border-slate-200 rounded-xl hover:bg-slate-50 hover:border-slate-300 text-slate-400 hover:text-emerald-600 transition-all"
-                      aria-label={lang === 'en' ? 'Mark complete' : 'Marcar completado'}
-                    >
-                      <CheckCircle2 size={18} />
+                      <Scissors size={16} />
                     </button>
                   </div>
                 </div>
@@ -282,16 +378,6 @@ export default function ExploreDashboard({ onBack }: DashboardProps) {
             ))}
           </AnimatePresence>
         </motion.div>
-
-        {/* Footer Note */}
-        <div className="mt-12 text-center text-sm text-slate-400">
-          <p>
-            {lang === 'en'
-              ? `Showing all 12 chapters for ${activeTier.label} (Grades ${activeTier.grades})`
-              : `Mostrando los 12 capítulos para ${activeTier.label} (Grados ${activeTier.grades})`
-            }
-          </p>
-        </div>
       </main>
     </div>
   );
