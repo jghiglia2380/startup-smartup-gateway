@@ -27,20 +27,20 @@ interface Tier {
 
 // --- DATA CONFIGURATION ---
 
-// The 12 Chapters with Bilingual Titles
+// The 12 Chapters with Bilingual Topics (titles are in thumbnails)
 const chapterData: Chapter[] = [
-  { id: 1, en: "Secret Garden", es: "El Jardín Secreto" },
-  { id: 2, en: "The Seed Library", es: "La Biblioteca de Semillas" },
-  { id: 3, en: "The Trading Post", es: "El Puesto de Intercambio" },
-  { id: 4, en: "The Creek Explorers", es: "Los Exploradores del Arroyo" },
-  { id: 5, en: "Riley's Art Stand", es: "El Puesto de Arte de Riley" },
-  { id: 6, en: "The Penny Hunt", es: "La Búsqueda del Centavo" },
-  { id: 7, en: "The Secret Fort", es: "El Fuerte Secreto" },
-  { id: 8, en: "Frances's Recipe Box", es: "La Caja de Recetas de Frances" },
-  { id: 9, en: "The Repair Shop", es: "El Taller de Reparaciones" },
-  { id: 10, en: "The Library Adventure", es: "La Aventura en la Biblioteca" },
-  { id: 11, en: "The Giving Garden", es: "El Jardín Generoso" },
-  { id: 12, en: "The Treasure Exhibition", es: "La Exhibición de Tesoros" }
+  { id: 1, en: "Understanding Money", es: "Entendiendo el Dinero" },
+  { id: 2, en: "Earning and Spending", es: "Ganar y Gastar" },
+  { id: 3, en: "Setting Goals", es: "Establecer Metas" },
+  { id: 4, en: "Making Choices", es: "Tomar Decisiones" },
+  { id: 5, en: "Saving Strategies", es: "Estrategias de Ahorro" },
+  { id: 6, en: "Counting Coins", es: "Contando Monedas" },
+  { id: 7, en: "Planning Ahead", es: "Planificar con Anticipación" },
+  { id: 8, en: "Following Instructions", es: "Seguir Instrucciones" },
+  { id: 9, en: "Problem Solving", es: "Resolver Problemas" },
+  { id: 10, en: "Borrowing & Responsibility", es: "Préstamos y Responsabilidad" },
+  { id: 11, en: "Giving & Sharing", es: "Dar y Compartir" },
+  { id: 12, en: "Celebrating Success", es: "Celebrando el Éxito" }
 ];
 
 // The 4 Grade Tiers with brand-aligned colors
