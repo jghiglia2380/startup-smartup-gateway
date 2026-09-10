@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { getChapterLabel, getThumbnailUrl } from './episodes';
 import {
   ArrowLeft,
   BookOpen,
@@ -21,6 +22,7 @@ import {
 
 interface DaytimeInstructionProps {
   chapterId: number;
+  season: number;
   tierId: number;
   lang: 'en' | 'es';
   onBack: () => void;
@@ -47,24 +49,11 @@ interface DocumentCardProps {
   colors: TierColors;
 }
 
-// Chapter data
-const chapterData = [
-  { id: 1, en: "Understanding Money", es: "Entendiendo el Dinero" },
-  { id: 2, en: "Earning and Spending", es: "Ganar y Gastar" },
-  { id: 3, en: "Setting Goals", es: "Establecer Metas" },
-  { id: 4, en: "Making Choices", es: "Tomar Decisiones" },
-  { id: 5, en: "Saving Strategies", es: "Estrategias de Ahorro" },
-  { id: 6, en: "Counting Coins", es: "Contando Monedas" },
-  { id: 7, en: "Planning Ahead", es: "Planificar con Anticipación" },
-  { id: 8, en: "Following Instructions", es: "Seguir Instrucciones" },
-  { id: 9, en: "Problem Solving", es: "Resolver Problemas" },
-  { id: 10, en: "Borrowing & Responsibility", es: "Préstamos y Responsabilidad" },
-  { id: 11, en: "Giving & Sharing", es: "Dar y Compartir" },
-  { id: 12, en: "Celebrating Success", es: "Celebrando el Éxito" }
-];
-
-const seasons = [
-  { id: 1, en: "Adventures in Discovery", es: "Aventuras en Descubrimiento" }
+const seasons: { id: number; en: string; es: string }[] = [
+  { id: 1, en: "Adventures in Discovery", es: "Aventuras en Descubrimiento" },
+  { id: 2, en: "Journey to Wonder", es: "Viaje a la Maravilla" },
+  { id: 3, en: "Makers and Creators", es: "Creadores e Inventores" },
+  { id: 4, en: "Community and Legacy", es: "Comunidad y Legado" }
 ];
 
 // Tier configuration
@@ -166,20 +155,14 @@ function DocumentCard({ title, subtitle, pageCount, badge, onPreview, onDownload
   );
 }
 
-export default function DaytimeInstruction({ chapterId, tierId, lang, onBack }: DaytimeInstructionProps) {
+export default function DaytimeInstruction({ chapterId, season, tierId, lang, onBack }: DaytimeInstructionProps) {
   const [activeTab, setActiveTab] = useState<TabType>('teacher');
   const [localLang, setLocalLang] = useState<'en' | 'es'>(lang);
 
   const colors = getTierConfig(tierId);
-  const chapter = chapterData.find(c => c.id === chapterId) || chapterData[0];
-  const season = seasons[0];
-
-  // Smart image URL generator (same as Dashboard)
-  const getThumbnailUrl = (chapterId: number): string => {
-    const folder = localLang === 'en' ? 'Thumbnails' : 'Thumbnails-Spanish';
-    const paddedChapter = chapterId.toString().padStart(2, '0');
-    return `https://raw.githubusercontent.com/jghiglia2380/project-explore-thumbnails/main/${folder}/Tier%20${tierId}/Ch-${paddedChapter}-t${tierId}.jpeg`;
-  };
+  const chapterLabel = getChapterLabel(season, chapterId, localLang);
+  const seasonInfo = seasons[season - 1] ?? seasons[0];
+  const thumbnail = getThumbnailUrl(season, chapterId, tierId, localLang);
 
   const handlePreview = () => {
     console.log('Preview clicked');
@@ -231,7 +214,7 @@ export default function DaytimeInstruction({ chapterId, tierId, lang, onBack }: 
                   Project Explore / Daytime Instruction
                 </p>
                 <h1 className="text-lg sm:text-xl font-black tracking-tight text-white">
-                  {chapter[localLang]}
+                  {chapterLabel}
                 </h1>
               </div>
             </div>
@@ -257,7 +240,7 @@ export default function DaytimeInstruction({ chapterId, tierId, lang, onBack }: 
               Tier {tierId} • {getTierGrade(tierId)}
             </span>
             <span className="text-slate-600">•</span>
-            <span>Season 1: {season[localLang]}</span>
+            <span>Season {season}: {seasonInfo[localLang]}</span>
             <span className="text-slate-600">•</span>
             <Globe size={12} />
             <span>{localLang === 'en' ? 'English' : 'Español'}</span>
@@ -279,9 +262,9 @@ export default function DaytimeInstruction({ chapterId, tierId, lang, onBack }: 
             >
               <div className="aspect-video bg-slate-100 relative overflow-hidden">
                 <img
-                  src={getThumbnailUrl(chapterId)}
+                  src={thumbnail}
                   className="w-full h-full object-cover"
-                  alt={chapter[localLang]}
+                  alt={chapterLabel}
                   onError={(e) => {
                     e.currentTarget.src = "https://images.unsplash.com/photo-1634152962476-4b8a00e1915c?auto=format&fit=crop&w=800";
                   }}
@@ -291,9 +274,9 @@ export default function DaytimeInstruction({ chapterId, tierId, lang, onBack }: 
                 </div>
               </div>
               <div className="p-4">
-                <h2 className="font-bold text-lg text-slate-800 mb-1">{chapter[localLang]}</h2>
+                <h2 className="font-bold text-lg text-slate-800 mb-1">{chapterLabel}</h2>
                 <div className="flex items-center gap-2 text-xs text-slate-500">
-                  <span className="px-2 py-1 bg-slate-100 rounded-full">Season 1</span>
+                  <span className="px-2 py-1 bg-slate-100 rounded-full">Season {season}</span>
                   <span className={`px-2 py-1 ${colors.bg} text-white rounded-full font-semibold`}>
                     Tier {tierId}
                   </span>

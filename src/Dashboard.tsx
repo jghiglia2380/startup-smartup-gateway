@@ -3,18 +3,13 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Play, FileText, Scissors, Globe, BookOpen, ArrowLeft, ChevronDown } from 'lucide-react';
 import ActivityDetail from './ActivityDetail';
 import DaytimeInstruction from './DaytimeInstruction';
+import { getChapterLabel, getDuration, getThumbnailUrl } from './episodes';
 
 interface DashboardProps {
   onBack?: () => void;
 }
 
 // --- TYPE DEFINITIONS ---
-interface Chapter {
-  id: number;
-  en: string;
-  es: string;
-}
-
 interface Tier {
   id: number;
   label: string;
@@ -43,37 +38,8 @@ const seasons: Season[] = [
   { id: 4, en: "Community and Legacy", es: "Comunidad y Legado" }
 ];
 
-// Video durations by chapter and tier [tier1, tier2, tier3, tier4]
-const videoDurations: { [key: number]: string[] } = {
-  1: ["8:33", "8:34", "8:45", "9:40"],
-  2: ["8:49", "9:58", "9:01", "9:53"],
-  3: ["10:22", "9:18", "10:27", "11:29"],
-  4: ["10:15", "8:41", "9:17", "10:54"],
-  5: ["8:58", "9:29", "9:15", "10:30"],
-  6: ["8:31", "8:50", "9:27", "9:42"],
-  7: ["9:16", "9:27", "9:45", "10:11"],
-  8: ["8:51", "9:08", "8:27", "9:02"],
-  9: ["10:16", "9:34", "8:26", "8:42"],
-  10: ["9:03", "8:34", "9:28", "9:00"],
-  11: ["10:43", "8:43", "7:07", "8:55"],
-  12: ["9:27", "9:43", "7:04", "8:53"]
-};
-
-// The 12 Chapters with Bilingual Topics
-const chapterData: Chapter[] = [
-  { id: 1, en: "Understanding Money", es: "Entendiendo el Dinero" },
-  { id: 2, en: "Earning and Spending", es: "Ganar y Gastar" },
-  { id: 3, en: "Setting Goals", es: "Establecer Metas" },
-  { id: 4, en: "Making Choices", es: "Tomar Decisiones" },
-  { id: 5, en: "Saving Strategies", es: "Estrategias de Ahorro" },
-  { id: 6, en: "Counting Coins", es: "Contando Monedas" },
-  { id: 7, en: "Planning Ahead", es: "Planificar con Anticipación" },
-  { id: 8, en: "Following Instructions", es: "Seguir Instrucciones" },
-  { id: 9, en: "Problem Solving", es: "Resolver Problemas" },
-  { id: 10, en: "Borrowing & Responsibility", es: "Préstamos y Responsabilidad" },
-  { id: 11, en: "Giving & Sharing", es: "Dar y Compartir" },
-  { id: 12, en: "Celebrating Success", es: "Celebrando el Éxito" }
-];
+// The 12 chapters. Labels come from episodes.ts, which is season-aware.
+const chapterIds = Array.from({ length: 12 }, (_, i) => i + 1);
 
 // The 4 Grade Tiers with brand-aligned colors
 const tiers: Tier[] = [
@@ -131,23 +97,22 @@ export default function ExploreDashboard({ onBack }: DashboardProps) {
   const [activeActivity, setActiveActivity] = useState<number | null>(null);
   const [activeDaytime, setActiveDaytime] = useState<number | null>(null);
 
-  // Smart image URL generator
-  const getThumbnailUrl = (chapterId: number): string => {
-    const folder = lang === 'en' ? 'Thumbnails' : 'Thumbnails-Spanish';
-    const paddedChapter = chapterId.toString().padStart(2, '0');
-    return `https://raw.githubusercontent.com/jghiglia2380/project-explore-thumbnails/main/${folder}/Tier%20${activeTier.id}/Ch-${paddedChapter}-t${activeTier.id}.jpeg`;
-  };
+  // Thumbnail, duration and card label all key off the active season and tier.
+  const thumbnailUrl = (chapter: number) =>
+    getThumbnailUrl(activeSeason.id, chapter, activeTier.id, lang);
 
-  // Get duration for current chapter and tier
-  const getDuration = (chapterId: number): string => {
-    return videoDurations[chapterId]?.[activeTier.id - 1] || "—";
-  };
+  const duration = (chapter: number) =>
+    getDuration(activeSeason.id, chapter, activeTier.id, lang);
+
+  const chapterLabel = (chapter: number) =>
+    getChapterLabel(activeSeason.id, chapter, lang);
 
   // If viewing daytime instruction, show DaytimeInstruction instead
   if (activeDaytime !== null) {
     return (
       <DaytimeInstruction
         chapterId={activeDaytime}
+        season={activeSeason.id}
         tierId={activeTier.id}
         lang={lang}
         onBack={() => setActiveDaytime(null)}
@@ -226,13 +191,10 @@ export default function ExploreDashboard({ onBack }: DashboardProps) {
                           setActiveSeason(season);
                           setSeasonDropdownOpen(false);
                         }}
-                        disabled={season.id !== 1}
                         className={`w-full px-4 py-3 text-left text-sm transition-colors ${
-                          season.id === activeSeason.id 
-                            ? 'bg-emerald-600 text-white' 
-                            : season.id === 1 
-                              ? 'text-white hover:bg-slate-800' 
-                              : 'text-slate-500 cursor-not-allowed'
+                          season.id === activeSeason.id
+                            ? 'bg-emerald-600 text-white'
+                            : 'text-white hover:bg-slate-800'
                         }`}
                       >
                         <span className="font-semibold">Season {season.id}:</span> {season[lang]}
@@ -309,9 +271,9 @@ export default function ExploreDashboard({ onBack }: DashboardProps) {
           className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"
         >
           <AnimatePresence mode="popLayout">
-            {chapterData.map((chapter) => (
+            {chapterIds.map((chapter) => (
               <motion.article
-                key={`${activeTier.id}-${chapter.id}-${lang}`}
+                key={`${activeSeason.id}-${activeTier.id}-${chapter}-${lang}`}
                 layout
                 initial={{ opacity: 0, scale: 0.95, y: 10 }}
                 animate={{ opacity: 1, scale: 1, y: 0 }}
@@ -325,9 +287,9 @@ export default function ExploreDashboard({ onBack }: DashboardProps) {
                   <div className={`absolute inset-0 opacity-20 ${activeTier.theme} mix-blend-multiply transition-colors duration-500`} />
 
                   <img
-                    src={getThumbnailUrl(chapter.id)}
+                    src={thumbnailUrl(chapter)}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
-                    alt={chapter[lang]}
+                    alt={chapterLabel(chapter)}
                     loading="lazy"
                     onError={(e) => {
                       e.currentTarget.src = "https://images.unsplash.com/photo-1634152962476-4b8a00e1915c?auto=format&fit=crop&w=800";
@@ -336,18 +298,18 @@ export default function ExploreDashboard({ onBack }: DashboardProps) {
 
                   {/* Chapter Badge */}
                   <div className={`absolute top-2 left-2 ${activeTier.themeDark} text-white text-xs font-black px-2 py-1 rounded-lg shadow-md`}>
-                    {lang === 'en' ? 'CH' : 'CAP'} {chapter.id}
+                    {lang === 'en' ? 'CH' : 'CAP'} {chapter}
                   </div>
 
                   {/* Duration Badge */}
                   <div className="absolute bottom-2 right-2 bg-black/70 text-white text-xs font-semibold px-2 py-1 rounded-md">
-                    {getDuration(chapter.id)}
+                    {duration(chapter)}
                   </div>
 
                   {/* Play Overlay */}
                   <button
                     className="absolute inset-0 flex items-center justify-center bg-black/20 [@media(hover:hover)]:bg-black/0 [@media(hover:hover)]:group-hover:bg-black/30 transition-colors duration-300"
-                    aria-label={lang === 'en' ? `Play ${chapter.en}` : `Ver ${chapter.es}`}
+                    aria-label={`${lang === 'en' ? 'Play' : 'Ver'} ${chapterLabel(chapter)}`}
                   >
                     <div className={`
                       w-14 h-14 bg-white/90 rounded-full flex items-center justify-center shadow-2xl
@@ -365,27 +327,27 @@ export default function ExploreDashboard({ onBack }: DashboardProps) {
                 {/* Card Body */}
                 <div className="p-3">
                   <h3 className="font-bold text-sm leading-tight mb-2 text-slate-800 line-clamp-1">
-                    {chapter[lang]}
+                    {chapterLabel(chapter)}
                   </h3>
 
                   {/* Action Buttons */}
                   <div className="flex gap-1.5">
                     <button
                       className={`flex-1 flex items-center justify-center gap-1 py-2 rounded-lg text-white font-bold text-xs shadow-md transition-all ${activeTier.button}`}
-                      aria-label={lang === 'en' ? `Play ${chapter.en}` : `Ver ${chapter.es}`}
+                      aria-label={`${lang === 'en' ? 'Play' : 'Ver'} ${chapterLabel(chapter)}`}
                     >
                       <Play size={14} fill="currentColor" />
                       {lang === 'en' ? 'Play' : 'Ver'}
                     </button>
                     <button
-                      onClick={() => setActiveDaytime(chapter.id)}
+                      onClick={() => setActiveDaytime(chapter)}
                       className="p-2 flex items-center justify-center border-2 border-slate-200 rounded-lg hover:bg-slate-50 hover:border-slate-300 text-slate-400 hover:text-emerald-600 transition-all"
                       aria-label={lang === 'en' ? 'Daytime instruction' : 'Instrucción diurna'}
                     >
                       <FileText size={16} />
                     </button>
                     <button
-                      onClick={() => setActiveActivity((activeSeason.id - 1) * 12 + chapter.id)}
+                      onClick={() => setActiveActivity((activeSeason.id - 1) * 12 + chapter)}
                       className="p-2 flex items-center justify-center border-2 border-slate-200 rounded-lg hover:bg-slate-50 hover:border-slate-300 text-slate-400 hover:text-purple-600 transition-all"
                       aria-label={lang === 'en' ? 'View activity' : 'Ver actividad'}
                     >
