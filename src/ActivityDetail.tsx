@@ -99,7 +99,7 @@ export default function ActivityDetail({ chapterId, tierId, lang, onBack }: Acti
               </button>
               <div>
                 <p className="text-xs uppercase tracking-wider opacity-80">
-                  Chapter {chapterId} • Tier {tierId} ({tierInfo.gradeLevel})
+                  Chapter {activity.chapter} • Tier {tierId} ({tierInfo.gradeLevel})
                 </p>
                 <h1 className="text-lg sm:text-xl font-bold">
                   {activity.title[lang]}
@@ -179,7 +179,7 @@ export default function ActivityDetail({ chapterId, tierId, lang, onBack }: Acti
         <div className="hidden print:block mb-6 border-b-2 border-slate-300 pb-4">
           <h2 className="text-xl font-bold">{activity.title.en}</h2>
           <p className="text-sm text-slate-600">
-            Chapter {chapterId}: {activity.chapterTitle.en} • Tier {tierId} ({tierInfo.gradeLevel})
+            Chapter {activity.chapter}: {activity.chapterTitle.en} • Tier {tierId} ({tierInfo.gradeLevel})
           </p>
           <p className="text-sm text-slate-600 mt-1">
             <strong>Duration:</strong> {selectedTime} minutes ({timeVersion.breakdown}) • <strong>Budget:</strong> {budgetLabels[selectedBudget]} ({budgetInfo.costPerStudent}/student)

@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Play, FileText, Scissors, Globe, BookOpen, ArrowLeft, ChevronDown } from 'lucide-react';
 import ActivityDetail from './ActivityDetail';
+import DaytimeInstruction from './DaytimeInstruction';
 
 interface DashboardProps {
   onBack?: () => void;
@@ -128,6 +129,7 @@ export default function ExploreDashboard({ onBack }: DashboardProps) {
   const [seasonDropdownOpen, setSeasonDropdownOpen] = useState(false);
   const [lang, setLang] = useState<'en' | 'es'>('en');
   const [activeActivity, setActiveActivity] = useState<number | null>(null);
+  const [activeDaytime, setActiveDaytime] = useState<number | null>(null);
 
   // Smart image URL generator
   const getThumbnailUrl = (chapterId: number): string => {
@@ -140,6 +142,18 @@ export default function ExploreDashboard({ onBack }: DashboardProps) {
   const getDuration = (chapterId: number): string => {
     return videoDurations[chapterId]?.[activeTier.id - 1] || "—";
   };
+
+  // If viewing daytime instruction, show DaytimeInstruction instead
+  if (activeDaytime !== null) {
+    return (
+      <DaytimeInstruction
+        chapterId={activeDaytime}
+        tierId={activeTier.id}
+        lang={lang}
+        onBack={() => setActiveDaytime(null)}
+      />
+    );
+  }
 
   // If viewing an activity, show ActivityDetail instead
   if (activeActivity !== null) {
@@ -198,7 +212,7 @@ export default function ExploreDashboard({ onBack }: DashboardProps) {
                   onClick={() => setSeasonDropdownOpen(!seasonDropdownOpen)}
                   className="flex items-center gap-2 px-3 py-2 bg-slate-800/50 rounded-lg border border-slate-700 hover:border-slate-600 transition-colors text-sm text-white"
                 >
-                  <span className="hidden sm:inline text-slate-400">Season 1:</span>
+                  <span className="hidden sm:inline text-slate-400">Season {activeSeason.id}:</span>
                   <span className="font-semibold">{activeSeason[lang]}</span>
                   <ChevronDown size={16} className={`transition-transform ${seasonDropdownOpen ? 'rotate-180' : ''}`} />
                 </button>
@@ -355,18 +369,23 @@ export default function ExploreDashboard({ onBack }: DashboardProps) {
                   </h3>
 
                   {/* Action Buttons */}
-                  <div className="flex gap-2">
+                  <div className="flex gap-1.5">
                     <button
                       className={`flex-1 flex items-center justify-center gap-1 py-2 rounded-lg text-white font-bold text-xs shadow-md transition-all ${activeTier.button}`}
                       aria-label={lang === 'en' ? `Play ${chapter.en}` : `Ver ${chapter.es}`}
                     >
                       <Play size={14} fill="currentColor" />
                       {lang === 'en' ? 'Play' : 'Ver'}
-                    
+                    </button>
+                    <button
+                      onClick={() => setActiveDaytime(chapter.id)}
+                      className="p-2 flex items-center justify-center border-2 border-slate-200 rounded-lg hover:bg-slate-50 hover:border-slate-300 text-slate-400 hover:text-emerald-600 transition-all"
+                      aria-label={lang === 'en' ? 'Daytime instruction' : 'Instrucción diurna'}
+                    >
                       <FileText size={16} />
                     </button>
                     <button
-                      onClick={() => setActiveActivity(chapter.id)}
+                      onClick={() => setActiveActivity((activeSeason.id - 1) * 12 + chapter.id)}
                       className="p-2 flex items-center justify-center border-2 border-slate-200 rounded-lg hover:bg-slate-50 hover:border-slate-300 text-slate-400 hover:text-purple-600 transition-all"
                       aria-label={lang === 'en' ? 'View activity' : 'Ver actividad'}
                     >
