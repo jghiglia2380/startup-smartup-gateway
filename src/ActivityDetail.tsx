@@ -56,6 +56,18 @@ export default function ActivityDetail({ chapterId, tierId, lang, onBack }: Acti
 
   const timeVersion = activity.timeVersions[selectedTime];
   const budgetInfo = activity.budgetTiers[selectedBudget];
+  const versionNotes = timeVersion as {
+    beforeClass?: { en?: string };
+    runningLongOrShort?: { en?: string };
+  };
+  const steps = timeVersion.steps as Array<{
+    title: string;
+    duration: string;
+    description: string | { en?: string };
+    sayThis?: { en?: string };
+    watchFor?: { en?: string };
+    doneWhen?: { en?: string };
+  }>;
   const tierInfo = activity.tierDifferentiation[tierId.toString() as '1' | '2' | '3' | '4'];
 
   const toggleSection = (section: string) => {
@@ -245,8 +257,24 @@ export default function ActivityDetail({ chapterId, tierId, lang, onBack }: Acti
           onToggle={() => toggleSection('steps')}
           colors={colors}
         >
+          {(versionNotes.beforeClass?.en || versionNotes.runningLongOrShort?.en) && (
+            <div className="mb-4 space-y-2">
+              {versionNotes.beforeClass?.en && (
+                <div className={`p-3 rounded-lg ${colors.border} border bg-slate-50`}>
+                  <p className="font-semibold text-sm text-slate-700 mb-1">Before class</p>
+                  <p className="text-sm text-slate-600">{versionNotes.beforeClass.en}</p>
+                </div>
+              )}
+              {versionNotes.runningLongOrShort?.en && (
+                <div className={`p-3 rounded-lg ${colors.border} border bg-slate-50`}>
+                  <p className="font-semibold text-sm text-slate-700 mb-1">Running long or short</p>
+                  <p className="text-sm text-slate-600">{versionNotes.runningLongOrShort.en}</p>
+                </div>
+              )}
+            </div>
+          )}
           <ol className="space-y-4">
-            {timeVersion.steps.map((step, idx) => (
+            {steps.map((step, idx) => (
               <li key={idx} className="flex gap-3">
                 <div className={`flex-shrink-0 w-7 h-7 ${colors.bg} rounded-full flex items-center justify-center text-white font-bold text-sm`}>
                   {idx + 1}
@@ -258,7 +286,25 @@ export default function ActivityDetail({ chapterId, tierId, lang, onBack }: Acti
                       {step.duration}
                     </span>
                   </div>
-                  <p className="text-sm text-slate-600">{step.description}</p>
+                  <p className="text-sm text-slate-600">{typeof step.description === 'string' ? step.description : step.description?.en}</p>
+                  {step.sayThis?.en && (
+                    <p className="text-sm text-slate-600 mt-2">
+                      <span className="font-semibold text-slate-700">Say this: </span>
+                      {step.sayThis.en}
+                    </p>
+                  )}
+                  {step.watchFor?.en && (
+                    <p className="text-sm text-slate-600 mt-2">
+                      <span className="font-semibold text-slate-700">Watch for: </span>
+                      {step.watchFor.en}
+                    </p>
+                  )}
+                  {step.doneWhen?.en && (
+                    <p className="text-sm text-slate-600 mt-2">
+                      <span className="font-semibold text-slate-700">Done when: </span>
+                      {step.doneWhen.en}
+                    </p>
+                  )}
                 </div>
               </li>
             ))}
