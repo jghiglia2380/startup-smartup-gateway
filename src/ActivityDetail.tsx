@@ -26,7 +26,7 @@ interface ActivityDetailProps {
 }
 
 type TimeVersion = '20' | '30' | '45';
-type BudgetTier = 'standard' | 'lowCost' | 'premium';
+type BudgetTier = 'standard' | 'lowCost';
 
 export default function ActivityDetail({ chapterId, tierId, lang, onBack }: ActivityDetailProps) {
   const [selectedTime, setSelectedTime] = useState<TimeVersion>('30');
@@ -88,11 +88,10 @@ export default function ActivityDetail({ chapterId, tierId, lang, onBack }: Acti
 
   const colors = tierColors[tierId] || tierColors[1];
 
-  // Budget label mapping
+  // Budget label mapping (premium tier is retired and not shown)
   const budgetLabels: Record<BudgetTier, string> = {
-    standard: 'Standard Classroom',
-    lowCost: 'Low Cost',
-    premium: 'Premium'
+    standard: 'From Scratch',
+    lowCost: 'Basic Classroom'
   };
 
   return (
@@ -163,11 +162,7 @@ export default function ActivityDetail({ chapterId, tierId, lang, onBack }: Acti
               <span className="font-semibold text-slate-700">Budget Level</span>
             </div>
             <div className="flex gap-2">
-              {([
-                { key: 'standard', label: 'Standard' },
-                { key: 'lowCost', label: 'Low Cost' },
-                { key: 'premium', label: 'Premium' }
-              ] as { key: BudgetTier; label: string }[]).map(({ key, label }) => (
+              {(Object.entries(budgetLabels) as [BudgetTier, string][]).map(([key, label]) => (
                 <button
                   key={key}
                   onClick={() => setSelectedBudget(key)}
@@ -236,7 +231,7 @@ export default function ActivityDetail({ chapterId, tierId, lang, onBack }: Acti
           {/* Budget-specific items */}
           <div className={`mt-4 p-3 rounded-lg ${colors.border} border bg-slate-50`}>
             <p className="font-semibold text-sm text-slate-700 mb-2">
-              {budgetInfo.label} ({budgetInfo.costPerStudent}/student):
+              {budgetLabels[selectedBudget]} ({budgetInfo.costPerStudent}/student):
             </p>
             <ul className="space-y-1">
               {budgetInfo.items.map((item, idx) => (
