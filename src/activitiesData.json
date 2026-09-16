@@ -708,8 +708,8 @@
                 "es": "Fill cups with soil. Make a small hole. Place seed. Cover gently. Label with name marker. Water lightly. No soil or seeds? Draw a seed on a scrap of paper, fold it, and \"plant\" it in the empty cup with a name on the cup."
               },
               "sayThis": {
-                "en": "\"Fill your cup with soil. Poke a small hole with your finger. Drop in the seed. Cover it gently. Write your name on the cup. Then a little water — just a little.\"",
-                "es": "\"Fill your cup with soil. Poke a small hole with your finger. Drop in the seed. Cover it gently. Write your name on the cup. Then a little water — just a little.\""
+                "en": "\"Fill your cup with soil. Poke a small hole with your finger. Drop in the seed. Cover it gently. Write your name on the cup. Then a little water — just a little. No soil today? Draw your seed on scrap paper, fold it, and put it in your cup.\"",
+                "es": "\"Fill your cup with soil. Poke a small hole with your finger. Drop in the seed. Cover it gently. Write your name on the cup. Then a little water — just a little. No soil today? Draw your seed on scrap paper, fold it, and put it in your cup.\""
               },
               "watchFor": {
                 "en": "Flooding. Hand out the water one spoon at a time, or pour it yourself.",
@@ -813,8 +813,8 @@
             {
               "title": "Plant Your Seed",
               "sayThis": {
-                "en": "\"Soil up to the line. Seed in. Cover it. One spoon of water — one. Too much water is how you kill it. Now draw your cup exactly how it looks right now, because in two weeks you won't remember.\"",
-                "es": "\"Soil up to the line. Seed in. Cover it. One spoon of water — one. Too much water is how you kill it. Now draw your cup exactly how it looks right now, because in two weeks you won't remember.\""
+                "en": "\"Soil up to the line. Seed in. Cover it. One spoon of water — one. Too much water is how you kill it. No soil today? Draw your seed on scrap paper, fold it, and put it in your cup. Now draw your cup exactly how it looks right now, because in two weeks you won't remember.\"",
+                "es": "\"Soil up to the line. Seed in. Cover it. One spoon of water — one. Too much water is how you kill it. No soil today? Draw your seed on scrap paper, fold it, and put it in your cup. Now draw your cup exactly how it looks right now, because in two weeks you won't remember.\""
               },
               "doneWhen": {
                 "en": "Every cup is planted, labeled with a name, and drawn in the log.",
