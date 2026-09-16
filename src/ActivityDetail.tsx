@@ -15,8 +15,7 @@ import {
   ChevronUp
 } from 'lucide-react';
 
-// Import activities data
-import activitiesData from './activitiesData.json';
+import { activities, resolveVersion, type BudgetKey, type TimeKey } from './activityContent';
 
 interface ActivityDetailProps {
   chapterId: number;
@@ -25,12 +24,12 @@ interface ActivityDetailProps {
   onBack: () => void;
 }
 
-type TimeVersion = '20' | '30' | '45';
-type BudgetTier = 'standard' | 'lowCost';
+type TimeVersion = TimeKey;
+type BudgetTier = BudgetKey;
 
 export default function ActivityDetail({ chapterId, tierId, lang, onBack }: ActivityDetailProps) {
   const [selectedTime, setSelectedTime] = useState<TimeVersion>('30');
-  const [selectedBudget, setSelectedBudget] = useState<BudgetTier>('standard');
+  const [selectedBudget, setSelectedBudget] = useState<BudgetTier>('fromScratch');
   const [expandedSections, setExpandedSections] = useState<Record<string, boolean>>({
     materials: true,
     steps: true,
@@ -41,7 +40,7 @@ export default function ActivityDetail({ chapterId, tierId, lang, onBack }: Acti
   });
 
   // Get activity data for this chapter
-  const activity = activitiesData.activities.find(a => a.chapterId === chapterId);
+  const activity = activities.find(a => a.chapterId === chapterId);
   
   if (!activity) {
     return (
@@ -55,19 +54,10 @@ export default function ActivityDetail({ chapterId, tierId, lang, onBack }: Acti
   }
 
   const timeVersion = activity.timeVersions[selectedTime];
-  const budgetInfo = activity.budgetTiers[selectedBudget];
-  const versionNotes = timeVersion as {
-    beforeClass?: { en?: string };
-    runningLongOrShort?: { en?: string };
-  };
-  const steps = timeVersion.steps as Array<{
-    title: string;
-    duration: string;
-    description: string | { en?: string };
-    sayThis?: { en?: string };
-    watchFor?: { en?: string };
-    doneWhen?: { en?: string };
-  }>;
+  // Materials, notes and step text for the selected duration, budget level and tier
+  const resolved = resolveVersion(timeVersion, selectedBudget, tierId);
+  const budgetInfo = resolved.materials;
+  const steps = resolved.steps;
   const tierInfo = activity.tierDifferentiation[tierId.toString() as '1' | '2' | '3' | '4'];
 
   const toggleSection = (section: string) => {
@@ -88,10 +78,9 @@ export default function ActivityDetail({ chapterId, tierId, lang, onBack }: Acti
 
   const colors = tierColors[tierId] || tierColors[1];
 
-  // Budget label mapping (premium tier is retired and not shown)
   const budgetLabels: Record<BudgetTier, string> = {
-    standard: 'From Scratch',
-    lowCost: 'Basic Classroom'
+    fromScratch: 'From Scratch',
+    basicClassroom: 'Basic Classroom'
   };
 
   return (
@@ -243,18 +232,18 @@ export default function ActivityDetail({ chapterId, tierId, lang, onBack }: Acti
           onToggle={() => toggleSection('steps')}
           colors={colors}
         >
-          {(versionNotes.beforeClass?.en || versionNotes.runningLongOrShort?.en) && (
+          {(resolved.beforeClass || resolved.runningLongOrShort) && (
             <div className="mb-4 space-y-2">
-              {versionNotes.beforeClass?.en && (
+              {resolved.beforeClass && (
                 <div className={`p-3 rounded-lg ${colors.border} border bg-slate-50`}>
                   <p className="font-semibold text-sm text-slate-700 mb-1">Before class</p>
-                  <p className="text-sm text-slate-600">{versionNotes.beforeClass.en}</p>
+                  <p className="text-sm text-slate-600">{resolved.beforeClass}</p>
                 </div>
               )}
-              {versionNotes.runningLongOrShort?.en && (
+              {resolved.runningLongOrShort && (
                 <div className={`p-3 rounded-lg ${colors.border} border bg-slate-50`}>
                   <p className="font-semibold text-sm text-slate-700 mb-1">Running long or short</p>
-                  <p className="text-sm text-slate-600">{versionNotes.runningLongOrShort.en}</p>
+                  <p className="text-sm text-slate-600">{resolved.runningLongOrShort}</p>
                 </div>
               )}
             </div>
@@ -272,26 +261,23 @@ export default function ActivityDetail({ chapterId, tierId, lang, onBack }: Acti
                       {step.duration}
                     </span>
                   </div>
-                  <StepDescription
-                    text={(typeof step.description === 'string' ? step.description : step.description?.en) ?? ''}
-                    dotClass={colors.bg}
-                  />
-                  {step.sayThis?.en && (
+                  <StepDescription text={step.description} dotClass={colors.bg} />
+                  {step.sayThis && (
                     <p className="text-sm text-slate-600 mt-2">
                       <span className="font-semibold text-slate-700">Say this: </span>
-                      {step.sayThis.en}
+                      {step.sayThis}
                     </p>
                   )}
-                  {step.watchFor?.en && (
+                  {step.watchFor && (
                     <p className="text-sm text-slate-600 mt-2">
                       <span className="font-semibold text-slate-700">Watch for: </span>
-                      {step.watchFor.en}
+                      {step.watchFor}
                     </p>
                   )}
-                  {step.doneWhen?.en && (
+                  {step.doneWhen && (
                     <p className="text-sm text-slate-600 mt-2">
                       <span className="font-semibold text-slate-700">Done when: </span>
-                      {step.doneWhen.en}
+                      {step.doneWhen}
                     </p>
                   )}
                 </div>
