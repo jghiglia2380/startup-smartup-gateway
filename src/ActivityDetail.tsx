@@ -219,17 +219,8 @@ export default function ActivityDetail({ chapterId, tierId, lang, onBack }: Acti
           onToggle={() => toggleSection('materials')}
           colors={colors}
         >
-          <ul className="space-y-2">
-            {timeVersion.materials.map((item, idx) => (
-              <li key={idx} className="flex items-start gap-2">
-                <span className={`mt-1 w-2 h-2 rounded-full ${colors.bg} flex-shrink-0`} />
-                <span className="text-slate-700 text-sm">{item}</span>
-              </li>
-            ))}
-          </ul>
-          
-          {/* Budget-specific items */}
-          <div className={`mt-4 p-3 rounded-lg ${colors.border} border bg-slate-50`}>
+          {/* One list: the selected budget level's items */}
+          <div className={`p-3 rounded-lg ${colors.border} border bg-slate-50`}>
             <p className="font-semibold text-sm text-slate-700 mb-2">
               {budgetLabels[selectedBudget]} ({budgetInfo.costPerStudent}/student):
             </p>
@@ -281,7 +272,10 @@ export default function ActivityDetail({ chapterId, tierId, lang, onBack }: Acti
                       {step.duration}
                     </span>
                   </div>
-                  <p className="text-sm text-slate-600">{typeof step.description === 'string' ? step.description : step.description?.en}</p>
+                  <StepDescription
+                    text={(typeof step.description === 'string' ? step.description : step.description?.en) ?? ''}
+                    dotClass={colors.bg}
+                  />
                   {step.sayThis?.en && (
                     <p className="text-sm text-slate-600 mt-2">
                       <span className="font-semibold text-slate-700">Say this: </span>
@@ -398,6 +392,88 @@ export default function ActivityDetail({ chapterId, tierId, lang, onBack }: Acti
           </button>
         </div>
       </main>
+    </div>
+  );
+}
+
+// Step descriptions store lists inline: "Intro: - Item one - Item two * sub".
+// " - " starts a list item and " * " starts a sub-item. Text after the last
+// sub-item's sentence, or a sentence ending in ":" that introduces the next
+// sub-items, ends the current sub-list. Math minus signs in the data use "−"
+// (U+2212), so they are never split.
+type Group = { head: string; subs: string[] };
+
+const SENTENCE_BREAK = /(?<!\b(?:vs|e\.g|i\.e|etc|Mr|Ms|Mrs|Dr|St))\.\s+(?=[A-Z"“¿¡])/g;
+
+function renderBold(text: string) {
+  return text.split(/(\*\*[^*]+\*\*)/g).map((part, i) =>
+    part.startsWith('**') && part.endsWith('**') && part.length > 4
+      ? <strong key={i} className="font-semibold text-slate-700">{part.slice(2, -2)}</strong>
+      : part
+  );
+}
+
+// Where a sub-item stops and the next paragraph starts, or -1.
+function subItemEnd(sub: string, isLast: boolean): number {
+  for (const m of sub.matchAll(SENTENCE_BREAK)) {
+    const before = sub.slice(0, m.index);
+    if ((before.match(/["“”]/g) ?? []).length % 2 === 1) continue; // inside a quote
+    const rest = sub.slice(m.index + m[0].length).trim();
+    if (isLast || rest.endsWith(':')) return m.index;
+  }
+  return -1;
+}
+
+function parseGroups(segment: string): Group[] {
+  const [head, ...subs] = segment.split(/\s+\*\s+/);
+  const groups: Group[] = [{ head: head.trim(), subs: [] }];
+  subs.forEach((sub, i) => {
+    const current = groups[groups.length - 1];
+    const cut = subItemEnd(sub, i === subs.length - 1);
+    if (cut >= 0) {
+      current.subs.push(sub.slice(0, cut + 1).trim());
+      groups.push({ head: sub.slice(cut + 1).trim(), subs: [] });
+    } else {
+      current.subs.push(sub.trim());
+    }
+  });
+  return groups.filter(g => g.head || g.subs.length > 0);
+}
+
+function StepDescription({ text, dotClass }: { text: string; dotClass: string }) {
+  const segments = text.split(/(?:^|\s+)-\s+/);
+  const intro = parseGroups(segments[0]);
+  const items = segments.slice(1).map(s => s.trim()).filter(Boolean).map(parseGroups);
+
+  if (items.length === 0 && intro.every(g => g.subs.length === 0)) {
+    return <p className="text-sm text-slate-600">{renderBold(text)}</p>;
+  }
+
+  const renderGroups = (groups: Group[]) =>
+    groups.map((g, i) => (
+      <div key={i} className={i > 0 ? 'mt-1' : undefined}>
+        {g.head && <p>{renderBold(g.head)}</p>}
+        {g.subs.length > 0 && (
+          <ul className="mt-1 ml-4 space-y-1 list-disc list-outside marker:text-slate-400">
+            {g.subs.map((s, j) => <li key={j}>{renderBold(s)}</li>)}
+          </ul>
+        )}
+      </div>
+    ));
+
+  return (
+    <div className="text-sm text-slate-600">
+      {renderGroups(intro)}
+      {items.length > 0 && (
+        <ul className="mt-1 space-y-1">
+          {items.map((groups, i) => (
+            <li key={i} className="flex items-start gap-2">
+              <span className={`mt-1.5 w-1.5 h-1.5 rounded-full ${dotClass} flex-shrink-0`} />
+              <div>{renderGroups(groups)}</div>
+            </li>
+          ))}
+        </ul>
+      )}
     </div>
   );
 }

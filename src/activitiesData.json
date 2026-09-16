@@ -254,7 +254,7 @@
               }
             },
             {
-              "title": "Price the Exhibition (10 minutes)",
+              "title": "Price the Exhibition",
               "sayThis": {
                 "en": "\"Flip your card over. What would a store charge for this? Best guess. Don't look anything up. Then swap with your partner and argue about any number that looks wrong.\" After the total goes up: \"That's what this room would cost to buy. We didn't spend a thing.\"",
                 "es": "\"Flip your card over. What would a store charge for this? Best guess. Don't look anything up. Then swap with your partner and argue about any number that looks wrong.\" After the total goes up: \"That's what this room would cost to buy. We didn't spend a thing.\""
@@ -611,7 +611,7 @@
               }
             },
             {
-              "title": "Portfolio Audit (10 minutes)",
+              "title": "Portfolio Audit",
               "sayThis": {
                 "en": "\"Swap books. You're the auditor now. Three checks. Does the chart add up week to week? Do the weeks actually reach the goal? Is the cost realistic? You have to find at least one thing to question. That's the job.\"",
                 "es": "\"Swap books. You're the auditor now. Three checks. Does the chart add up week to week? Do the weeks actually reach the goal? Is the cost realistic? You have to find at least one thing to question. That's the job.\""
@@ -1049,7 +1049,7 @@
               }
             },
             {
-              "title": "The Value Board (10 minutes)",
+              "title": "The Value Board",
               "sayThis": {
                 "en": "\"Three columns. The item. What you said it was worth. What it actually traded for. Everybody puts up one row.\" Then: \"Circle every row where those two numbers don't match.\"",
                 "es": "\"Three columns. The item. What you said it was worth. What it actually traded for. Everybody puts up one row.\" Then: \"Circle every row where those two numbers don't match.\""
@@ -1401,7 +1401,7 @@
               }
             },
             {
-              "title": "Build the Class Guidebook (10 minutes)",
+              "title": "Build the Class Guidebook",
               "sayThis": {
                 "en": "\"Four maps, one page. Agree on one route that hits your four best discoveries in the fewest steps. Draw it. You get thirty seconds to present it.\"",
                 "es": "\"Four maps, one page. Agree on one route that hits your four best discoveries in the fewest steps. Draw it. You get thirty seconds to present it.\""
@@ -1794,7 +1794,7 @@
               }
             },
             {
-              "title": "What Is This Skill Worth? (10 minutes)",
+              "title": "What Is This Skill Worth?",
               "sayThis": {
                 "en": "\"Put a price on your card. What would you charge to teach this to one person for one hour? Then swap with your partner and argue. Too high, too low, why.\"",
                 "es": "\"Put a price on your card. What would you charge to teach this to one person for one hour? Then swap with your partner and argue. Too high, too low, why.\""
@@ -2159,7 +2159,7 @@
               }
             },
             {
-              "title": "Spend It On Paper (10 minutes)",
+              "title": "Spend It On Paper",
               "sayThis": {
                 "en": "\"The winning plan gets a budget. Here's the exact total. Spend it down on paper — item, cost, what's left. You can't go over, and you can't leave more than a dollar sitting there.\"",
                 "es": "\"The winning plan gets a budget. Here's the exact total. Spend it down on paper — item, cost, what's left. You can't go over, and you can't leave more than a dollar sitting there.\""
@@ -2558,7 +2558,7 @@
               }
             },
             {
-              "title": "Cross-Inspection & Repair (10 minutes)",
+              "title": "Cross-Inspection & Repair",
               "sayThis": {
                 "en": "\"Move one seat over. Inspect their fort against their blueprint — not against what you would have done. Two things on the slip. One place it matches, one place it doesn't.\" Then: \"Four minutes. Fix the build or change the plan. Tell me which one you picked.\"",
                 "es": "\"Move one seat over. Inspect their fort against their blueprint — not against what you would have done. Two things on the slip. One place it matches, one place it doesn't.\" Then: \"Four minutes. Fix the build or change the plan. Tell me which one you picked.\""
@@ -2947,7 +2947,7 @@
               }
             },
             {
-              "title": "Cut the Cost (10 minutes)",
+              "title": "Cut the Cost",
               "sayThis": {
                 "en": "\"New rule. Your recipe has to come in under the target now. Swap an ingredient, cut an amount, or stretch the servings. Redo the math. Your partner checks it.\"",
                 "es": "\"New rule. Your recipe has to come in under the target now. Swap an ingredient, cut an amount, or stretch the servings. Redo the math. Your partner checks it.\""
@@ -3309,7 +3309,7 @@
               }
             },
             {
-              "title": "Shop Rates (10 minutes)",
+              "title": "Shop Rates",
               "sayThis": {
                 "en": "\"Repairs cost time, not just tape. How long did each one take? Pick an hourly rate for yourself. Now work out what each repair really cost — materials plus your time. Circle every one that cost more than just buying a new one.\"",
                 "es": "\"Repairs cost time, not just tape. How long did each one take? Pick an hourly rate for yourself. Now work out what each repair really cost — materials plus your time. Circle every one that cost more than just buying a new one.\""
@@ -3705,7 +3705,7 @@
               }
             },
             {
-              "title": "Pitch Your Resource (10 minutes)",
+              "title": "Pitch Your Resource",
               "sayThis": {
                 "en": "\"Pick the one thing on this map nobody uses enough. Ninety seconds to sell it. What it is, who it's for, what it saves you. Then the class answers one question with hands — would you actually go?\"",
                 "es": "\"Pick the one thing on this map nobody uses enough. Ninety seconds to sell it. What it is, who it's for, what it saves you. Then the class answers one question with hands — would you actually go?\""
@@ -4105,7 +4105,7 @@
               }
             },
             {
-              "title": "Graph the Gap (10 minutes)",
+              "title": "Graph the Gap",
               "sayThis": {
                 "en": "\"Three columns. After each round, the highest number in the room and the lowest. Subtract. That's the gap. Copy the three numbers down and draw the line.\"",
                 "es": "\"Three columns. After each round, the highest number in the room and the lowest. Subtract. That's the gap. Copy the three numbers down and draw the line.\""
@@ -4514,7 +4514,7 @@
               }
             },
             {
-              "title": "The Season Ledger (5 minutes)",
+              "title": "The Season Ledger",
               "sayThis": {
                 "en": "\"Twelve rows, one per chapter. A few words each — what we made, learned or saved. The exhibition. The seed. The trading post. The map. The skills. The jar. The fort. The meal deal. The repairs. The guide. The giving rounds. This book. Then we total it.\"",
                 "es": "\"Twelve rows, one per chapter. A few words each — what we made, learned or saved. The exhibition. The seed. The trading post. The map. The skills. The jar. The fort. The meal deal. The repairs. The guide. The giving rounds. This book. Then we total it.\""
@@ -6643,8 +6643,8 @@
               "title": "Second Half: Strategic Bidding",
               "duration": "6 minutes",
               "description": {
-                "en": "Auction final 5 items (include some \"surprise\" items - mystery bags) - Watch for strategic behavior: saving vs. spending",
-                "es": "Auction final 5 items (include some \"surprise\" items - mystery bags) - Watch for strategic behavior: saving vs. spending"
+                "en": "Auction final 5 items (include some \"surprise\" items — mystery bags) - Watch for strategic behavior: saving vs. spending",
+                "es": "Auction final 5 items (include some \"surprise\" items — mystery bags) - Watch for strategic behavior: saving vs. spending"
               }
             },
             {
@@ -7330,7 +7330,7 @@
           ],
           "steps": [
             {
-              "title": "Introduction (3 minutes)",
+              "title": "Introduction",
               "duration": "3 min",
               "description": {
                 "en": "Show students a banana: \"Fresh today, brown tomorrow—why?\". Explain some things last, others don't. Introduce sorting challenge",
@@ -7338,7 +7338,7 @@
               }
             },
             {
-              "title": "Sorting Activity (10 minutes)",
+              "title": "Sorting Activity",
               "duration": "10 min",
               "description": {
                 "en": "Students take turns selecting a card. Place in correct category: Spoils Fast or Lasts Long. Class votes if unsure. Discuss each placement",
@@ -7346,7 +7346,7 @@
               }
             },
             {
-              "title": "Quick Game (5 minutes)",
+              "title": "Quick Game",
               "duration": "5 min",
               "description": {
                 "en": "Teacher calls out items. Students point to correct category. Speed increases for challenge",
@@ -7354,7 +7354,7 @@
               }
             },
             {
-              "title": "Discussion (2 minutes)",
+              "title": "Discussion",
               "duration": "2 min",
               "description": {
                 "en": "\"Would you sell fish today or save for tomorrow? Why?\". \"What happens if you wait to sell milk?\". Connect to morning market story Items to Include:. Spoils Fast: fish, milk, bread, lettuce, bananas, strawberries. Lasts Long: toys, books, clothes, pencils, rocks, jewelry",
@@ -7382,7 +7382,7 @@
           ],
           "steps": [
             {
-              "title": "Setup & Explanation (5 minutes)",
+              "title": "Setup & Explanation",
               "duration": "5 min",
               "description": {
                 "en": "Each student receives: * 1 perishable card (fish, bread, milk, fruit) * 2 non-perishable cards (toys, books, tools, clothes). Explain three trading rounds. Show price chart on board",
@@ -7390,7 +7390,7 @@
               }
             },
             {
-              "title": "Round 1: Morning Market (7 minutes)",
+              "title": "Round 1: Morning Market",
               "duration": "7 min",
               "description": {
                 "en": "Timer set for 3 minutes. Prices: Perishables $10, Non-perishables $5. Students can sell to \"market buyer\" (teacher/volunteer). Buyers walk around making offers. Record what each student sells",
@@ -7398,7 +7398,7 @@
               }
             },
             {
-              "title": "Round 2: Midday Market (7 minutes)",
+              "title": "Round 2: Midday Market",
               "duration": "7 min",
               "description": {
                 "en": "Timer set for 2 minutes. Prices: Perishables DROP to $5, Non-perishables stay $5. Students who held perishables see value decrease. More selling happens. Visual: Update price chart dramatically",
@@ -7406,7 +7406,7 @@
               }
             },
             {
-              "title": "Round 3: Afternoon Market (7 minutes)",
+              "title": "Round 3: Afternoon Market",
               "duration": "7 min",
               "description": {
                 "en": "Timer set for 1 minute. Prices: Perishables DROP to $1, Non-perishables stay $5. Last chance to sell. Those who held perishables feel real impact",
@@ -7414,7 +7414,7 @@
               }
             },
             {
-              "title": "Count & Compare (4 minutes)",
+              "title": "Count & Compare",
               "duration": "4 min",
               "description": {
                 "en": "Students count final money. Graph results on board. Who made the most? What strategy did they use?. Who sold perishables early? Late?",
@@ -7446,7 +7446,7 @@
           ],
           "steps": [
             {
-              "title": "Market Setup (8 minutes)",
+              "title": "Market Setup",
               "sayThis": {
                 "en": "\"Fifty dollars each. Your stall has fresh things and things that keep. Write down everything you're holding before we open, because you will not remember later.\"",
                 "es": "\"Fifty dollars each. Your stall has fresh things and things that keep. Write down everything you're holding before we open, because you will not remember later.\""
@@ -7466,7 +7466,7 @@
               }
             },
             {
-              "title": "Period 1: Dawn Market (10 minutes)",
+              "title": "Period 1: Dawn Market",
               "sayThis": {
                 "en": "\"Market's open. Fish, fruit, milk and bread are eight dollars. Everything else is five. Sell what you can and mark every sale as it happens, not at the end.\"",
                 "es": "\"Market's open. Fish, fruit, milk and bread are eight dollars. Everything else is five. Sell what you can and mark every sale as it happens, not at the end.\""
@@ -7486,7 +7486,7 @@
               }
             },
             {
-              "title": "Period 2: Mid-Morning Market (10 minutes)",
+              "title": "Period 2: Mid-Morning Market",
               "sayThis": {
                 "en": "\"Price change. Fresh things are four dollars now. Everything else is still five. If you're holding fish, your fish just lost half its value while you stood there.\"",
                 "es": "\"Price change. Fresh things are four dollars now. Everything else is still five. If you're holding fish, your fish just lost half its value while you stood there.\""
@@ -7506,7 +7506,7 @@
               }
             },
             {
-              "title": "Period 3: Late Morning Market (10 minutes)",
+              "title": "Period 3: Late Morning Market",
               "sayThis": {
                 "en": "\"Last change. Fresh is two dollars. Three minutes. If you're still holding fresh goods, this is the last money you will ever get for them.\"",
                 "es": "\"Last change. Fresh is two dollars. Three minutes. If you're still holding fresh goods, this is the last money you will ever get for them.\""
@@ -7526,7 +7526,7 @@
               }
             },
             {
-              "title": "Analysis & Graphing (7 minutes)",
+              "title": "Analysis & Graphing",
               "sayThis": {
                 "en": "\"Add your three periods together. That's your revenue. Now what was your stall worth at the start? Take one from the other. Who lost money — and what were they holding?\"",
                 "es": "\"Add your three periods together. That's your revenue. Now what was your stall worth at the start? Take one from the other. Who lost money — and what were they holding?\""
@@ -7690,7 +7690,7 @@
           ],
           "steps": [
             {
-              "title": "Introduction (3 minutes)",
+              "title": "Introduction",
               "duration": "3 min",
               "description": {
                 "en": "Show picture of community garden. Explain: \"Many families share one big garden\". Everyone helps, everyone gets vegetables",
@@ -7698,7 +7698,7 @@
               }
             },
             {
-              "title": "Individual Design (10 minutes)",
+              "title": "Individual Design",
               "duration": "10 min",
               "description": {
                 "en": "Each student gets grid paper (4-6 plots). Draw or place picture cards to \"plant\" garden. Color different plots for different families. Label with family names or numbers",
@@ -7706,7 +7706,7 @@
               }
             },
             {
-              "title": "Gallery Walk (5 minutes)",
+              "title": "Gallery Walk",
               "duration": "5 min",
               "description": {
                 "en": "Post designs around room. Students walk and observe others' gardens. Notice different ways to organize plots",
@@ -7714,7 +7714,7 @@
               }
             },
             {
-              "title": "Quick Discussion (2 minutes)",
+              "title": "Quick Discussion",
               "duration": "2 min",
               "description": {
                 "en": "\"Why is sharing a garden helpful?\". \"What if you don't have a yard? Could a community garden help?\". Connect to La Vecina's garden story",
@@ -7743,7 +7743,7 @@
           ],
           "steps": [
             {
-              "title": "Setup & Scenario (5 minutes)",
+              "title": "Setup & Scenario",
               "duration": "5 min",
               "description": {
                 "en": "Divide class into groups of 4-5 students. Scenario: \"Your neighborhood wants a community garden, but gardens cost money\". Costs: * Garden plot: $40 * Seeds: $20 * Tools: $20 * Soil: $20. Each student has $20 to contribute",
@@ -7751,7 +7751,7 @@
               }
             },
             {
-              "title": "Group Investment Decision (8 minutes)",
+              "title": "Group Investment Decision",
               "duration": "8 min",
               "description": {
                 "en": "Groups discuss: \"Should we each make our own tiny garden, or pool our money for one big garden?\". Calculate: * Individual: $20 buys very little * Pooled: $80-100 buys full garden with all supplies. Make group decision (guided toward pooling for lesson)",
@@ -7759,7 +7759,7 @@
               }
             },
             {
-              "title": "Garden Design (12 minutes)",
+              "title": "Garden Design",
               "duration": "12 min",
               "description": {
                 "en": "Groups draw garden on poster paper. Divide into plots (one per student). Add paths, shared tool area, water source. Select seeds/plants from catalog. Glue pictures in each plot",
@@ -7767,7 +7767,7 @@
               }
             },
             {
-              "title": "Sharing Plan (3 minutes)",
+              "title": "Sharing Plan",
               "duration": "3 min",
               "description": {
                 "en": "Decide: \"If tomatoes grow in one plot, does only that person get them?\". Discuss fair sharing since everyone contributed. Record sharing agreement",
@@ -7775,7 +7775,7 @@
               }
             },
             {
-              "title": "Presentation (2 minutes)",
+              "title": "Presentation",
               "duration": "2 min",
               "description": {
                 "en": "Each group shows garden design. Shares one thing about their sharing plan",
@@ -7807,7 +7807,7 @@
           ],
           "steps": [
             {
-              "title": "Scenario Introduction (5 minutes)",
+              "title": "Scenario Introduction",
               "sayThis": {
                 "en": "\"Empty lot down the street. Two hundred dollars turns it into a garden — fence, soil, seeds, tools, water. Between you, you have a hundred and eighty in cash. You're twenty short. Somebody in this room is not holding money.\"",
                 "es": "\"Empty lot down the street. Two hundred dollars turns it into a garden — fence, soil, seeds, tools, water. Between you, you have a hundred and eighty in cash. You're twenty short. Somebody in this room is not holding money.\""
@@ -7827,7 +7827,7 @@
               }
             },
             {
-              "title": "Investment Planning (10 minutes)",
+              "title": "Investment Planning",
               "sayThis": {
                 "en": "\"Write down what you're putting in. Cash in one column, not-cash in the other. Seeds are worth ten dollars. Tools are worth twenty. Then put it all in the middle and count it.\"",
                 "es": "\"Write down what you're putting in. Cash in one column, not-cash in the other. Seeds are worth ten dollars. Tools are worth twenty. Then put it all in the middle and count it.\""
@@ -7847,7 +7847,7 @@
               }
             },
             {
-              "title": "Garden Design Phase (15 minutes)",
+              "title": "Garden Design Phase",
               "sayThis": {
                 "en": "\"Each square is two feet. Everyone gets a plot. You also need a path, somewhere for the tools and a tap. And you have to choose: same size plots for everyone, or bigger plots for whoever put in more. Your group decides, and you have to be able to defend it.\"",
                 "es": "\"Each square is two feet. Everyone gets a plot. You also need a path, somewhere for the tools and a tap. And you have to choose: same size plots for everyone, or bigger plots for whoever put in more. Your group decides, and you have to be able to defend it.\""
@@ -7862,12 +7862,12 @@
                 "es": "Groups drawing plots and forgetting the paths. Ask how anyone reaches the plot in the middle."
               },
               "description": {
-                "en": "Groups (6-8 students) design garden layout: * Use grid paper (each square = 2 sq ft) * Divide into individual plots (4-6 sq ft per person) * Include shared spaces:. Tool shed area. Compost bin. Pathways. Water access point. Assign plots fairly: * Option A: Equal sizes for all * Option B: Larger plots for larger investors * Group decides which is \"fair\". Select plants for each plot from catalog. Label everything clearly",
-                "es": "Groups (6-8 students) design garden layout: * Use grid paper (each square = 2 sq ft) * Divide into individual plots (4-6 sq ft per person) * Include shared spaces:. Tool shed area. Compost bin. Pathways. Water access point. Assign plots fairly: * Option A: Equal sizes for all * Option B: Larger plots for larger investors * Group decides which is \"fair\". Select plants for each plot from catalog. Label everything clearly"
+                "en": "Groups (6-8 students) design garden layout: * Use grid paper (each square = 2 sq ft) * Divide into individual plots (4-6 sq ft per person) * Include shared spaces: tool shed area, compost bin, pathways, water access point. Assign plots fairly: * Option A: Equal sizes for all * Option B: Larger plots for larger investors * Group decides which is \"fair\". Select plants for each plot from catalog. Label everything clearly",
+                "es": "Groups (6-8 students) design garden layout: * Use grid paper (each square = 2 sq ft) * Divide into individual plots (4-6 sq ft per person) * Include shared spaces: tool shed area, compost bin, pathways, water access point. Assign plots fairly: * Option A: Equal sizes for all * Option B: Larger plots for larger investors * Group decides which is \"fair\". Select plants for each plot from catalog. Label everything clearly"
               }
             },
             {
-              "title": "Return on Investment Calculation (8 minutes)",
+              "title": "Return on Investment Calculation",
               "sayThis": {
                 "en": "\"Your plot grows this much. Work out what that's worth. Take off what you put in. Divide by what you put in. That's your return — put thirty in, get sixty back, you doubled it.\"",
                 "es": "\"Your plot grows this much. Work out what that's worth. Take off what you put in. Divide by what you put in. That's your return — put thirty in, get sixty back, you doubled it.\""
@@ -7882,12 +7882,12 @@
                 "es": "Division the wrong way round. Work the first example on the board with the whole room."
               },
               "description": {
-                "en": "Use provided data for expected harvest: * Tomatoes: 20 lbs per plot * Lettuce: 10 heads per plot * Carrots: 15 bunches per plot. Students calculate: * Their investment: $______ * Their expected harvest value (at market price): $______ * ROI: (Harvest value. Investment) ÷ Investment. Example: Invested $30, harvest worth $60 → ROI = 100% (doubled money)",
-                "es": "Use provided data for expected harvest: * Tomatoes: 20 lbs per plot * Lettuce: 10 heads per plot * Carrots: 15 bunches per plot. Students calculate: * Their investment: $______ * Their expected harvest value (at market price): $______ * ROI: (Harvest value. Investment) ÷ Investment. Example: Invested $30, harvest worth $60 → ROI = 100% (doubled money)"
+                "en": "Use provided data for expected harvest: * Tomatoes: 20 lbs per plot * Lettuce: 10 heads per plot * Carrots: 15 bunches per plot. Students calculate: * Their investment: $______ * Their expected harvest value (at market price): $______ * ROI: (Harvest value − Investment) ÷ Investment. Example: Invested $30, harvest worth $60 → ROI = 100% (doubled money)",
+                "es": "Use provided data for expected harvest: * Tomatoes: 20 lbs per plot * Lettuce: 10 heads per plot * Carrots: 15 bunches per plot. Students calculate: * Their investment: $______ * Their expected harvest value (at market price): $______ * ROI: (Harvest value − Investment) ÷ Investment. Example: Invested $30, harvest worth $60 → ROI = 100% (doubled money)"
               }
             },
             {
-              "title": "Sharing Agreement (5 minutes)",
+              "title": "Sharing Agreement",
               "sayThis": {
                 "en": "\"One sentence, and everybody signs it. How are you splitting the vegetables? Equally, by what people put in, by who needs it most, or your own mix of those.\"",
                 "es": "\"One sentence, and everybody signs it. How are you splitting the vegetables? Equally, by what people put in, by who needs it most, or your own mix of those.\""
@@ -7907,7 +7907,7 @@
               }
             },
             {
-              "title": "Gallery Walk & Reflection (2 minutes)",
+              "title": "Gallery Walk & Reflection",
               "sayThis": {
                 "en": "\"Walk the room. Find one group that split the harvest differently from you.\"",
                 "es": "\"Walk the room. Find one group that split the harvest differently from you.\""
@@ -8140,7 +8140,7 @@
           ],
           "steps": [
             {
-              "title": "Setup & Introduction (5 minutes)",
+              "title": "Setup & Introduction",
               "duration": "5 min",
               "description": {
                 "en": "Show handmade bracelet and store-bought bracelet side-by-side. Discuss differences: \"Which is unique? Which looks exactly like others?\". Introduce concept: \"Today you'll make something AND track how long it takes\". Explain time tracking sheet",
@@ -8148,7 +8148,7 @@
               }
             },
             {
-              "title": "Craft Creation (15 minutes)",
+              "title": "Craft Creation",
               "duration": "15 min",
               "description": {
                 "en": "Students choose a simple craft project: * Beaded bracelet or necklace * Felt bookmark * Decorated card or frame. As they work, they track time on worksheet: * Start time: _____ * End time: _____ * Total minutes: _____. Teacher calls out 5-minute intervals",
@@ -8156,7 +8156,7 @@
               }
             },
             {
-              "title": "Cost Calculation (5 minutes)",
+              "title": "Cost Calculation",
               "duration": "5 min",
               "description": {
                 "en": "Materials cost discussion: * \"Our beads cost $3 for 100. You used 20 beads = about 60¢\" * \"If your time is worth $6/hour and you worked 15 minutes, that's $1.50 of labor\". Students add: Materials + Labor = Total Cost. Example: 60¢ + $1.50 = $2.10",
@@ -8164,7 +8164,7 @@
               }
             },
             {
-              "title": "Comparison Activity (3 minutes)",
+              "title": "Comparison Activity",
               "duration": "3 min",
               "description": {
                 "en": "Show store-bought bracelet: \"This costs $1 at the store\". Handmade bracelet costs $2.10 to make. Discuss: \"Why might handmade cost more?\" * More time * Unique design * Personal touch * Quality materials. \"But does your handmade bracelet have special value to you?\"",
@@ -8172,7 +8172,7 @@
               }
             },
             {
-              "title": "Sharing & Reflection (2 minutes)",
+              "title": "Sharing & Reflection",
               "duration": "2 min",
               "description": {
                 "en": "Partner share: \"Show your creation and say what makes it special\". Celebrate uniqueness of each handmade item Time Tracking Worksheet Format: ``` NAME: ________________ DATE: __________ MY HANDMADE CREATION: _________________ START TIME: _____ : _____ END TIME: _____ : _____ TOTAL TIME: _____ minutes MATERIALS I USED: □ Paper □ Beads □ String □ Felt □ Other: _____ COST CALCULATION: Materials cost: $ _____ (about 60¢) Labor cost: $ _____ (time × $6/hour) TOTAL COST: $ _____ Store-bought similar item costs: $ _____ My handmade item is special because: _________________________________ ```",
@@ -8203,7 +8203,7 @@
           ],
           "steps": [
             {
-              "title": "Workshop Introduction (5 minutes)",
+              "title": "Workshop Introduction",
               "sayThis": {
                 "en": "\"You're a stall at a holiday market. You make one thing, and you write down everything it takes — every bead, every inch of ribbon, and every minute. Time is a cost too. Start your timer when you start.\"",
                 "es": "\"You're a stall at a holiday market. You make one thing, and you write down everything it takes — every bead, every inch of ribbon, and every minute. Time is a cost too. Start your timer when you start.\""
@@ -8243,7 +8243,7 @@
               }
             },
             {
-              "title": "Cost Analysis (8 minutes)",
+              "title": "Cost Analysis",
               "sayThis": {
                 "en": "\"Beads three cents. Felt twenty-five. Ribbon ten cents a foot. Paper five. Glue five. Add up your materials. Then your time, at ten cents a minute — ten minutes is a dollar. Materials plus time is what it cost you.\"",
                 "es": "\"Beads three cents. Felt twenty-five. Ribbon ten cents a foot. Paper five. Glue five. Add up your materials. Then your time, at ten cents a minute — ten minutes is a dollar. Materials plus time is what it cost you.\""
@@ -8263,7 +8263,7 @@
               }
             },
             {
-              "title": "Pricing Strategy (5 minutes)",
+              "title": "Pricing Strategy",
               "sayThis": {
                 "en": "\"Cost is what you spent. Price is what you charge. The gap between them is profit. Your price has to be above your cost — that isn't greed, that's staying open next week.\"",
                 "es": "\"Cost is what you spent. Price is what you charge. The gap between them is profit. Your price has to be above your cost — that isn't greed, that's staying open next week.\""
@@ -8278,12 +8278,12 @@
                 "es": "Prices set at exactly cost. Ask what they've earned after a hundred sales."
               },
               "description": {
-                "en": "Introduce pricing concepts: * Cost: What it cost you to make * Price: What you charge customers (must be higher than cost!) * Profit: Price. Cost. Students decide on selling price: * Must cover costs * Add profit margin * Consider quality and uniqueness. Create price tag for their item",
-                "es": "Introduce pricing concepts: * Cost: What it cost you to make * Price: What you charge customers (must be higher than cost!) * Profit: Price. Cost. Students decide on selling price: * Must cover costs * Add profit margin * Consider quality and uniqueness. Create price tag for their item"
+                "en": "Introduce pricing concepts: * Cost: What it cost you to make * Price: What you charge customers (must be higher than cost!) * Profit: Price − Cost. Students decide on selling price: * Must cover costs * Add profit margin * Consider quality and uniqueness. Create price tag for their item",
+                "es": "Introduce pricing concepts: * Cost: What it cost you to make * Price: What you charge customers (must be higher than cost!) * Profit: Price − Cost. Students decide on selling price: * Must cover costs * Add profit margin * Consider quality and uniqueness. Create price tag for their item"
               }
             },
             {
-              "title": "Comparison & Discussion (8 minutes)",
+              "title": "Comparison & Discussion",
               "sayThis": {
                 "en": "\"A shop bracelet is a dollar and a machine made it in thirty seconds. Yours cost three fifty and took twelve minutes. Which would you rather be given? And why is yours more?\"",
                 "es": "\"A shop bracelet is a dollar and a machine made it in thirty seconds. Yours cost three fifty and took twelve minutes. Which would you rather be given? And why is yours more?\""
@@ -8303,7 +8303,7 @@
               }
             },
             {
-              "title": "Gallery Display & Reflection (4 minutes)",
+              "title": "Gallery Display & Reflection",
               "sayThis": {
                 "en": "\"Everything out on the table. Walk past all of it. Every single one is the only one of its kind, because you made it.\"",
                 "es": "\"Everything out on the table. Walk past all of it. Every single one is the only one of its kind, because you made it.\""
@@ -8477,7 +8477,7 @@
           ],
           "steps": [
             {
-              "title": "Introduction (4 minutes)",
+              "title": "Introduction",
               "duration": "4 min",
               "description": {
                 "en": "Show two items: a dollar bill and a family photo. Ask: \"Which can you buy? Which is priceless?\". Explain: \"Priceless means so special you could never buy it\". Share: \"Today we'll draw something priceless to you\"",
@@ -8485,7 +8485,7 @@
               }
             },
             {
-              "title": "Drawing Activity (10 minutes)",
+              "title": "Drawing Activity",
               "duration": "10 min",
               "description": {
                 "en": "Students draw something priceless to them: * A person they love (family member, friend, teacher, pet) * A special memory (birthday party, family trip, special day) * Something they treasure (not for its cost, but for meaning). Encourage detail and color. Circulate and ask: \"Why is this priceless to you?\"",
@@ -8493,7 +8493,7 @@
               }
             },
             {
-              "title": "Writing Component (4 minutes)",
+              "title": "Writing Component",
               "duration": "4 min",
               "description": {
                 "en": "Simple sentence frame: * K: Dictate to teacher: \"My _____ is priceless because _____\" * 1st: Copy and complete: \"_____ is priceless to me.\"",
@@ -8501,7 +8501,7 @@
               }
             },
             {
-              "title": "Sharing Circle (2 minutes)",
+              "title": "Sharing Circle",
               "duration": "2 min",
               "description": {
                 "en": "Volunteers share drawings with class. \"This is priceless to me because.\". Celebrate diversity of what people treasure",
@@ -8596,7 +8596,7 @@
           ],
           "steps": [
             {
-              "title": "Cultural & Concept Introduction (7 minutes)",
+              "title": "Cultural & Concept Introduction",
               "sayThis": {
                 "en": "\"Some things can't be bought. Not because they're expensive — because money is the wrong thing to offer. A grandmother. A Sunday morning. A song your family sings. Today you make something for one of those.\"",
                 "es": "\"Some things can't be bought. Not because they're expensive — because money is the wrong thing to offer. A grandmother. A Sunday morning. A song your family sings. Today you make something for one of those.\""
@@ -8616,7 +8616,7 @@
               }
             },
             {
-              "title": "Art Creation (22 minutes)",
+              "title": "Art Creation",
               "sayThis": {
                 "en": "\"Twenty minutes on one piece. Not a doodle — the real thing. Draw it, cut things out, write words into it. If a stranger looked at this without you standing there, would they know what it's about?\"",
                 "es": "\"Twenty minutes on one piece. Not a doodle — the real thing. Draw it, cut things out, write words into it. If a stranger looked at this without you standing there, would they know what it's about?\""
@@ -8636,7 +8636,7 @@
               }
             },
             {
-              "title": "Museum Card Creation (8 minutes)",
+              "title": "Museum Card Creation",
               "sayThis": {
                 "en": "\"Everything in a museum has a card. Title. Your name. What it's made of. Who or what it honours. And the line that matters — what would you say if someone offered you a million dollars for it?\"",
                 "es": "\"Everything in a museum has a card. Title. Your name. What it's made of. Who or what it honours. And the line that matters — what would you say if someone offered you a million dollars for it?\""
@@ -8656,7 +8656,7 @@
               }
             },
             {
-              "title": "Gallery Setup (3 minutes)",
+              "title": "Gallery Setup",
               "sayThis": {
                 "en": "\"Card beside the piece, not underneath it. Quiet from here on. This is a gallery now, not a classroom.\"",
                 "es": "\"Card beside the piece, not underneath it. Quiet from here on. This is a gallery now, not a classroom.\""
@@ -8676,7 +8676,7 @@
               }
             },
             {
-              "title": "Gallery Walk & Reflection (5 minutes)",
+              "title": "Gallery Walk & Reflection",
               "sayThis": {
                 "en": "\"Walk it in silence. Read every card. Then one note on one piece that isn't yours — say what you noticed, not whether you liked it.\"",
                 "es": "\"Walk it in silence. Read every card. Then one note on one piece that isn't yours — say what you noticed, not whether you liked it.\""
@@ -8842,7 +8842,7 @@
           ],
           "steps": [
             {
-              "title": "Market Setup (3 minutes)",
+              "title": "Market Setup",
               "duration": "3 min",
               "description": {
                 "en": "Arrange students in circle on floor. Each student places their item in front of them and writes $5 on a scrap-paper budget card. Explain: \"We're having a market! You can buy one thing from a friend.\"",
@@ -8850,7 +8850,7 @@
               }
             },
             {
-              "title": "Market Time (10 minutes)",
+              "title": "Market Time",
               "duration": "10 min",
               "description": {
                 "en": "Students walk around circle looking at items. Decide what they want to buy. Approach vendor: \"I'd like to buy your ___. How much?\". Vendor sets price (teacher supports: \"What's fair?\"). Simple transaction: exchange money for item. Everyone buys exactly one thing",
@@ -8858,7 +8858,7 @@
               }
             },
             {
-              "title": "Sharing Circle (5 minutes)",
+              "title": "Sharing Circle",
               "duration": "5 min",
               "description": {
                 "en": "Return to circle seats. Each student shows what they bought. \"I bought ___ from ___ for $___ because ___\". Celebrate: everyone traded successfully!",
@@ -8866,7 +8866,7 @@
               }
             },
             {
-              "title": "Quick Reflection (2 minutes)",
+              "title": "Quick Reflection",
               "duration": "2 min",
               "description": {
                 "en": "\"What did you learn about markets this year?\". \"What was your favorite FL lesson?\"",
@@ -8897,7 +8897,7 @@
           ],
           "steps": [
             {
-              "title": "Market Setup (8 minutes)",
+              "title": "Market Setup",
               "duration": "8 min",
               "description": {
                 "en": "Divide class into booth vendors and shoppers (will rotate) - Booth Types: * Handmade Crafts (items from CH10) * Art Gallery (items from CH11) * Paper Goods (paper treats drawn and cut from card—discuss cost of goods) * Repair Shop (Diego-style—fix broken toys or sharpen pencils for fee). Students at booths: * Arrange items * Create price tags (teacher supports: \"Remember labor cost!\") * Prepare for customers",
@@ -8905,7 +8905,7 @@
               }
             },
             {
-              "title": "Market Round 1 (8 minutes)",
+              "title": "Market Round 1",
               "duration": "8 min",
               "description": {
                 "en": "Half class shops, half runs booths. Shoppers browse, decide purchases, negotiate. Vendors sell, make change, track sales. Real-time learning: \"My paper cupcakes aren't selling—should I lower price?\"",
@@ -8913,7 +8913,7 @@
               }
             },
             {
-              "title": "Rotation (2 minutes)",
+              "title": "Rotation",
               "duration": "2 min",
               "description": {
                 "en": "Vendors become shoppers, shoppers become vendors. Quick inventory check: \"What sold out? What didn't sell?\"",
@@ -8921,7 +8921,7 @@
               }
             },
             {
-              "title": "Market Round 2 (8 minutes)",
+              "title": "Market Round 2",
               "duration": "8 min",
               "description": {
                 "en": "New vendors, new shoppers. Apply learning from round 1",
@@ -8929,7 +8929,7 @@
               }
             },
             {
-              "title": "Reflection & Celebration (4 minutes)",
+              "title": "Reflection & Celebration",
               "duration": "4 min",
               "description": {
                 "en": "Count revenue (vendors). Share purchases (shoppers). Quick discussion: \"What FL concept did you use today?\". Celebrate season learning!",
@@ -8961,7 +8961,7 @@
           ],
           "steps": [
             {
-              "title": "Pre-Market Preparation (8 minutes)",
+              "title": "Pre-Market Preparation",
               "sayThis": {
                 "en": "\"Six booths. Crafts, art, garden, paper goods, repairs and the trading post. Vendors, set up and price everything — and every price needs a reason behind it. What it cost you to make, or what it's fairly worth in a trade. Shoppers, you'll get a turn behind a booth too.\"",
                 "es": "\"Six booths. Crafts, art, garden, paper goods, repairs and the trading post. Vendors, set up and price everything — and every price needs a reason behind it. What it cost you to make, or what it's fairly worth in a trade. Shoppers, you'll get a turn behind a booth too.\""
@@ -8981,7 +8981,7 @@
               }
             },
             {
-              "title": "Market Period 1 (12 minutes)",
+              "title": "Market Period 1",
               "sayThis": {
                 "en": "\"Market's open. Shoppers — walk the whole market before you spend anything. Vendors, you can change your price whenever you like, but you'll have to say why at the close.\"",
                 "es": "\"Market's open. Shoppers — walk the whole market before you spend anything. Vendors, you can change your price whenever you like, but you'll have to say why at the close.\""
@@ -9001,7 +9001,7 @@
               }
             },
             {
-              "title": "Mid-Market Reflection Pause (3 minutes)",
+              "title": "Mid-Market Reflection Pause",
               "sayThis": {
                 "en": "\"Freeze. Crafts have sold out — that's demand. Garden is cutting prices, because those go off. The repair station has a queue. What does a queue tell you?\"",
                 "es": "\"Freeze. Crafts have sold out — that's demand. Garden is cutting prices, because those go off. The repair station has a queue. What does a queue tell you?\""
@@ -9021,7 +9021,7 @@
               }
             },
             {
-              "title": "Rotation Break (2 minutes)",
+              "title": "Rotation Break",
               "sayThis": {
                 "en": "\"Swap. Vendors are shoppers now. Before you go — one look at your stall. What sold? What didn't?\"",
                 "es": "\"Swap. Vendors are shoppers now. Before you go — one look at your stall. What sold? What didn't?\""
@@ -9041,7 +9041,7 @@
               }
             },
             {
-              "title": "Market Period 2 (12 minutes)",
+              "title": "Market Period 2",
               "sayThis": {
                 "en": "\"Open. You watched the first round — use what you saw. If a price was wrong, change it.\"",
                 "es": "\"Open. You watched the first round — use what you saw. If a price was wrong, change it.\""
@@ -9061,7 +9061,7 @@
               }
             },
             {
-              "title": "Market Close & Reflection (8 minutes)",
+              "title": "Market Close & Reflection",
               "sayThis": {
                 "en": "\"Market's closed. Count your takings. Then tell me one thing you did today that you first learned in another chapter. The trading, the pricing, the repairs, the fresh-goods problem — all of it came from somewhere.\"",
                 "es": "\"Market's closed. Count your takings. Then tell me one thing you did today that you first learned in another chapter. The trading, the pricing, the repairs, the fresh-goods problem — all of it came from somewhere.\""
@@ -11222,8 +11222,8 @@
                 "es": "The answer stopping at \"paint\". Push for the word behind it — time, skill, design."
               },
               "description": {
-                "en": "Show progression: Raw materials → Basic product → Decorated product Real example: Clay $1 → Plain bowl $5 → Decorated bowl $25 - Each step adds value through labor, skill, design",
-                "es": "Show progression: Raw materials → Basic product → Decorated product Real example: Clay $1 → Plain bowl $5 → Decorated bowl $25 - Each step adds value through labor, skill, design"
+                "en": "Show progression: Raw materials → Basic product → Decorated product - Real example: Clay $1 → Plain bowl $5 → Decorated bowl $25 - Each step adds value through labor, skill, design",
+                "es": "Show progression: Raw materials → Basic product → Decorated product - Real example: Clay $1 → Plain bowl $5 → Decorated bowl $25 - Each step adds value through labor, skill, design"
               }
             },
             {
@@ -11242,8 +11242,8 @@
                 "es": "Plans with no time estimate on them. You need that number two steps from now."
               },
               "description": {
-                "en": "Research: look at professional decorated pottery/items (examples or photos) Design detailed decoration plan - Choose techniques that add value (hand-painted > stickers in professional market) Estimate time needed",
-                "es": "Research: look at professional decorated pottery/items (examples or photos) Design detailed decoration plan - Choose techniques that add value (hand-painted > stickers in professional market) Estimate time needed"
+                "en": "Research: look at professional decorated pottery/items (examples or photos) - Design detailed decoration plan - Choose techniques that add value (hand-painted > stickers in professional market) - Estimate time needed",
+                "es": "Research: look at professional decorated pottery/items (examples or photos) - Design detailed decoration plan - Choose techniques that add value (hand-painted > stickers in professional market) - Estimate time needed"
               }
             },
             {
@@ -11262,8 +11262,8 @@
                 "es": "Rushing to finish early. Ask them whether they'd hand over money for it as it stands."
               },
               "description": {
-                "en": "Execute design with quality focus Track actual time spent - Take \"before\" and \"after\" photos Quality check: Does this look professional enough to sell?",
-                "es": "Execute design with quality focus Track actual time spent - Take \"before\" and \"after\" photos Quality check: Does this look professional enough to sell?"
+                "en": "Execute design with quality focus - Track actual time spent - Take \"before\" and \"after\" photos - Quality check: Does this look professional enough to sell?",
+                "es": "Execute design with quality focus - Track actual time spent - Take \"before\" and \"after\" photos - Quality check: Does this look professional enough to sell?"
               }
             },
             {
@@ -11282,8 +11282,8 @@
                 "es": "Prices set from pride rather than from the survey. Show them their own survey numbers."
               },
               "description": {
-                "en": "Calculate costs: materials + time (at $10/hour labor) + skill premium Survey classmates: \"Would you buy this? For how much?\" - Compare estimated value to actual market prices Determine optimal price point - Calculate profit margin: (price cost) / price = margin %",
-                "es": "Calculate costs: materials + time (at $10/hour labor) + skill premium Survey classmates: \"Would you buy this? For how much?\" - Compare estimated value to actual market prices Determine optimal price point - Calculate profit margin: (price cost) / price = margin %"
+                "en": "Calculate costs: materials + time (at $10/hour labor) + skill premium - Survey classmates: \"Would you buy this? For how much?\" - Compare estimated value to actual market prices - Determine optimal price point - Calculate profit margin: (price − cost) / price = margin %",
+                "es": "Calculate costs: materials + time (at $10/hour labor) + skill premium - Survey classmates: \"Would you buy this? For how much?\" - Compare estimated value to actual market prices - Determine optimal price point - Calculate profit margin: (price − cost) / price = margin %"
               }
             }
           ],
@@ -13595,8 +13595,8 @@
                 "es": "Tokens counted as dollars. They're ten each. Do the first conversion on the board."
               },
               "description": {
-                "en": "Count all tokens collected and convert to dollars at $10 each Review sales logs (how many items sold?) Calculate profit using worksheet: Revenue - Material Costs = Profit Record results on Business Report",
-                "es": "Count all tokens collected and convert to dollars at $10 each Review sales logs (how many items sold?) Calculate profit using worksheet: Revenue - Material Costs = Profit Record results on Business Report"
+                "en": "Count all tokens collected and convert to dollars at $10 each - Review sales logs (how many items sold?) - Calculate profit using worksheet: Revenue − Material Costs = Profit - Record results on Business Report",
+                "es": "Count all tokens collected and convert to dollars at $10 each - Review sales logs (how many items sold?) - Calculate profit using worksheet: Revenue − Material Costs = Profit - Record results on Business Report"
               }
             },
             {
@@ -14747,8 +14747,8 @@
                 "es": "The accountant recording the price and skipping the cost. Check the log after the first two sales."
               },
               "description": {
-                "en": "Customers shop across all departments Shopkeepers make sales and give change Accountant records every transaction including COST of item Calculate profit per sale (Price - Cost = Profit)",
-                "es": "Customers shop across all departments Shopkeepers make sales and give change Accountant records every transaction including COST of item Calculate profit per sale (Price - Cost = Profit)"
+                "en": "Customers shop across all departments - Shopkeepers make sales and give change - Accountant records every transaction including COST of item - Calculate profit per sale (Price − Cost = Profit)",
+                "es": "Customers shop across all departments - Shopkeepers make sales and give change - Accountant records every transaction including COST of item - Calculate profit per sale (Price − Cost = Profit)"
               }
             },
             {
@@ -14807,8 +14807,8 @@
                 "es": "Revenue being called profit. It's the single most common mistake in the whole season. Say both words while pointing at both numbers."
               },
               "description": {
-                "en": "Count total revenue (all tokens collected) Calculate total costs (add up costs from transaction logs) Calculate profit: Revenue - Costs = Profit Compare to story: \"Just like Layla calculated $93 revenue - $22 costs = $71 profit\"",
-                "es": "Count total revenue (all tokens collected) Calculate total costs (add up costs from transaction logs) Calculate profit: Revenue - Costs = Profit Compare to story: \"Just like Layla calculated $93 revenue - $22 costs = $71 profit\""
+                "en": "Count total revenue (all tokens collected) - Calculate total costs (add up costs from transaction logs) - Calculate profit: Revenue − Costs = Profit - Compare to story: \"Just like Layla calculated $93 revenue − $22 costs = $71 profit\"",
+                "es": "Count total revenue (all tokens collected) - Calculate total costs (add up costs from transaction logs) - Calculate profit: Revenue − Costs = Profit - Compare to story: \"Just like Layla calculated $93 revenue − $22 costs = $71 profit\""
               }
             },
             {
@@ -15806,8 +15806,8 @@
               "title": "Calculate True Profit",
               "duration": "6 minutes",
               "description": {
-                "en": "Add up all costs. Subtract from $10 revenue. Calculate true profit. Chart: Revenue ($10) - Costs ($___) = Profit ($___). Discuss surprise results.",
-                "es": "Add up all costs. Subtract from $10 revenue. Calculate true profit. Chart: Revenue ($10) - Costs ($___) = Profit ($___). Discuss surprise results."
+                "en": "Add up all costs. Subtract from $10 revenue. Calculate true profit. Chart: Revenue ($10) − Costs ($___) = Profit ($___). Discuss surprise results.",
+                "es": "Add up all costs. Subtract from $10 revenue. Calculate true profit. Chart: Revenue ($10) − Costs ($___) = Profit ($___). Discuss surprise results."
               }
             },
             {
@@ -15858,8 +15858,8 @@
               "title": "Calculate True Profit",
               "duration": "9 minutes",
               "description": {
-                "en": "Add up all costs. Subtract from $10 revenue. Calculate true profit. Chart: Revenue ($10) - Costs ($___) = Profit ($___). Discuss surprise results.",
-                "es": "Add up all costs. Subtract from $10 revenue. Calculate true profit. Chart: Revenue ($10) - Costs ($___) = Profit ($___). Discuss surprise results."
+                "en": "Add up all costs. Subtract from $10 revenue. Calculate true profit. Chart: Revenue ($10) − Costs ($___) = Profit ($___). Discuss surprise results.",
+                "es": "Add up all costs. Subtract from $10 revenue. Calculate true profit. Chart: Revenue ($10) − Costs ($___) = Profit ($___). Discuss surprise results."
               }
             },
             {
@@ -16010,8 +16010,8 @@
                 "es": "Labor quietly dropped to make the profit look better. That's the exact habit this chapter exists to break."
               },
               "description": {
-                "en": "Calculate final profit: Revenue - Direct Costs - Overhead - Labor = Profit. Compare to original guess. Discuss: What surprised you? How can businesses reduce hidden costs?",
-                "es": "Calculate final profit: Revenue - Direct Costs - Overhead - Labor = Profit. Compare to original guess. Discuss: What surprised you? How can businesses reduce hidden costs?"
+                "en": "Calculate final profit: Revenue − Direct Costs − Overhead − Labor = Profit. Compare to original guess. Discuss: What surprised you? How can businesses reduce hidden costs?",
+                "es": "Calculate final profit: Revenue − Direct Costs − Overhead − Labor = Profit. Compare to original guess. Discuss: What surprised you? How can businesses reduce hidden costs?"
               }
             }
           ],
@@ -18312,8 +18312,8 @@
                 "es": "Missing records from earlier chapters. Hand out the spares rather than letting anyone stall."
               },
               "description": {
-                "en": "If students ran simulated businesses during previous activities, compile their data Calculate total \"revenue\" (sales from previous activities) Calculate total \"expenses\" (materials costs) Calculate profit (revenue - expenses) Calculate earnings per partner (if team-based) Create simple bar graph comparing revenue vs. expenses",
-                "es": "If students ran simulated businesses during previous activities, compile their data Calculate total \"revenue\" (sales from previous activities) Calculate total \"expenses\" (materials costs) Calculate profit (revenue - expenses) Calculate earnings per partner (if team-based) Create simple bar graph comparing revenue vs. expenses"
+                "en": "If students ran simulated businesses during previous activities, compile their data - Calculate total \"revenue\" (sales from previous activities) - Calculate total \"expenses\" (materials costs) - Calculate profit (revenue − expenses) - Calculate earnings per partner (if team-based) - Create simple bar graph comparing revenue vs. expenses",
+                "es": "If students ran simulated businesses during previous activities, compile their data - Calculate total \"revenue\" (sales from previous activities) - Calculate total \"expenses\" (materials costs) - Calculate profit (revenue − expenses) - Calculate earnings per partner (if team-based) - Create simple bar graph comparing revenue vs. expenses"
               }
             },
             {
