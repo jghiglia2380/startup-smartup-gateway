@@ -1,1 +1,533 @@
-[]
+[
+ {
+  "code": "M1",
+  "season": 1,
+  "chapter": 2,
+  "version": "30",
+  "budget": "fromScratch",
+  "match": "\"seeds\" is used",
+  "reason": "checker reads 'paper seed' as seeds (the word paper is consumed first); From Scratch uses only a paper seed"
+ },
+ {
+  "code": "M3",
+  "season": 1,
+  "chapter": 2,
+  "version": "30",
+  "budget": "fromScratch",
+  "match": "buy item (seeds)",
+  "reason": "checker reads 'paper seed' as seeds; From Scratch uses only a paper seed"
+ },
+ {
+  "code": "M4",
+  "season": 1,
+  "chapter": 2,
+  "version": "30",
+  "budget": "fromScratch",
+  "match": "names seeds",
+  "reason": "checker reads 'paper seed' as seeds; the description names the paper seed"
+ },
+ {
+  "code": "M1",
+  "season": 1,
+  "chapter": 2,
+  "version": "45",
+  "budget": "fromScratch",
+  "match": "\"seeds\" is used",
+  "reason": "checker reads 'paper seed' as seeds; From Scratch uses only a paper seed, plus Frances's seed-saving story line"
+ },
+ {
+  "code": "M3",
+  "season": 1,
+  "chapter": 2,
+  "version": "45",
+  "budget": "fromScratch",
+  "match": "buy item (seeds)",
+  "reason": "checker reads 'paper seed' as seeds; From Scratch uses only a paper seed, plus Frances's seed-saving story line"
+ },
+ {
+  "code": "M4",
+  "season": 1,
+  "chapter": 2,
+  "version": "45",
+  "budget": "fromScratch",
+  "match": "names seeds",
+  "reason": "checker reads 'paper seed' as seeds; the description names the paper seed"
+ },
+ {
+  "code": "M1",
+  "season": 1,
+  "chapter": 2,
+  "version": "20",
+  "budget": "basicClassroom",
+  "match": "\"seeds\" is used",
+  "reason": "20-min has no planting; 'seed' is Frances's story line in step 1"
+ },
+ {
+  "code": "M1",
+  "season": 1,
+  "chapter": 2,
+  "version": "20",
+  "budget": "fromScratch",
+  "match": "\"seeds\" is used",
+  "reason": "20-min has no planting; 'seed' is Frances's story line in step 1"
+ },
+ {
+  "code": "M3",
+  "season": 1,
+  "chapter": 2,
+  "version": "20",
+  "budget": "fromScratch",
+  "match": "buy item (seeds)",
+  "reason": "20-min has no planting; 'seed' is Frances's story line in step 1"
+ },
+ {
+  "code": "M1",
+  "season": 1,
+  "chapter": 5,
+  "version": "20",
+  "budget": "basicClassroom",
+  "match": "\"paper\" is used",
+  "reason": "\"folding paper\" is an example skill in Before class and step 1, not a material; the card is an index card"
+ },
+ {
+  "code": "M1",
+  "season": 1,
+  "chapter": 5,
+  "version": "30",
+  "budget": "fromScratch",
+  "match": "\"felt\" is used",
+  "reason": "\"I felt ___\" in the Reflection sentence frame is a feeling, not felt fabric"
+ },
+ {
+  "code": "M1",
+  "season": 1,
+  "chapter": 5,
+  "version": "30",
+  "budget": "basicClassroom",
+  "match": "\"felt\" is used",
+  "reason": "\"I felt ___\" in the Reflection sentence frame is a feeling, not felt fabric"
+ },
+ {
+  "code": "M1",
+  "season": 1,
+  "chapter": 8,
+  "version": "20",
+  "budget": "basicClassroom",
+  "match": "\"food\" is used",
+  "reason": "The recipes are prices on a paper price list written on the board; no food is bought, cooked or eaten."
+ },
+ {
+  "code": "M1",
+  "season": 1,
+  "chapter": 8,
+  "version": "30",
+  "budget": "basicClassroom",
+  "match": "\"food\" is used",
+  "reason": "The recipes are prices on a paper price list written on the board; no food is bought, cooked or eaten."
+ },
+ {
+  "code": "M1",
+  "season": 1,
+  "chapter": 8,
+  "version": "45",
+  "budget": "basicClassroom",
+  "match": "\"food\" is used",
+  "reason": "The recipes are prices on a paper price list written on the board; no food is bought, cooked or eaten."
+ },
+ {
+  "code": "M1",
+  "season": 1,
+  "chapter": 8,
+  "version": "20",
+  "budget": "basicClassroom",
+  "match": "\"water\" is used",
+  "reason": "Water is a free line in the lemonade price scenario read aloud, not a material."
+ },
+ {
+  "code": "M1",
+  "season": 1,
+  "chapter": 8,
+  "version": "20",
+  "budget": "fromScratch",
+  "match": "\"food\" is used",
+  "reason": "The recipes are prices on a paper price list written on the board; no food is bought, cooked or eaten."
+ },
+ {
+  "code": "M1",
+  "season": 1,
+  "chapter": 8,
+  "version": "30",
+  "budget": "fromScratch",
+  "match": "\"food\" is used",
+  "reason": "The recipes are prices on a paper price list written on the board; no food is bought, cooked or eaten."
+ },
+ {
+  "code": "M1",
+  "season": 1,
+  "chapter": 8,
+  "version": "45",
+  "budget": "fromScratch",
+  "match": "\"food\" is used",
+  "reason": "The recipes are prices on a paper price list written on the board; no food is bought, cooked or eaten."
+ },
+ {
+  "code": "M1",
+  "season": 1,
+  "chapter": 8,
+  "version": "20",
+  "budget": "fromScratch",
+  "match": "\"water\" is used",
+  "reason": "Water is a free line in the lemonade price scenario read aloud, not a material."
+ },
+ {
+  "code": "M3",
+  "season": 1,
+  "chapter": 8,
+  "version": "20",
+  "budget": "fromScratch",
+  "match": "buy item (food)",
+  "reason": "The recipes are prices on a paper price list written on the board; no food is bought, cooked or eaten."
+ },
+ {
+  "code": "M3",
+  "season": 1,
+  "chapter": 8,
+  "version": "30",
+  "budget": "fromScratch",
+  "match": "buy item (food)",
+  "reason": "The recipes are prices on a paper price list written on the board; no food is bought, cooked or eaten."
+ },
+ {
+  "code": "M3",
+  "season": 1,
+  "chapter": 8,
+  "version": "45",
+  "budget": "fromScratch",
+  "match": "buy item (food)",
+  "reason": "The recipes are prices on a paper price list written on the board; no food is bought, cooked or eaten."
+ },
+ {
+  "code": "M1",
+  "season": 1,
+  "chapter": 9,
+  "version": "30",
+  "budget": "fromScratch",
+  "match": "\"index cards\" is used",
+  "reason": "Index card, book and frame are the real things the paper items stand for, not materials."
+ },
+ {
+  "code": "M1",
+  "season": 1,
+  "chapter": 9,
+  "version": "30",
+  "budget": "basicClassroom",
+  "match": "\"index cards\" is used",
+  "reason": "Index card, book and frame are the real things the paper items stand for, not materials."
+ },
+ {
+  "code": "M1",
+  "season": 1,
+  "chapter": 9,
+  "version": "45",
+  "budget": "fromScratch",
+  "match": "\"index cards\" is used",
+  "reason": "Index card, book and frame are the real things the paper items stand for, not materials."
+ },
+ {
+  "code": "M1",
+  "season": 1,
+  "chapter": 9,
+  "version": "45",
+  "budget": "basicClassroom",
+  "match": "\"index cards\" is used",
+  "reason": "Index card, book and frame are the real things the paper items stand for, not materials."
+ },
+ {
+  "code": "M1",
+  "season": 1,
+  "chapter": 9,
+  "version": "45",
+  "budget": "fromScratch",
+  "match": "\"glue\" is used",
+  "reason": "The glue is in the pretend toy-train debate question; nobody uses glue in From Scratch."
+ },
+ {
+  "code": "M1",
+  "season": 1,
+  "chapter": 10,
+  "version": "20",
+  "budget": "fromScratch",
+  "match": "\"books\" is used",
+  "reason": "Example of a free school resource the class names, not a material."
+ },
+ {
+  "code": "M1",
+  "season": 1,
+  "chapter": 10,
+  "version": "20",
+  "budget": "basicClassroom",
+  "match": "\"books\" is used",
+  "reason": "Example of a free school resource the class names, not a material."
+ },
+ {
+  "code": "M1",
+  "season": 1,
+  "chapter": 10,
+  "version": "20",
+  "budget": "fromScratch",
+  "match": "\"crayons\" is used",
+  "reason": "Example of a free school resource the class names, not a material."
+ },
+ {
+  "code": "M1",
+  "season": 1,
+  "chapter": 10,
+  "version": "20",
+  "budget": "basicClassroom",
+  "match": "\"crayons\" is used",
+  "reason": "Example of a free school resource the class names, not a material."
+ },
+ {
+  "code": "M1",
+  "season": 1,
+  "chapter": 10,
+  "version": "30",
+  "budget": "fromScratch",
+  "match": "\"books\" is used",
+  "reason": "Example of a free school resource the class names, not a material."
+ },
+ {
+  "code": "M1",
+  "season": 1,
+  "chapter": 10,
+  "version": "30",
+  "budget": "basicClassroom",
+  "match": "\"books\" is used",
+  "reason": "Example of a free school resource the class names, not a material."
+ },
+ {
+  "code": "M1",
+  "season": 1,
+  "chapter": 10,
+  "version": "30",
+  "budget": "basicClassroom",
+  "match": "\"crayons\" is used",
+  "reason": "Example of a free school resource the class names, not a material."
+ },
+ {
+  "code": "M1",
+  "season": 1,
+  "chapter": 10,
+  "version": "30",
+  "budget": "fromScratch",
+  "match": "\"blocks\" is used",
+  "reason": "\"Two blocks away\" is a distance on the map, not building blocks."
+ },
+ {
+  "code": "M1",
+  "season": 1,
+  "chapter": 10,
+  "version": "30",
+  "budget": "basicClassroom",
+  "match": "\"blocks\" is used",
+  "reason": "\"Two blocks away\" is a distance on the map, not building blocks."
+ },
+ {
+  "code": "M1",
+  "season": 1,
+  "chapter": 10,
+  "version": "45",
+  "budget": "fromScratch",
+  "match": "\"food\" is used",
+  "reason": "\"Get food\" is a brainstorm category of free community resources (school lunch, food banks), not a material."
+ },
+ {
+  "code": "M1",
+  "season": 1,
+  "chapter": 10,
+  "version": "45",
+  "budget": "basicClassroom",
+  "match": "\"food\" is used",
+  "reason": "\"Get food\" is a brainstorm category of free community resources (school lunch, food banks), not a material."
+ },
+ {
+  "code": "M3",
+  "season": 1,
+  "chapter": 10,
+  "version": "45",
+  "budget": "fromScratch",
+  "match": "buy item (food)",
+  "reason": "\"Get food\" is a brainstorm category of free community resources (school lunch, food banks), not a material."
+ },
+ {
+  "code": "M1",
+  "season": 1,
+  "chapter": 11,
+  "version": "20",
+  "budget": "fromScratch",
+  "match": "\"felt\" is used",
+  "reason": "\"Felt\" here is the verb (how it felt), not the fabric."
+ },
+ {
+  "code": "M1",
+  "season": 1,
+  "chapter": 11,
+  "version": "20",
+  "budget": "basicClassroom",
+  "match": "\"felt\" is used",
+  "reason": "\"Felt\" here is the verb (how it felt), not the fabric."
+ },
+ {
+  "code": "M1",
+  "season": 1,
+  "chapter": 11,
+  "version": "30",
+  "budget": "fromScratch",
+  "match": "\"felt\" is used",
+  "reason": "\"Felt\" here is the verb (how it felt), not the fabric."
+ },
+ {
+  "code": "M1",
+  "season": 1,
+  "chapter": 11,
+  "version": "30",
+  "budget": "basicClassroom",
+  "match": "\"felt\" is used",
+  "reason": "\"Felt\" here is the verb (how it felt), not the fabric."
+ },
+ {
+  "code": "M1",
+  "season": 1,
+  "chapter": 11,
+  "version": "45",
+  "budget": "fromScratch",
+  "match": "\"felt\" is used",
+  "reason": "\"Felt\" here is the verb (how it felt), not the fabric."
+ },
+ {
+  "code": "M1",
+  "season": 1,
+  "chapter": 11,
+  "version": "45",
+  "budget": "basicClassroom",
+  "match": "\"felt\" is used",
+  "reason": "\"Felt\" here is the verb (how it felt), not the fabric."
+ },
+ {
+  "code": "M1",
+  "season": 1,
+  "chapter": 11,
+  "version": "20",
+  "budget": "fromScratch",
+  "match": "\"food\" is used",
+  "reason": "Jam, cookies and vegetables are what the story characters shared, not materials."
+ },
+ {
+  "code": "M1",
+  "season": 1,
+  "chapter": 11,
+  "version": "20",
+  "budget": "basicClassroom",
+  "match": "\"food\" is used",
+  "reason": "Jam, cookies and vegetables are what the story characters shared, not materials."
+ },
+ {
+  "code": "M3",
+  "season": 1,
+  "chapter": 11,
+  "version": "20",
+  "budget": "fromScratch",
+  "match": "buy item (food)",
+  "reason": "Jam, cookies and vegetables are what the story characters shared, not materials."
+ },
+ {
+  "code": "M1",
+  "season": 1,
+  "chapter": 11,
+  "version": "45",
+  "budget": "fromScratch",
+  "match": "\"seeds\" is used",
+  "reason": "Riley's flower seeds are a story fact from Chapter 2, not a material."
+ },
+ {
+  "code": "M1",
+  "season": 1,
+  "chapter": 11,
+  "version": "45",
+  "budget": "basicClassroom",
+  "match": "\"seeds\" is used",
+  "reason": "Riley's flower seeds are a story fact from Chapter 2, not a material."
+ },
+ {
+  "code": "M3",
+  "season": 1,
+  "chapter": 11,
+  "version": "45",
+  "budget": "fromScratch",
+  "match": "buy item (seeds)",
+  "reason": "Riley's flower seeds are a story fact from Chapter 2, not a material."
+ },
+ {
+  "code": "M1",
+  "season": 1,
+  "chapter": 12,
+  "version": "30",
+  "budget": "fromScratch",
+  "match": "\"books\" is used",
+  "reason": "\"Books\" here are the mini-books students make from plain paper, not a material to supply."
+ },
+ {
+  "code": "M1",
+  "season": 1,
+  "chapter": 12,
+  "version": "30",
+  "budget": "basicClassroom",
+  "match": "\"books\" is used",
+  "reason": "\"Books\" here are the mini-books students make from plain paper, not a material to supply."
+ },
+ {
+  "code": "M1",
+  "season": 1,
+  "chapter": 12,
+  "version": "45",
+  "budget": "fromScratch",
+  "match": "\"books\" is used",
+  "reason": "\"Books\" here are the mini-books students make from plain paper, not a material to supply."
+ },
+ {
+  "code": "M1",
+  "season": 1,
+  "chapter": 12,
+  "version": "45",
+  "budget": "basicClassroom",
+  "match": "\"books\" is used",
+  "reason": "\"Books\" here are the mini-books students make from plain paper, not a material to supply."
+ },
+ {
+  "code": "M1",
+  "season": 1,
+  "chapter": 12,
+  "version": "45",
+  "budget": "fromScratch",
+  "match": "\"seeds\" is used",
+  "reason": "\"The seed\" names the Chapter 2 activity in the season ledger, not a material."
+ },
+ {
+  "code": "M1",
+  "season": 1,
+  "chapter": 12,
+  "version": "45",
+  "budget": "basicClassroom",
+  "match": "\"seeds\" is used",
+  "reason": "\"The seed\" names the Chapter 2 activity in the season ledger, not a material."
+ },
+ {
+  "code": "M3",
+  "season": 1,
+  "chapter": 12,
+  "version": "45",
+  "budget": "fromScratch",
+  "match": "buy item (seeds)",
+  "reason": "\"The seed\" names the Chapter 2 activity in the season ledger, not a material."
+ }
+]

@@ -99,7 +99,7 @@ const VOCAB = [
   { key: 'world map', cat: 'classroom', re: W('world map|globe|atlas|printed map') },
   { key: 'photos', cat: 'classroom', re: W('photos?|photographs?|printouts?|pictures printed') },
   { key: 'camera', cat: 'classroom', re: W('cameras?|tablets?|ipads?') },
-  { key: 'blocks', cat: 'classroom', re: W('blocks|lego|legos|building blocks') },
+  { key: 'blocks', cat: 'classroom', re: /\b(?:blocks|legos?|building blocks)\b(?! (?:away|from|down|over))/i },
   { key: 'sponges', cat: 'classroom', re: W('sponges?') },
   { key: 'spoons', cat: 'classroom', re: W('spoons?') },
   { key: 'cups', cat: 'classroom', re: W('cups?') },
@@ -117,7 +117,7 @@ const VOCAB = [
   { key: 'clay', cat: 'classroom', re: W('clay|play-?doh|playdough|modeling dough|salt dough') },
   { key: 'paint', cat: 'classroom', re: W('paints?|tempera|watercolou?rs?|paint ?brush(?:es)?|brushes') },
   { key: 'beads', cat: 'classroom', re: W('beads?') },
-  { key: 'felt', cat: 'classroom', re: /\bfelt(?![- ]?tips?)(?:\s+squares?)?\b/i },
+  { key: 'felt', cat: 'classroom', re: W('felt squares?|felt sheets?|pieces? of felt|felt fabric|felt scraps?') },
   { key: 'fabric', cat: 'classroom', re: W('fabric|cloth|ribbon|lace|burlap') },
   { key: 'pipe cleaners', cat: 'classroom', re: W('pipe ?cleaners?|pom-?poms?|googly eyes|sequins?|glitter') },
   { key: 'stickers', cat: 'classroom', re: W('stickers?|sticky dots?|dot stickers?|star stickers?') },
@@ -134,22 +134,25 @@ const NEGATION = /(?:\bno|\bnot|\bwithout|\binstead of|\bskip|\bnever|\bdon'?t n
 const FREE_MARK = /\b(free|from home|recycled|scrap|brought in|donated|already in the room|cut from (?:plain |scrap )?paper|made from (?:plain |scrap )?paper|drawn on)\b/i;
 
 function mentions(textStr, withNegation = false) {
-  // returns Set of keys mentioned (non-negated). Specific kinds consume their span.
+  // Returns the set of keys mentioned (not negated). Earlier VOCAB entries claim
+  // their words first, so "scrap paper" is not also read as "paper". Regexes run
+  // on the original text, so look-behinds such as "paper seed" still work.
   const found = new Set();
-  let s = ' ' + textStr + ' ';
+  const s = ' ' + textStr + ' ';
+  const taken = new Uint8Array(s.length);
   for (const v of VOCAB) {
     const re = new RegExp(v.re.source, v.re.flags.includes('g') ? v.re.flags : v.re.flags + 'g');
     let m;
-    const spans = [];
+    const claims = [];
     while ((m = re.exec(s))) {
       if (m[0].length === 0) { re.lastIndex++; continue; }
-      const before = s.slice(Math.max(0, m.index - 40), m.index);
-      const negated = NEGATION.test(before);
+      const start = m.index, end = m.index + m[0].length;
+      if (taken.subarray(start, end).some(Boolean)) continue;
+      const negated = NEGATION.test(s.slice(Math.max(0, start - 40), start));
       if (!negated || withNegation) found.add(v.key);
-      spans.push([m.index, m.index + m[0].length]);
+      claims.push([start, end]);
     }
-    // blank out matched spans so generic keys do not re-match them
-    for (const [a, b] of spans.reverse()) s = s.slice(0, a) + ' '.repeat(b - a) + s.slice(b);
+    for (const [a, b] of claims) taken.fill(1, a, b);
   }
   return found;
 }
