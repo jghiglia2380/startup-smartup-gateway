@@ -529,5 +529,50 @@
   "budget": "fromScratch",
   "match": "buy item (seeds)",
   "reason": "\"The seed\" names the Chapter 2 activity in the season ledger, not a material."
+ },
+ {
+  "code": "M1",
+  "season": 4,
+  "chapter": 2,
+  "version": "30",
+  "match": "\"clay\" is used",
+  "reason": "Before class writes pretend sample prices on the board (wood $4, clay $3, paint $2); no clay is used"
+ },
+ {
+  "code": "M1",
+  "season": 4,
+  "chapter": 2,
+  "version": "30",
+  "match": "\"paint\" is used",
+  "reason": "Before class writes pretend sample prices on the board (wood $4, clay $3, paint $2); no paint is used"
+ },
+ {
+  "code": "M1",
+  "season": 4,
+  "chapter": 6,
+  "match": "\"food\" is used",
+  "reason": "The lemonade stand is an imagined costing scenario; lemons, sugar and cups are cost items named on the board, and nothing is made, bought or handled."
+ },
+ {
+  "code": "M3",
+  "season": 4,
+  "chapter": 6,
+  "match": "uses a buy item (food)",
+  "reason": "The lemonade stand is an imagined costing scenario; lemons, sugar and cups are cost items named on the board, and nothing is made, bought or handled."
+ },
+ {
+  "code": "M1",
+  "season": 4,
+  "chapter": 6,
+  "match": "\"cups\" is used",
+  "reason": "The lemonade stand is an imagined costing scenario; lemons, sugar and cups are cost items named on the board, and nothing is made, bought or handled."
+ },
+ {
+  "code": "M1",
+  "season": 4,
+  "chapter": 8,
+  "version": "45",
+  "match": "\"clay\" is used",
+  "reason": "Play-Doh is a real pivot example (wallpaper cleaner to toy), not a material"
  }
 ]

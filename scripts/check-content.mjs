@@ -87,7 +87,7 @@ const VOCAB = [
   { key: 'string', cat: 'classroom', re: W('string|yarn|twine') },
   { key: 'rubber bands', cat: 'classroom', re: W('rubber ?bands?') },
   { key: 'envelopes', cat: 'classroom', re: W('envelopes?') },
-  { key: 'folders', cat: 'classroom', re: W('folders?') },
+  { key: 'folders', cat: 'classroom', re: W('file folders?|pocket folders?|manila folders?|folders? (?:to|for) (?:keep|hold|store)') },
   { key: 'chalk', cat: 'classroom', re: W('chalk(?! ?board)') },
   { key: 'bell', cat: 'classroom', re: W('bells?|chimes?') },
   { key: 'calculators', cat: 'classroom', re: W('calculators?') },
