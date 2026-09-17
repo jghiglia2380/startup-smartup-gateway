@@ -612,5 +612,278 @@
   "chapter": 7,
   "match": "buy item (food)",
   "reason": "The wheat, flour, bread and sandwich chain is drawn on the board as an example; no food is used"
+ },
+ {
+  "code": "M1",
+  "season": 2,
+  "chapter": 3,
+  "version": "20",
+  "budget": "fromScratch",
+  "match": "\"folders\" is used",
+  "reason": "\"folder\" is the folding job on the line, not a file folder"
+ },
+ {
+  "code": "M1",
+  "season": 2,
+  "chapter": 3,
+  "version": "20",
+  "budget": "basicClassroom",
+  "match": "\"folders\" is used",
+  "reason": "\"folder\" is the folding job on the line, not a file folder"
+ },
+ {
+  "code": "M1",
+  "season": 2,
+  "chapter": 3,
+  "version": "30",
+  "budget": "fromScratch",
+  "match": "\"folders\" is used",
+  "reason": "\"folder\" is the folding job on the line, not a file folder"
+ },
+ {
+  "code": "M1",
+  "season": 2,
+  "chapter": 3,
+  "version": "30",
+  "budget": "basicClassroom",
+  "match": "\"folders\" is used",
+  "reason": "\"folder\" is the folding job on the line, not a file folder"
+ },
+ {
+  "code": "M1",
+  "season": 2,
+  "chapter": 3,
+  "version": "45",
+  "budget": "fromScratch",
+  "match": "\"folders\" is used",
+  "reason": "\"folder\" is the folding job on the line, not a file folder"
+ },
+ {
+  "code": "M1",
+  "season": 2,
+  "chapter": 3,
+  "version": "45",
+  "budget": "basicClassroom",
+  "match": "\"folders\" is used",
+  "reason": "\"folder\" is the folding job on the line, not a file folder"
+ },
+ {
+  "code": "M1",
+  "season": 2,
+  "chapter": 4,
+  "version": "20",
+  "budget": "fromScratch",
+  "match": "\"food\" is used",
+  "reason": "\"a food\" is a family idea students draw, not a material"
+ },
+ {
+  "code": "M1",
+  "season": 2,
+  "chapter": 4,
+  "version": "20",
+  "budget": "basicClassroom",
+  "match": "\"food\" is used",
+  "reason": "\"a food\" is a family idea students draw, not a material"
+ },
+ {
+  "code": "M3",
+  "season": 2,
+  "chapter": 4,
+  "version": "20",
+  "budget": "fromScratch",
+  "match": "buy item (food)",
+  "reason": "\"a food\" is a family idea students draw, not a material"
+ },
+ {
+  "code": "M1",
+  "season": 2,
+  "chapter": 4,
+  "version": "30",
+  "budget": "fromScratch",
+  "match": "\"food\" is used",
+  "reason": "\"a food\" is a family idea students draw, not a material"
+ },
+ {
+  "code": "M1",
+  "season": 2,
+  "chapter": 4,
+  "version": "30",
+  "budget": "basicClassroom",
+  "match": "\"food\" is used",
+  "reason": "\"a food\" is a family idea students draw, not a material"
+ },
+ {
+  "code": "M3",
+  "season": 2,
+  "chapter": 4,
+  "version": "30",
+  "budget": "fromScratch",
+  "match": "buy item (food)",
+  "reason": "\"a food\" is a family idea students draw, not a material"
+ },
+ {
+  "code": "M1",
+  "season": 2,
+  "chapter": 4,
+  "version": "45",
+  "budget": "fromScratch",
+  "match": "\"food\" is used",
+  "reason": "\"a food\" is a family idea students draw, not a material"
+ },
+ {
+  "code": "M1",
+  "season": 2,
+  "chapter": 4,
+  "version": "45",
+  "budget": "basicClassroom",
+  "match": "\"food\" is used",
+  "reason": "\"a food\" is a family idea students draw, not a material"
+ },
+ {
+  "code": "M3",
+  "season": 2,
+  "chapter": 4,
+  "version": "45",
+  "budget": "fromScratch",
+  "match": "buy item (food)",
+  "reason": "\"a food\" is a family idea students draw, not a material"
+ },
+ {
+  "code": "M1",
+  "season": 2,
+  "chapter": 5,
+  "match": "\"food\" is used",
+  "reason": "spice, cinnamon, pepper and herb names are the topic on paper clue cards; no real spice or food is used in any version"
+ },
+ {
+  "code": "M3",
+  "season": 2,
+  "chapter": 5,
+  "budget": "fromScratch",
+  "match": "buy item (food)",
+  "reason": "spice names are the topic on paper clue cards; no real spice or food is used"
+ },
+ {
+  "code": "M1",
+  "season": 2,
+  "chapter": 6,
+  "version": "45",
+  "match": "\"magazines\" is used",
+  "reason": "\"catalogue\" is the hand-written lot list on scrap paper, not a magazine or store catalog"
+ },
+ {
+  "code": "M1",
+  "season": 2,
+  "chapter": 8,
+  "match": "\"food\" is used",
+  "reason": "fish, milk, bread and fruit are drawn picture cards and words on the price chart; no real food is used"
+ },
+ {
+  "code": "M3",
+  "season": 2,
+  "chapter": 8,
+  "budget": "fromScratch",
+  "match": "buy item (food)",
+  "reason": "fish, milk, bread and fruit are drawn picture cards and words on the price chart; no real food is used"
+ },
+ {
+  "code": "M1",
+  "season": 2,
+  "chapter": 8,
+  "match": "\"books\" is used",
+  "reason": "books are pictured on item cards, not a material"
+ },
+ {
+  "code": "M1",
+  "season": 2,
+  "chapter": 8,
+  "version": "20",
+  "match": "\"pencils\" is used",
+  "reason": "pencils are pictured on a picture card; the teacher draws and writes with crayons"
+ },
+ {
+  "code": "M1",
+  "season": 2,
+  "chapter": 8,
+  "version": "20",
+  "match": "\"found objects\" is used",
+  "reason": "rocks are pictured on a picture card, not a material"
+ },
+ {
+  "code": "M1",
+  "season": 2,
+  "chapter": 9,
+  "match": "\"food\" is used",
+  "reason": "vegetables are drawn, pictured or talked about as the harvest; no real food is used"
+ },
+ {
+  "code": "M3",
+  "season": 2,
+  "chapter": 9,
+  "budget": "fromScratch",
+  "match": "text uses a buy item (food)",
+  "reason": "vegetables are drawn, pictured or talked about as the harvest; no real food is used"
+ },
+ {
+  "code": "M1",
+  "season": 2,
+  "chapter": 9,
+  "match": "\"seeds\" is used",
+  "reason": "seeds are a cost or a resource card in the scenario; nothing is planted"
+ },
+ {
+  "code": "M3",
+  "season": 2,
+  "chapter": 9,
+  "budget": "fromScratch",
+  "match": "text uses a buy item (seeds)",
+  "reason": "seeds are a cost or a resource card in the scenario; nothing is planted"
+ },
+ {
+  "code": "M1",
+  "season": 2,
+  "chapter": 9,
+  "match": "\"soil\" is used",
+  "reason": "soil is a cost in the scenario; nothing is planted"
+ },
+ {
+  "code": "M3",
+  "season": 2,
+  "chapter": 9,
+  "budget": "fromScratch",
+  "match": "text uses a buy item (soil)",
+  "reason": "soil is a cost in the scenario; nothing is planted"
+ },
+ {
+  "code": "M1",
+  "season": 2,
+  "chapter": 9,
+  "match": "\"water\" is used",
+  "reason": "water is a tap or water point drawn on the plan, or a cost line; no water is used"
+ },
+ {
+  "code": "M1",
+  "season": 2,
+  "chapter": 9,
+  "version": "20",
+  "match": "\"boxes\" is used",
+  "reason": "boxes are the grid squares drawn on the plain paper, not cardboard boxes"
+ },
+ {
+  "code": "M1",
+  "season": 2,
+  "chapter": 12,
+  "version": "45",
+  "match": "\"food\" is used",
+  "reason": "cookies and pretzels are drawn paper treats at the Paper Goods booth; the step says no real food"
+ },
+ {
+  "code": "M3",
+  "season": 2,
+  "chapter": 12,
+  "version": "45",
+  "budget": "fromScratch",
+  "match": "buy item (food)",
+  "reason": "cookies and pretzels are drawn paper treats at the Paper Goods booth; the step says no real food"
  }
 ]
