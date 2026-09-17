@@ -426,22 +426,7 @@ function parseGroups(segment: string): Group[] {
   return groups.filter(g => g.head || g.subs.length > 0);
 }
 
-// A step may end with a simpler task for the youngest tier: "... Tier 1 (K-1): do X."
-// Show it on its own line so it does not read as part of the last list item.
 function StepDescription({ text, dotClass }: { text: string; dotClass: string }) {
-  const tierAt = text.lastIndexOf('Tier 1 (K-1):');
-  if (tierAt > 0) {
-    return (
-      <div>
-        <StepDescription text={text.slice(0, tierAt).trim()} dotClass={dotClass} />
-        <p className="mt-1 text-sm text-slate-600">
-          <span className="font-semibold text-slate-700">Tier 1 (K-1): </span>
-          {renderBold(text.slice(tierAt + 'Tier 1 (K-1):'.length).trim())}
-        </p>
-      </div>
-    );
-  }
-
   const segments = text.split(/(?:^|\s+)-\s+/);
   const intro = parseGroups(segments[0]);
   const items = segments.slice(1).map(s => s.trim()).filter(Boolean).map(parseGroups);

@@ -117,7 +117,7 @@ const VOCAB = [
   { key: 'clay', cat: 'classroom', re: W('clay|play-?doh|playdough|modeling dough|salt dough') },
   { key: 'paint', cat: 'classroom', re: W('paints?|tempera|watercolou?rs?|paint ?brush(?:es)?|brushes') },
   { key: 'beads', cat: 'classroom', re: W('beads?') },
-  { key: 'felt', cat: 'classroom', re: W('felt squares?|felt sheets?|pieces? of felt|felt fabric|felt scraps?') },
+  { key: 'felt', cat: 'classroom', re: /\bfelt(?= (?:squares?|sheets?|scraps?|fabric|bookmarks?|pieces?|shapes?)\b)|\bpieces? of felt\b|^\s*felt\s*$/i },
   { key: 'fabric', cat: 'classroom', re: W('fabric|cloth|ribbon|lace|burlap') },
   { key: 'pipe cleaners', cat: 'classroom', re: W('pipe ?cleaners?|pom-?poms?|googly eyes|sequins?|glitter') },
   { key: 'stickers', cat: 'classroom', re: W('stickers?|sticky dots?|dot stickers?|star stickers?') },
