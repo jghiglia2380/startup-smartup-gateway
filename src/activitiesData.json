@@ -1059,8 +1059,8 @@
                     "es": "Each student draws a seed on a scrap of paper with a crayon, folds it, and \"plants\" the paper seed in an empty cup. Label the cup with a name in pencil. Students also set up a \"paper seed log\" page in their mini-book: date and a pencil drawing of the cup."
                   },
                   "sayThis": {
-                    "en": "\"Draw your paper seed on your scrap. Fold it. Put it in your cup and write your name on the cup. Now draw your cup exactly how it looks right now, because in two weeks you won't remember.\"",
-                    "es": "\"Draw your paper seed on your scrap. Fold it. Put it in your cup and write your name on the cup. Now draw your cup exactly how it looks right now, because in two weeks you won't remember.\""
+                    "en": "\"Draw your paper seed on your scrap. Fold it. Put it in your cup and write your name on the cup. Now draw your cup and paper seed so you remember the day you started saving.\"",
+                    "es": "\"Draw your paper seed on your scrap. Fold it. Put it in your cup and write your name on the cup. Now draw your cup and paper seed so you remember the day you started saving.\""
                   },
                   "watchFor": {
                     "en": "Paper seeds crumpled into a ball. One fold, then straight into the cup. Also the student who skips the log drawing.",
@@ -1069,6 +1069,12 @@
                   "doneWhen": {
                     "en": "Every cup has a paper seed and a name, and is drawn in the log.",
                     "es": "Every cup has a paper seed and a name, and is drawn in the log."
+                  }
+                },
+                "tier1FromScratch": {
+                  "sayThis": {
+                    "en": "\"Draw your paper seed on your scrap. Fold it. Put it in your cup and write your name on the cup. Now draw your cup and your paper seed.\"",
+                    "es": "\"Draw your paper seed on your scrap. Fold it. Put it in your cup and write your name on the cup. Now draw your cup and your paper seed.\""
                   }
                 }
               }
@@ -1142,6 +1148,26 @@
                     "en": "\"A real plant takes about two weeks to come up. Your savings turn into your goal in however many weeks you wrote down. What's the same about those two?\"",
                     "es": "\"A real plant takes about two weeks to come up. Your savings turn into your goal in however many weeks you wrote down. What's the same about those two?\""
                   }
+                },
+                "tier1": {
+                  "description": {
+                    "en": "Pair discussion: \"Your seed will become a plant in 2 weeks. Your ten coins take ten weeks to fill. What's the same about both?\" Partners report one similarity to the class.",
+                    "es": "Pair discussion: \"Your seed will become a plant in 2 weeks. Your ten coins take ten weeks to fill. What's the same about both?\" Partners report one similarity to the class."
+                  },
+                  "sayThis": {
+                    "en": "\"Your seed turns into a plant in two weeks. Your savings grow a little every week, like your ten coins. What's the same about those two?\"",
+                    "es": "\"Your seed turns into a plant in two weeks. Your savings grow a little every week, like your ten coins. What's the same about those two?\""
+                  }
+                },
+                "tier1FromScratch": {
+                  "description": {
+                    "en": "Pair discussion: \"A real plant takes about 2 weeks to come up. Your ten coins take ten weeks to fill. What's the same about both?\" Partners report one similarity to the class.",
+                    "es": "Pair discussion: \"A real plant takes about 2 weeks to come up. Your ten coins take ten weeks to fill. What's the same about both?\" Partners report one similarity to the class."
+                  },
+                  "sayThis": {
+                    "en": "\"A real plant takes about two weeks to come up. Your savings grow a little every week, like your ten coins. What's the same about those two?\"",
+                    "es": "\"A real plant takes about two weeks to come up. Your savings grow a little every week, like your ten coins. What's the same about those two?\""
+                  }
                 }
               }
             },
@@ -1213,6 +1239,26 @@
                   "description": {
                     "en": "On four sheets of plain paper taped together and hung in class, everyone adds their name and their savings goal. Will check in monthly.",
                     "es": "On four sheets of plain paper taped together and hung in class, everyone adds their name and their savings goal. Will check in monthly."
+                  }
+                },
+                "tier1": {
+                  "description": {
+                    "en": "On a sheet of chart paper displayed in class, everyone writes their name and draws their savings goal. Will check in monthly.",
+                    "es": "On a sheet of chart paper displayed in class, everyone writes their name and draws their savings goal. Will check in monthly."
+                  },
+                  "sayThis": {
+                    "en": "\"Write your name on the class sheet and draw your goal next to it. This stays up all year. I'm going to ask you about it.\"",
+                    "es": "\"Write your name on the class sheet and draw your goal next to it. This stays up all year. I'm going to ask you about it.\""
+                  },
+                  "doneWhen": {
+                    "en": "Every name is on the sheet with a goal drawing next to it.",
+                    "es": "Every name is on the sheet with a goal drawing next to it."
+                  }
+                },
+                "tier1FromScratch": {
+                  "description": {
+                    "en": "On four sheets of plain paper taped together and hung in class, everyone writes their name and draws their savings goal. Will check in monthly.",
+                    "es": "On four sheets of plain paper taped together and hung in class, everyone writes their name and draws their savings goal. Will check in monthly."
                   }
                 }
               }
@@ -1293,9 +1339,9 @@
       "tierDifferentiation": {
         "1": {
           "focus": [
-            "Plant a seed and check on it with the teacher",
+            "Talk about how a seed and savings both take time to grow",
             "Color in one coin on your paper jar each week",
-            "Draw the plant as it grows",
+            "Draw how a plant grows, from seed to sprout",
             "Words: grow, save, wait, more"
           ],
           "gradeLevel": "K-1"
@@ -1332,7 +1378,7 @@
         "ell": {
           "label": "English Language Learners",
           "strategies": [
-            "Act out each planting step (hole, seed, cover, water) before you say it; students copy your hands.",
+            "Act out each step before you say it, like putting a seed or a paper seed in a cup, or coloring one coin; students copy your hands.",
             "Put four words with pictures on the board: seed, grow, save, wait.",
             "Give the frame \"By Week ___ I will have $___.\" and let students point to and count coins instead of writing."
           ]
@@ -1340,8 +1386,8 @@
         "learningDifferences": {
           "label": "Students with Learning Differences",
           "strategies": [
-            "Fill the cup ahead of time and give a big seed, like a bean or sunflower seed, that is easy to hold.",
-            "Pre-draw the jar rows so students only color and count.",
+            "Give a big, easy-to-hold seed: a bean when you plant real seeds, or a big scrap to draw on for a paper seed.",
+            "Pre-draw the jar rows or the ten coins so students only color and count.",
             "Let students say their predictions to a partner instead of writing them."
           ]
         },
@@ -1349,7 +1395,7 @@
           "label": "Advanced Students",
           "strategies": [
             "Work out how many weeks their goal takes at $1 a week, then at $2 a week, and compare.",
-            "Keep a seed log each day and draw the plant's height next to their savings chart.",
+            "Draw how tall a plant might be each week next to their savings chart.",
             "Use their chart to explain to a partner why a small amount every week adds up."
           ]
         }
@@ -2776,6 +2822,14 @@
               "doneWhen": {
                 "en": "Every student can tell you one specific skill.",
                 "es": "Every student can tell you one specific skill."
+              },
+              "variants": {
+                "tier1": {
+                  "description": {
+                    "en": "Students think of ONE small skill they can show a friend. \"I'm good at art\" becomes \"I can draw a dog.\" Teacher models: \"I can teach you a trick for holding your pencil.\"",
+                    "es": "Students think of ONE small skill they can show a friend. \"I'm good at art\" becomes \"I can draw a dog.\" Teacher models: \"I can teach you a trick for holding your pencil.\""
+                  }
+                }
               }
             },
             {
@@ -2796,6 +2850,26 @@
               "doneWhen": {
                 "en": "Every card has a name, a skill and a drawing.",
                 "es": "Every card has a name, a skill and a drawing."
+              },
+              "variants": {
+                "tier1": {
+                  "description": {
+                    "en": "Students write their name on the skill card in pencil and draw themselves doing the skill with crayons. Then each student tells a partner one sentence about the skill out loud.",
+                    "es": "Students write their name on the skill card in pencil and draw themselves doing the skill with crayons. Then each student tells a partner one sentence about the skill out loud."
+                  },
+                  "sayThis": {
+                    "en": "\"Write your name on your card. Draw yourself doing your skill. Then tell your partner one sentence about it.\"",
+                    "es": "\"Write your name on your card. Draw yourself doing your skill. Then tell your partner one sentence about it.\""
+                  },
+                  "watchFor": {
+                    "en": "Kids spending all four minutes on the drawing. Say, \"Name first, then draw.\"",
+                    "es": "Kids spending all four minutes on the drawing. Say, \"Name first, then draw.\""
+                  },
+                  "doneWhen": {
+                    "en": "Every card has a name and a drawing, and every student has told a partner about the skill.",
+                    "es": "Every card has a name and a drawing, and every student has told a partner about the skill."
+                  }
+                }
               }
             },
             {
@@ -2856,6 +2930,26 @@
               "doneWhen": {
                 "en": "Every student has finished the last sentence, written or out loud.",
                 "es": "Every student has finished the last sentence, written or out loud."
+              },
+              "variants": {
+                "tier1": {
+                  "description": {
+                    "en": "Back in seats. Each student finishes one sentence out loud: \"Teaching made me feel ___.\"",
+                    "es": "Back in seats. Each student finishes one sentence out loud: \"Teaching made me feel ___.\""
+                  },
+                  "sayThis": {
+                    "en": "\"Finish this out loud: Teaching made me feel ___.\"",
+                    "es": "\"Finish this out loud: Teaching made me feel ___.\""
+                  },
+                  "watchFor": {
+                    "en": "One-word answers like \"good.\" Ask, \"What made it feel good?\"",
+                    "es": "One-word answers like \"good.\" Ask, \"What made it feel good?\""
+                  },
+                  "doneWhen": {
+                    "en": "Every student has finished the sentence out loud.",
+                    "es": "Every student has finished the sentence out loud."
+                  }
+                }
               }
             }
           ],
@@ -3159,7 +3253,7 @@
         "learningDifferences": {
           "label": "Students with Learning Differences",
           "strategies": [
-            "Offer a short list of skills to pick from (tying shoes, drawing a cat, folding paper) with a picture for each.",
+            "Offer a short list of skills to pick from (tying shoes, drawing a cat, clapping a rhythm) with a picture for each.",
             "Let students draw the skill card and tell the teacher the words.",
             "Let a student watch the first teaching round before they teach."
           ]
@@ -9331,6 +9425,7 @@
               "items": [
                 "Plain paper — 30 sheets: 5 at the tearer's spot for the team line, 1 per student plus spares for the solo round",
                 "Crayons — 1 set per student, for the decorator's spot and the solo round",
+                "Scrap paper — 4 pieces, teacher, for the station picture cards, free",
                 "Clock or phone timer — teacher, for the production rounds",
                 "Board — teacher, for the Team and Solo totals and the two bars"
               ]
@@ -9343,6 +9438,7 @@
                 "Scissors — 10 pairs, used by the cutters in the team round and shared by every two students in the solo round",
                 "Stickers or a stamp pad — 1 shared set, at the decorator's spot",
                 "Crayons — 1 set per student for decorating in the solo round",
+                "Scrap paper — 4 pieces, teacher, for the station picture cards, free",
                 "Clock or phone timer — teacher, for the production rounds",
                 "Board — teacher, for the Team and Solo totals and the two bars"
               ]
@@ -9590,7 +9686,7 @@
                 "Plain paper — 30 sheets: 5 at the tearer's end for the team line, 1 per student plus spares for the solo round",
                 "Crayons — 1 set per student, for the decorate station and the solo round",
                 "Pencils — 20, one per student for the tally",
-                "Scrap paper — 20 pieces, one per student for the tally, free",
+                "Scrap paper — 24 pieces: 20, one per student for the tally, and 4 for the teacher's station picture cards, free",
                 "Clock or phone timer — teacher, for the production rounds",
                 "Board — teacher, for the team total, the solo counts and the graph"
               ]
@@ -9603,7 +9699,7 @@
                 "Scissors — 10 pairs, used at the cut station and shared by every two students in the solo round",
                 "Crayons — 1 set per student, for the decorate station and the solo round",
                 "Pencils — 20, one per student for the tally",
-                "Scrap paper — 20 pieces, one per student for the tally, free",
+                "Scrap paper — 24 pieces: 20, one per student for the tally, and 4 for the teacher's station picture cards, free",
                 "Clock or phone timer — teacher, for the production rounds",
                 "Board — teacher, for the team total, the solo counts and the graph"
               ]
@@ -9642,8 +9738,8 @@
                 },
                 "tier1": {
                   "description": {
-                    "en": "Give each child one job on the line. Each child does only that job. Set a team goal of 5 or 6 bookmarks.",
-                    "es": "Give each child one job on the line. Each child does only that job. Set a team goal of 5 or 6 bookmarks."
+                    "en": "Give each child one job on the line. Each child does only that job. Set a team goal of six bookmarks.",
+                    "es": "Give each child one job on the line. Each child does only that job. Set a team goal of six bookmarks."
                   },
                   "sayThis": {
                     "en": "\"We will make bookmarks as a team. Each of you gets one job. Do only your job. Our goal is six bookmarks.\"",
@@ -9824,8 +9920,8 @@
             "es": "Set up four stations — cut, fold, decorate, check — with the construction paper stacked at the cutter's end and crayons at the decorate station. Set aside paper, crayons, a pencil and a piece of scrap paper for every student, and one pair of scissors for every two students, for the solo round. Draw a table on the board for the team total and each solo count."
           },
           "runningLongOrShort": {
-            "en": "Long: skip the graph in Data Analysis and compare the two totals out loud. Short: in Data Analysis, have each student hold up their best bookmark from each round and vote on which looks better.",
-            "es": "Long: skip the graph in Data Analysis and compare the two totals out loud. Short: in Data Analysis, have each student hold up their best bookmark from each round and vote on which looks better."
+            "en": "Long: skip the graph in Data Analysis and compare the two totals out loud. Short: in Data Analysis, hold up the best team bookmark next to a few solo bookmarks and have the class vote on which looks better.",
+            "es": "Long: skip the graph in Data Analysis and compare the two totals out loud. Short: in Data Analysis, hold up the best team bookmark next to a few solo bookmarks and have the class vote on which looks better."
           },
           "variants": {
             "fromScratch": {
@@ -9849,7 +9945,7 @@
                 "Plain paper — 30 sheets: 5 at the tearer's end for the team line, 1 per student plus spares for the solo round",
                 "Crayons — 1 set per student, for the decorate station and the solo round",
                 "Pencils — 20, one per student to write down the solo count",
-                "Scrap paper — 20 pieces, one per student for the solo count, free",
+                "Scrap paper — 24 pieces: 20, one per student for the solo count, and 4 for the teacher's station picture cards, free",
                 "Clock or phone timer — teacher, for the production rounds",
                 "Board — teacher, for the line total, the solo total and the per-person numbers"
               ]
@@ -9862,7 +9958,7 @@
                 "Scissors — 20 pairs, one per student for the solo round, also used at the cut station",
                 "Crayons — 1 set per student, for the decorate station and the solo round",
                 "Pencils — 20, one per student to write down the solo count",
-                "Scrap paper — 20 pieces, one per student for the solo count, free",
+                "Scrap paper — 24 pieces: 20, one per student for the solo count, and 4 for the teacher's station picture cards, free",
                 "Clock or phone timer — teacher, for the production rounds",
                 "Board — teacher, for the line total, the solo total and the per-person numbers"
               ]
@@ -10153,7 +10249,7 @@
         "ell": {
           "label": "English Language Learners",
           "strategies": [
-            "Give each station a picture card showing its one job: scissors, a fold, a sticker, a check mark.",
+            "Give each station a picture card, drawn on scrap paper, showing its one job: cutting or tearing, a fold, a crayon, a check mark.",
             "Show each job with your hands before you explain it in words.",
             "Let students count their bookmarks in their home language first, then in English."
           ]
@@ -10162,7 +10258,7 @@
           "label": "Students with Learning Differences",
           "strategies": [
             "Give a student one clear job with a picture card at the station, such as \"You only fold.\"",
-            "Pair a student who finds cutting hard with a partner in the solo round, or cut their paper for them.",
+            "Pair a student who finds cutting or tearing hard with a partner in the solo round, or prepare their paper for them.",
             "Offer a quieter station at the end of the line if the room gets noisy."
           ]
         },
@@ -23922,6 +24018,26 @@
               "doneWhen": {
                 "en": "Every student has a product name and a price written down.",
                 "es": "Every student has a product name and a price written down."
+              },
+              "variants": {
+                "tier1": {
+                  "description": {
+                    "en": "Each student chooses a product they want to \"sell\" (real or imaginary) and tells a partner its name. No price.",
+                    "es": "Each student chooses a product they want to \"sell\" (real or imaginary) and tells a partner its name. No price."
+                  },
+                  "sayThis": {
+                    "en": "\"Pick one thing you would like to sell. It can be real or made up. Tell your partner what it is.\"",
+                    "es": "\"Pick one thing you would like to sell. It can be real or made up. Tell your partner what it is.\""
+                  },
+                  "watchFor": {
+                    "en": "Students who can't pick. Offer two choices, like a toy or a game.",
+                    "es": "Students who can't pick. Offer two choices, like a toy or a game."
+                  },
+                  "doneWhen": {
+                    "en": "Every student has told a partner the name of their product.",
+                    "es": "Every student has told a partner the name of their product."
+                  }
+                }
               }
             },
             {
@@ -23972,8 +24088,8 @@
                 "es": "Survey 8-10 classmates (or buddy class if available). Record answers carefully."
               },
               "sayThis": {
-                "en": "\"Ask eight to ten people. Write each answer down right away. Yes in one color, no in the other.\"",
-                "es": "\"Ask eight to ten people. Write each answer down right away. Yes in one color, no in the other.\""
+                "en": "\"Ask eight to ten people. Write each answer down right away. For would you buy it, yes in one color and no in the other. Write the price and feature answers as words or numbers in either color.\"",
+                "es": "\"Ask eight to ten people. Write each answer down right away. For would you buy it, yes in one color and no in the other. Write the price and feature answers as words or numbers in either color.\""
               },
               "watchFor": {
                 "en": "Students surveying the same few friends. Ask for at least three people they don't usually talk to.",
@@ -24016,8 +24132,8 @@
                 "es": "\"Count the yes and the no. Draw one bar for each. Make each bar as tall as its number. Then do the same for the prices.\""
               },
               "watchFor": {
-                "en": "Bars drawn by guess. Draw one on the board first, counting up the squares out loud.",
-                "es": "Bars drawn by guess. Draw one on the board first, counting up the squares out loud."
+                "en": "Bars drawn by guess. Draw one on the board first, making a small mark for each answer as you count up out loud.",
+                "es": "Bars drawn by guess. Draw one on the board first, making a small mark for each answer as you count up out loud."
               },
               "doneWhen": {
                 "en": "Every student has a bar graph with labeled yes and no bars.",
@@ -24026,20 +24142,20 @@
               "variants": {
                 "tier1": {
                   "description": {
-                    "en": "Students count their yes and no tallies. The class builds one bar graph on the board together, one square for each answer.",
-                    "es": "Students count their yes and no tallies. The class builds one bar graph on the board together, one square for each answer."
+                    "en": "Students count their yes and no tallies and see which has more. The class builds one bar graph on the board: each student colors one square, in the More Yes bar or the More No bar.",
+                    "es": "Students count their yes and no tallies and see which has more. The class builds one bar graph on the board: each student colors one square, in the More Yes bar or the More No bar."
                   },
                   "sayThis": {
-                    "en": "\"Count your yes marks. Count your no marks. Which has more? Come add yours to our class graph.\"",
-                    "es": "\"Count your yes marks. Count your no marks. Which has more? Come add yours to our class graph.\""
+                    "en": "\"Count your yes marks. Count your no marks. Which has more? Come color one square on our class graph: More Yes or More No.\"",
+                    "es": "\"Count your yes marks. Count your no marks. Which has more? Come color one square on our class graph: More Yes or More No.\""
                   },
                   "watchFor": {
                     "en": "Bars filled in by guess. Count the squares out loud as each one is colored.",
                     "es": "Bars filled in by guess. Count the squares out loud as each one is colored."
                   },
                   "doneWhen": {
-                    "en": "The class bar graph on the board shows yes and no, and every student has said their counts.",
-                    "es": "The class bar graph on the board shows yes and no, and every student has said their counts."
+                    "en": "The class graph on the board has one square from every student, and every student has said their counts.",
+                    "es": "The class graph on the board has one square from every student, and every student has said their counts."
                   }
                 }
               }
@@ -24108,6 +24224,22 @@
               "beforeClass": {
                 "en": "Decide who students may survey — classmates, or a buddy class if you can — and warn that teacher. Write the three survey questions on the board. Set out scrap paper, a pencil, two crayons in different colors and a piece of cardboard from an old box for each student to lean on.",
                 "es": "Decide who students may survey — classmates, or a buddy class if you can — and warn that teacher. Write the three survey questions on the board. Set out scrap paper, a pencil, two crayons in different colors and a piece of cardboard from an old box for each student to lean on."
+              }
+            },
+            "tier1": {
+              "beforeClass": {
+                "en": "Decide who students may survey — classmates, or a buddy class if you can — and warn that teacher. Write the one question \"Would you buy this?\" on the board, and draw an empty class graph with two bars: More Yes and More No. Set out paper, the two-colour pens and hardback books to lean on.",
+                "es": "Decide who students may survey — classmates, or a buddy class if you can — and warn that teacher. Write the one question \"Would you buy this?\" on the board, and draw an empty class graph with two bars: More Yes and More No. Set out paper, the two-colour pens and hardback books to lean on."
+              },
+              "runningLongOrShort": {
+                "en": "Long: survey five classmates instead of eight. Short: in Analysis & Decision, have each student write one change and the number from the data that made them choose it.",
+                "es": "Long: survey five classmates instead of eight. Short: in Analysis & Decision, have each student write one change and the number from the data that made them choose it."
+              }
+            },
+            "tier1FromScratch": {
+              "beforeClass": {
+                "en": "Decide who students may survey — classmates, or a buddy class if you can — and warn that teacher. Write the one question \"Would you buy this?\" on the board, and draw an empty class graph with two bars: More Yes and More No. Set out scrap paper, a pencil, two crayons in different colors and a piece of cardboard from an old box for each student to lean on.",
+                "es": "Decide who students may survey — classmates, or a buddy class if you can — and warn that teacher. Write the one question \"Would you buy this?\" on the board, and draw an empty class graph with two bars: More Yes and More No. Set out scrap paper, a pencil, two crayons in different colors and a piece of cardboard from an old box for each student to lean on."
               }
             }
           }
@@ -30079,7 +30211,7 @@
               "costPerStudent": "$0 — everything is free or from home",
               "description": "The price sheet goes on the board, each student uses plain paper and a pencil for the cost sheet and the tracking sheet, and 10 scrap-paper squares show the $10 for Tier 1. Nothing is bought.",
               "items": [
-                "Board — teacher, for the price sheet, the four terms and the cost boxes",
+                "Board — teacher, for the price sheet, the terms and the three cost circles",
                 "Plain paper — 40 sheets, two per student: one cost sheet and one tracking sheet",
                 "Pencils — 20, one per student for the guess, the costs and the profit math",
                 "Scrap paper — 10 torn squares, teacher, to show the $10 and take away costs in the Tier 1 count, free"
@@ -30089,7 +30221,7 @@
               "costPerStudent": "$0 — uses supplies the school already has",
               "description": "The price sheet goes on the board, each student uses plain paper and a pencil for the cost sheet and the tracking sheet, and 10 paper clips show the $10 for Tier 1. Nothing is bought.",
               "items": [
-                "Board — teacher, for the price sheet, the four terms and the cost boxes",
+                "Board — teacher, for the price sheet, the terms and the three cost circles",
                 "Plain paper — 40 sheets, two per student: one cost sheet and one tracking sheet",
                 "Pencils — 20, one per student for the guess, the costs and the profit math",
                 "Paper clips — 10, teacher, to show the $10 and take away costs in the Tier 1 count"
@@ -30193,18 +30325,18 @@
                 "es": "Pairs adding everything into one pile. The three separate totals are what makes the next steps work."
               },
               "description": {
-                "en": "In pairs, students estimate real costs for each item using provided price sheet. Calculate total direct costs, total overhead, total labor. Record in cost tracking worksheet.",
-                "es": "In pairs, students estimate real costs for each item using provided price sheet. Calculate total direct costs, total overhead, total labor. Record in cost tracking worksheet."
+                "en": "In pairs, students estimate real costs for each item using the price sheet on the board. Price only items that are on the sheet, and use the hourly labor rate for your time. Calculate total direct costs, total overhead, total labor. Record on your cost sheet.",
+                "es": "In pairs, students estimate real costs for each item using the price sheet on the board. Price only items that are on the sheet, and use the hourly labor rate for your time. Calculate total direct costs, total overhead, total labor. Record on your cost sheet."
               },
               "variants": {
                 "tier1": {
                   "description": {
-                    "en": "The teacher writes a price of $1 or $2 beside each thing in the three circles. In pairs, students count the dollars in one circle on their fingers, then the class counts each circle together. The teacher writes each circle's dollars beside it.",
-                    "es": "The teacher writes a price of $1 or $2 beside each thing in the three circles. In pairs, students count the dollars in one circle on their fingers, then the class counts each circle together. The teacher writes each circle's dollars beside it."
+                    "en": "The teacher writes the price from the price list beside each thing in the three circles. Things not on the price list cost nothing today. In pairs, students count the dollars in one circle on their fingers, then the class counts each circle together. The teacher writes each circle's dollars beside it.",
+                    "es": "The teacher writes the price from the price list beside each thing in the three circles. Things not on the price list cost nothing today. In pairs, students count the dollars in one circle on their fingers, then the class counts each circle together. The teacher writes each circle's dollars beside it."
                   },
                   "sayThis": {
-                    "en": "\"Lemons cost $2. Sugar costs $1. Cups cost $1. Count with me: how many dollars are in this circle? Now you and your partner count the next circle.\"",
-                    "es": "\"Lemons cost $2. Sugar costs $1. Cups cost $1. Count with me: how many dollars are in this circle? Now you and your partner count the next circle.\""
+                    "en": "\"Our lemons for today cost $2. Sugar costs $1. Count with me: how many dollars are in this circle? Now you and your partner count the next circle.\"",
+                    "es": "\"Our lemons for today cost $2. Sugar costs $1. Count with me: how many dollars are in this circle? Now you and your partner count the next circle.\""
                   },
                   "watchFor": {
                     "en": "Pairs counting the things, not the dollars. Point to each price and hold up one finger for each dollar.",
@@ -30239,12 +30371,12 @@
               "variants": {
                 "tier1": {
                   "description": {
-                    "en": "Write two prices on the board: 10 lemons bought one at a time cost $10, and a pack of 10 lemons costs $6. Students point to the price that costs less. Then ask what happens if the stand only uses 3 lemons.",
-                    "es": "Write two prices on the board: 10 lemons bought one at a time cost $10, and a pack of 10 lemons costs $6. Students point to the price that costs less. Then ask what happens if the stand only uses 3 lemons."
+                    "en": "Our price list had $2 of lemons, just enough for one day. Now a new question: write two prices on the board. 10 lemons bought one at a time cost $10, and a pack of 10 lemons costs $6. Students point to the price that costs less. Then ask what happens if the stand only uses 3 lemons.",
+                    "es": "Our price list had $2 of lemons, just enough for one day. Now a new question: write two prices on the board. 10 lemons bought one at a time cost $10, and a pack of 10 lemons costs $6. Students point to the price that costs less. Then ask what happens if the stand only uses 3 lemons."
                   },
                   "sayThis": {
-                    "en": "\"Ten lemons one at a time cost $10. A pack of ten costs $6. Which one costs less? Now, what if we only use three lemons? What happens to the rest?\"",
-                    "es": "\"Ten lemons one at a time cost $10. A pack of ten costs $6. Which one costs less? Now, what if we only use three lemons? What happens to the rest?\""
+                    "en": "\"Our lemons for one day cost $2. Here is a new question. Ten lemons one at a time cost $10. A pack of ten costs $6. Which one costs less? Now, what if we only use three lemons? What happens to the rest?\"",
+                    "es": "\"Our lemons for one day cost $2. Here is a new question. Ten lemons one at a time cost $10. A pack of ten costs $6. Which one costs less? Now, what if we only use three lemons? What happens to the rest?\""
                   },
                   "watchFor": {
                     "en": "Students who say the pack is always better. Ask \"What if the extra lemons go bad before we use them?\"",
@@ -30358,7 +30490,7 @@
           ],
           "discussionQuestions": [
             "What's the difference between overhead and material costs?",
-            "Why do we need a RESERVE jar for future tool replacement?",
+            "What does the lemonade stand still pay for on a day when nobody buys a cup?",
             "How does bulk buying change your true cost over time?",
             "What happens to businesses that don't count hidden costs?",
             "Is it 'bad' to discover hidden costs? Or is it helpful to know the truth?",
@@ -30372,8 +30504,8 @@
             "Calculate true cost of a school fundraiser (bake sale, car wash, etc.)"
           ],
           "beforeClass": {
-            "en": "Write the price sheet on the board: the price of a cup, how many cups the stand sells, and a price for every cost item. Check every item has a number; a missing price stalls a whole pair. Set out plain paper and a pencil for each student. This is a costing exercise on paper — no drinks are made, bought or sold, and nothing is tasted.",
-            "es": "Write the price sheet on the board: the price of a cup, how many cups the stand sells, and a price for every cost item. Check every item has a number; a missing price stalls a whole pair. Set out plain paper and a pencil for each student. This is a costing exercise on paper — no drinks are made, bought or sold, and nothing is tasted."
+            "en": "Write the price sheet on the board: the price of a cup, how many cups the stand sells, a price for every cost item, an hourly rate for labor, and a price for one lemon and for a pack of 10 lemons. Check every item has a number; a missing price stalls a whole pair. Set out plain paper and a pencil for each student. This is a costing exercise on paper — no drinks are made, bought or sold, and nothing is tasted.",
+            "es": "Write the price sheet on the board: the price of a cup, how many cups the stand sells, a price for every cost item, an hourly rate for labor, and a price for one lemon and for a pack of 10 lemons. Check every item has a number; a missing price stalls a whole pair. Set out plain paper and a pencil for each student. This is a costing exercise on paper — no drinks are made, bought or sold, and nothing is tasted."
           },
           "runningLongOrShort": {
             "en": "Long: do the bulk-buying comparison as one whole-class example. Short: add a second scenario with a rainy day and half the customers.",
@@ -30382,18 +30514,18 @@
           "variants": {
             "tier1": {
               "beforeClass": {
-                "en": "Write a $10 stand on the board: 10 cups sold at $1 each. Pick a price of $1 or $2 for each cost, like lemons $2, cups $1 and sign $1. Set out plain paper and a pencil for each student, and have 10 paper clips ready to show the $10. No drinks are made, bought or sold, and nothing is tasted.",
-                "es": "Write a $10 stand on the board: 10 cups sold at $1 each. Pick a price of $1 or $2 for each cost, like lemons $2, cups $1 and sign $1. Set out plain paper and a pencil for each student, and have 10 paper clips ready to show the $10. No drinks are made, bought or sold, and nothing is tasted."
+                "en": "Write a $10 stand on the board: 10 cups sold at $1 each. Write this price list too. Things in the Cup: lemons for one day $2, sugar $1. Things for the Stand: cups $1, table $1, sign $1. Our Time: making it $1, selling it $1. That is $8 of costs, so 2 dollars are left. Set out plain paper and a pencil for each student, and have 10 paper clips ready to show the $10. No drinks are made, bought or sold, and nothing is tasted.",
+                "es": "Write a $10 stand on the board: 10 cups sold at $1 each. Write this price list too. Things in the Cup: lemons for one day $2, sugar $1. Things for the Stand: cups $1, table $1, sign $1. Our Time: making it $1, selling it $1. That is $8 of costs, so 2 dollars are left. Set out plain paper and a pencil for each student, and have 10 paper clips ready to show the $10. No drinks are made, bought or sold, and nothing is tasted."
               },
               "runningLongOrShort": {
-                "en": "Long: do the cheaper-pack question together as one class. Short: add a rainy day when only 5 cups sell, so $5 comes in. Take away the same costs and count what is left.",
-                "es": "Long: do the cheaper-pack question together as one class. Short: add a rainy day when only 5 cups sell, so $5 comes in. Take away the same costs and count what is left."
+                "en": "Long: do the cheaper-pack question together as one class. Short: add a rainy day when only 5 cups sell, so $5 comes in. Take away the same costs until the money runs out, then stop. The stand lost money that day, and that is a real answer.",
+                "es": "Long: do the cheaper-pack question together as one class. Short: add a rainy day when only 5 cups sell, so $5 comes in. Take away the same costs until the money runs out, then stop. The stand lost money that day, and that is a real answer."
               }
             },
             "tier1FromScratch": {
               "beforeClass": {
-                "en": "Write a $10 stand on the board: 10 cups sold at $1 each. Pick a price of $1 or $2 for each cost, like lemons $2, cups $1 and sign $1. Set out plain paper and a pencil for each student, and tear 10 scrap-paper squares to show the $10. No drinks are made, bought or sold, and nothing is tasted.",
-                "es": "Write a $10 stand on the board: 10 cups sold at $1 each. Pick a price of $1 or $2 for each cost, like lemons $2, cups $1 and sign $1. Set out plain paper and a pencil for each student, and tear 10 scrap-paper squares to show the $10. No drinks are made, bought or sold, and nothing is tasted."
+                "en": "Write a $10 stand on the board: 10 cups sold at $1 each. Write this price list too. Things in the Cup: lemons for one day $2, sugar $1. Things for the Stand: cups $1, table $1, sign $1. Our Time: making it $1, selling it $1. That is $8 of costs, so 2 dollars are left. Set out plain paper and a pencil for each student, and tear 10 scrap-paper squares to show the $10. No drinks are made, bought or sold, and nothing is tasted.",
+                "es": "Write a $10 stand on the board: 10 cups sold at $1 each. Write this price list too. Things in the Cup: lemons for one day $2, sugar $1. Things for the Stand: cups $1, table $1, sign $1. Our Time: making it $1, selling it $1. That is $8 of costs, so 2 dollars are left. Set out plain paper and a pencil for each student, and tear 10 scrap-paper squares to show the $10. No drinks are made, bought or sold, and nothing is tasted."
               }
             }
           }
@@ -30402,10 +30534,10 @@
       "tierDifferentiation": {
         "1": {
           "focus": [
-            "Focus on concrete, visible costs only (spoon, bowl, oven)",
-            "Simple counting: \"How many things do we need to make this?\"",
-            "Visual learning: show real items that cost money",
-            "Basic vocabulary: cost, price, need, money, tools",
+            "Focus on concrete, visible costs of the lemonade stand (lemons, cups, sign, table)",
+            "Simple counting: \"How many dollars does the stand pay?\"",
+            "Visual learning: draw each cost on the board (a lemon, a cup, a sign, a table)",
+            "Basic vocabulary: cost, price, need, money, profit",
             "One-step thinking: \"What else do we need?\""
           ],
           "gradeLevel": "K-1"
@@ -32767,19 +32899,19 @@
               "costPerStudent": "$0 — everything is free or from home",
               "description": "Tickets, product squares and the demand card are torn from scrap paper, and students write predictions in pencil on plain paper.",
               "items": [
-                "Scrap paper — about 60 sheets, from the recycling bin, free, torn into 10 tickets per student, a pile of about 20 product squares per student and the demand card",
+                "Scrap paper — about 55 sheets, from the recycling bin, free, torn into 10 tickets and 10 blank squares per student and 2 demand cards",
                 "Plain paper — 20 sheets, one per student, for predictions and results",
-                "Pencils — 20, one per student, for writing predictions; teacher uses one to draw the products"
+                "Pencils — 20, one per student, for writing predictions and drawing the items they buy"
               ]
             },
             "basicClassroom": {
               "costPerStudent": "$0 — uses supplies the school already has",
               "description": "Tickets, product squares and the demand card are made from scrap paper, the squares cut with scissors, and students write predictions in pencil on plain paper.",
               "items": [
-                "Scrap paper — about 60 sheets, from the recycling bin, free, torn or cut into 10 tickets per student, a pile of about 20 product squares per student and the demand card",
+                "Scrap paper — about 55 sheets, from the recycling bin, free, torn into 10 tickets per student, cut into 10 blank squares per student, and 2 demand cards",
                 "Plain paper — 20 sheets, one per student, for predictions and results",
-                "Pencils — 20, one per student, for writing predictions; teacher uses one to draw the products",
-                "Scissors — teacher, for cutting the product squares"
+                "Pencils — 20, one per student, for writing predictions and drawing the items they buy",
+                "Scissors — teacher, for cutting the blank squares"
               ]
             }
           },
@@ -32828,12 +32960,12 @@
               "title": "Inventory Purchase Round",
               "duration": "5 minutes",
               "description": {
-                "en": "Students decide how many of each item to stock. Write predictions on paper. Teacher collects ticket 'payment' for their inventory. Students can't change once purchased.",
-                "es": "Students decide how many of each item to stock. Write predictions on paper. Teacher collects ticket 'payment' for their inventory. Students can't change once purchased."
+                "en": "Students decide how many of each item to stock. Write predictions on paper. Teacher collects ticket 'payment' for their inventory and hands each student one blank paper square for each ticket paid; students draw the item on it in pencil. Students can't change once purchased.",
+                "es": "Students decide how many of each item to stock. Write predictions on paper. Teacher collects ticket 'payment' for their inventory and hands each student one blank paper square for each ticket paid; students draw the item on it in pencil. Students can't change once purchased."
               },
               "sayThis": {
-                "en": "\"How many bookmarks? How many pencils? How many erasers? Write your numbers. Then pay me one ticket for each thing. No changes after you pay.\"",
-                "es": "\"How many bookmarks? How many pencils? How many erasers? Write your numbers. Then pay me one ticket for each thing. No changes after you pay.\""
+                "en": "\"How many bookmarks? How many pencils? How many erasers? Write your numbers. Then pay me one ticket for each thing, and draw each thing on a square I give you. No changes after you pay.\"",
+                "es": "\"How many bookmarks? How many pencils? How many erasers? Write your numbers. Then pay me one ticket for each thing, and draw each thing on a square I give you. No changes after you pay.\""
               },
               "watchFor": {
                 "en": "Orders that add up to more tickets than they have. Have them count tickets against items.",
@@ -32846,12 +32978,12 @@
               "variants": {
                 "tier1": {
                   "description": {
-                    "en": "Students decide how many bookmarks and how many pencils to buy. They draw or write the numbers on paper. The teacher collects one ticket for each thing. No changes after they pay.",
-                    "es": "Students decide how many bookmarks and how many pencils to buy. They draw or write the numbers on paper. The teacher collects one ticket for each thing. No changes after they pay."
+                    "en": "Students decide how many bookmarks and how many pencils to buy. They draw or write the numbers on paper. The teacher collects one ticket for each thing and hands back one blank paper square for each ticket; students draw a bookmark or a pencil on it. No changes after they pay.",
+                    "es": "Students decide how many bookmarks and how many pencils to buy. They draw or write the numbers on paper. The teacher collects one ticket for each thing and hands back one blank paper square for each ticket; students draw a bookmark or a pencil on it. No changes after they pay."
                   },
                   "sayThis": {
-                    "en": "\"How many bookmarks? How many pencils? Draw or write your numbers. Then give me one ticket for each thing. No changes after you pay.\"",
-                    "es": "\"How many bookmarks? How many pencils? Draw or write your numbers. Then give me one ticket for each thing. No changes after you pay.\""
+                    "en": "\"How many bookmarks? How many pencils? Draw or write your numbers. Then give me one ticket for each thing, and draw each thing on a square I give you. No changes after you pay.\"",
+                    "es": "\"How many bookmarks? How many pencils? Draw or write your numbers. Then give me one ticket for each thing, and draw each thing on a square I give you. No changes after you pay.\""
                   },
                   "watchFor": {
                     "en": "Orders that need more than 5 tickets. Count tickets and things together, one by one.",
@@ -32882,6 +33014,18 @@
               "doneWhen": {
                 "en": "Every student has matched customers to the items they have.",
                 "es": "Every student has matched customers to the items they have."
+              },
+              "variants": {
+                "tier1": {
+                  "description": {
+                    "en": "Teacher reveals: 'Customers want bookmarks for holiday gifts!' Turn over the demand card to show demand: 8 bookmark customers, 1 pencil customer. Students compare to what they have.",
+                    "es": "Teacher reveals: 'Customers want bookmarks for holiday gifts!' Turn over the demand card to show demand: 8 bookmark customers, 1 pencil customer. Students compare to what they have."
+                  },
+                  "sayThis": {
+                    "en": "\"Here come the customers! 8 people want bookmarks. 1 wants a pencil. Look at what you have.\"",
+                    "es": "\"Here come the customers! 8 people want bookmarks. 1 wants a pencil. Look at what you have.\""
+                  }
+                }
               }
             },
             {
@@ -32912,18 +33056,30 @@
           ],
           "extensionIdeas": [],
           "beforeClass": {
-            "en": "Tear ten paper tickets per student. Cut paper squares for the stock with scissors and draw a pencil, an eraser or a bookmark on each. Write the customer demand on a scrap of paper and keep it face down: 8 bookmark customers, 1 pencil customer, 0 eraser customers.",
-            "es": "Tear ten paper tickets per student. Cut paper squares for the stock with scissors and draw a pencil, an eraser or a bookmark on each. Write the customer demand on a scrap of paper and keep it face down: 8 bookmark customers, 1 pencil customer, 0 eraser customers."
+            "en": "Tear ten paper tickets per student. Cut ten blank paper squares per student with scissors; students draw each thing they buy on a square. Write the customer demand on a scrap of paper and keep it face down: 8 bookmark customers, 1 pencil customer, 0 eraser customers. For round two, write a second face-down demand card: 2 bookmark customers, 3 pencil customers, 5 eraser customers. Tickets are handed back for round two.",
+            "es": "Tear ten paper tickets per student. Cut ten blank paper squares per student with scissors; students draw each thing they buy on a square. Write the customer demand on a scrap of paper and keep it face down: 8 bookmark customers, 1 pencil customer, 0 eraser customers. For round two, write a second face-down demand card: 2 bookmark customers, 3 pencil customers, 5 eraser customers. Tickets are handed back for round two."
           },
           "runningLongOrShort": {
-            "en": "Long: cut step 4's discussion to one question — what happens if you order too many? Short: in step 4, reveal a new demand card and let students buy and sell a second round.",
-            "es": "Long: cut step 4's discussion to one question — what happens if you order too many? Short: in step 4, reveal a new demand card and let students buy and sell a second round."
+            "en": "Long: cut step 4's discussion to one question — what happens if you order too many? Short: in step 4, hand back the tickets, reveal the second demand card, and let students buy and sell a second round, drawing on the back of their squares.",
+            "es": "Long: cut step 4's discussion to one question — what happens if you order too many? Short: in step 4, hand back the tickets, reveal the second demand card, and let students buy and sell a second round, drawing on the back of their squares."
           },
           "variants": {
             "fromScratch": {
               "beforeClass": {
-                "en": "Tear ten paper tickets per student. Tear scrap paper into squares for the stock and draw a pencil, an eraser or a bookmark on each. Write the customer demand on a scrap of paper and keep it face down: 8 bookmark customers, 1 pencil customer, 0 eraser customers.",
-                "es": "Tear ten paper tickets per student. Tear scrap paper into squares for the stock and draw a pencil, an eraser or a bookmark on each. Write the customer demand on a scrap of paper and keep it face down: 8 bookmark customers, 1 pencil customer, 0 eraser customers."
+                "en": "Tear ten paper tickets per student. Tear scrap paper into ten blank squares per student; students draw each thing they buy on a square. Write the customer demand on a scrap of paper and keep it face down: 8 bookmark customers, 1 pencil customer, 0 eraser customers. For round two, write a second face-down demand card: 2 bookmark customers, 3 pencil customers, 5 eraser customers. Tickets are handed back for round two.",
+                "es": "Tear ten paper tickets per student. Tear scrap paper into ten blank squares per student; students draw each thing they buy on a square. Write the customer demand on a scrap of paper and keep it face down: 8 bookmark customers, 1 pencil customer, 0 eraser customers. For round two, write a second face-down demand card: 2 bookmark customers, 3 pencil customers, 5 eraser customers. Tickets are handed back for round two."
+              }
+            },
+            "tier1": {
+              "beforeClass": {
+                "en": "Tear five paper tickets per student. Cut five blank paper squares per student with scissors; students draw each bookmark or pencil they buy on a square. Write the customer demand on a scrap of paper and keep it face down: 8 bookmark customers, 1 pencil customer. For round two, write a second face-down demand card: 2 bookmark customers, 4 pencil customers. Tickets are handed back for round two.",
+                "es": "Tear five paper tickets per student. Cut five blank paper squares per student with scissors; students draw each bookmark or pencil they buy on a square. Write the customer demand on a scrap of paper and keep it face down: 8 bookmark customers, 1 pencil customer. For round two, write a second face-down demand card: 2 bookmark customers, 4 pencil customers. Tickets are handed back for round two."
+              }
+            },
+            "tier1FromScratch": {
+              "beforeClass": {
+                "en": "Tear five paper tickets per student. Tear scrap paper into five blank squares per student; students draw each bookmark or pencil they buy on a square. Write the customer demand on a scrap of paper and keep it face down: 8 bookmark customers, 1 pencil customer. For round two, write a second face-down demand card: 2 bookmark customers, 4 pencil customers. Tickets are handed back for round two.",
+                "es": "Tear five paper tickets per student. Tear scrap paper into five blank squares per student; students draw each bookmark or pencil they buy on a square. Write the customer demand on a scrap of paper and keep it face down: 8 bookmark customers, 1 pencil customer. For round two, write a second face-down demand card: 2 bookmark customers, 4 pencil customers. Tickets are handed back for round two."
               }
             }
           }
@@ -33456,16 +33612,16 @@
         "learningDifferences": {
           "label": "Students with Learning Differences",
           "strategies": [
-            "Offer three choices when predicting, like 5, 10 or 15, instead of an open number.",
+            "Offer three choices when predicting, like 2, 5 or 8, instead of an open number.",
             "Let students count real paper squares instead of writing the numbers.",
-            "Give a hundred chart drawn on paper for the profit step."
+            "Let a partner count out loud with them when checking what sold and what is left over."
           ]
         },
         "advanced": {
           "label": "Advanced Students",
           "strategies": [
-            "Work out how profit changes if every item costs $1 more to order.",
-            "Try a higher selling price in the holiday rush and show what happens to profit.",
+            "Work out how your order would change if bookmarks cost twice as much to order.",
+            "Try ordering only what the customers wanted last time, and count what would be left over.",
             "Write a Year 2 ordering plan using this year's results."
           ]
         }
