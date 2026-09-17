@@ -574,5 +574,43 @@
   "version": "45",
   "match": "\"clay\" is used",
   "reason": "Play-Doh is a real pivot example (wallpaper cleaner to toy), not a material"
+ },
+ {
+  "code": "M1",
+  "season": 3,
+  "chapter": 3,
+  "version": "20",
+  "match": "\"cups\" is used",
+  "reason": "The model is an origami cup folded from plain paper, not a cup material."
+ },
+ {
+  "code": "M1",
+  "season": 3,
+  "chapter": 3,
+  "version": "20",
+  "match": "\"boxes\" is used",
+  "reason": "'origami cup, or simple box' are shapes folded from plain paper, not box materials."
+ },
+ {
+  "code": "M1",
+  "season": 3,
+  "chapter": 3,
+  "version": "30",
+  "match": "\"scrap paper\" is used",
+  "reason": "'Scraps' here are the cut or torn leftovers of each student's sheet, the waste the lesson counts; no scrap paper is handed out."
+ },
+ {
+  "code": "M1",
+  "season": 3,
+  "chapter": 7,
+  "match": "\"food\"",
+  "reason": "The wheat, flour, bread and sandwich chain (and the juice box) are drawn on the board as examples; no food is used"
+ },
+ {
+  "code": "M3",
+  "season": 3,
+  "chapter": 7,
+  "match": "buy item (food)",
+  "reason": "The wheat, flour, bread and sandwich chain is drawn on the board as an example; no food is used"
  }
 ]
