@@ -499,6 +499,12 @@
                     "en": "\"One mark each. Put it next to the most valuable thing in this room. You can't pick your own. Look at it closely first.\"",
                     "es": "\"One mark each. Put it next to the most valuable thing in this room. You can't pick your own. Look at it closely first.\""
                   }
+                },
+                "tier1FromScratch": {
+                  "description": {
+                    "en": "Students walk the room and draw a small star with a pencil next to the item they find most valuable. They may not choose their own.",
+                    "es": "Students walk the room and draw a small star with a pencil next to the item they find most valuable. They may not choose their own."
+                  }
                 }
               }
             },
