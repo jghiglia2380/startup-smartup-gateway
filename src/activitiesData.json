@@ -218,20 +218,20 @@
               "title": "Create Value Cards",
               "duration": "5 minutes",
               "description": {
-                "en": "For each item, complete a value card with a pencil: \"I found a ___. It's special because ___. It would cost money to buy because ___. But I got it for ___ (free / found it).\"",
-                "es": "For each item, complete a value card with a pencil: \"I found a ___. It's special because ___. It would cost money to buy because ___. But I got it for ___ (free / found it).\""
+                "en": "Pick your favorite item and complete one value card with a pencil: \"I found a ___. It's special because ___. It would cost money to buy because ___. But I got it for ___ (free / found it).\"",
+                "es": "Pick your favorite item and complete one value card with a pencil: \"I found a ___. It's special because ___. It would cost money to buy because ___. But I got it for ___ (free / found it).\""
               },
               "sayThis": {
-                "en": "\"One card for each thing. What is it? Why is it special? Would a store charge for it? How did you get it?\"",
-                "es": "\"One card for each thing. What is it? Why is it special? Would a store charge for it? How did you get it?\""
+                "en": "\"Pick your favorite thing. One card for it. What is it? Why is it special? Would a store charge for it? How did you get it?\"",
+                "es": "\"Pick your favorite thing. One card for it. What is it? Why is it special? Would a store charge for it? How did you get it?\""
               },
               "watchFor": {
-                "en": "Kids stuck on the first card when time runs out. Tell them to finish one card well before they start the next.",
-                "es": "Kids stuck on the first card when time runs out. Tell them to finish one card well before they start the next."
+                "en": "Kids starting a second card. Tell them one card, done well, is the job.",
+                "es": "Kids starting a second card. Tell them one card, done well, is the job."
               },
               "doneWhen": {
-                "en": "Every student has at least one finished card.",
-                "es": "Every student has at least one finished card."
+                "en": "Every student has one finished card.",
+                "es": "Every student has one finished card."
               },
               "variants": {
                 "tier1": {
@@ -258,12 +258,12 @@
               "title": "Gallery Share",
               "duration": "3 minutes",
               "description": {
-                "en": "Students lay their items and value cards on their desks. Quick gallery walk.",
-                "es": "Students lay their items and value cards on their desks. Quick gallery walk."
+                "en": "Students lay their items and their value card on their desks. Quick gallery walk.",
+                "es": "Students lay their items and their value card on their desks. Quick gallery walk."
               },
               "sayThis": {
-                "en": "\"Put each thing on your desk with its card. Now walk and read. Hands behind your back.\"",
-                "es": "\"Put each thing on your desk with its card. Now walk and read. Hands behind your back.\""
+                "en": "\"Put your things on your desk. Put your card next to your favorite. Now walk and read. Hands behind your back.\"",
+                "es": "\"Put your things on your desk. Put your card next to your favorite. Now walk and read. Hands behind your back.\""
               },
               "watchFor": {
                 "en": "Kids picking up other people's treasures. Hands behind backs keeps them reading, not grabbing.",
