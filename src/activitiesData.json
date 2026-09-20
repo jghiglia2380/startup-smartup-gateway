@@ -442,6 +442,18 @@
               "description": {
                 "en": "Each student arranges their items on their desk with value cards displayed.",
                 "es": "Each student arranges their items on their desk with value cards displayed."
+              },
+              "variants": {
+                "tier1": {
+                  "description": {
+                    "en": "Each student arranges their items on their desk with their one value card next to the item it goes with.",
+                    "es": "Each student arranges their items on their desk with their one value card next to the item it goes with."
+                  },
+                  "watchFor": {
+                    "en": "The card face-down or buried. The next step fails if the card can't be read.",
+                    "es": "The card face-down or buried. The next step fails if the card can't be read."
+                  }
+                }
               }
             },
             {
@@ -480,6 +492,12 @@
                   "doneWhen": {
                     "en": "Every student has drawn one star and is back at their desk.",
                     "es": "Every student has drawn one star and is back at their desk."
+                  }
+                },
+                "tier1": {
+                  "sayThis": {
+                    "en": "\"One mark each. Put it next to the most valuable thing in this room. You can't pick your own. Look at it closely first.\"",
+                    "es": "\"One mark each. Put it next to the most valuable thing in this room. You can't pick your own. Look at it closely first.\""
                   }
                 }
               }
